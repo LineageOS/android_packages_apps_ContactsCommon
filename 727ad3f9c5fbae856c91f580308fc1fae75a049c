@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_d0a36a4e",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2013-10-28T06:51:16Z",
+      "side": 1,
+      "message": "itt van egy szóköz az elején",
+      "revId": "727ad3f9c5fbae856c91f580308fc1fae75a049c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
