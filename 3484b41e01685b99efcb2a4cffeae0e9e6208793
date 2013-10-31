@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_3d2f02a3",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-31T09:16:41Z",
+      "side": 1,
+      "message": "Maybe also let the comment explain that it shouldn\u0027t be translated, similair to https://github.com/CyanogenMod/android_packages_apps_Settings/blob/cm-10.2/res/values/strings.xml#L1629:\n\n- \u003c!-- Do not translate. Action string for selecting SIM for importing contacts --\u003e",
+      "revId": "3484b41e01685b99efcb2a4cffeae0e9e6208793",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
