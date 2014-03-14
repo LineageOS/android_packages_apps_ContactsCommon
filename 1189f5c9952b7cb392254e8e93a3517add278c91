@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_32dd4315",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-03-14T21:47:57Z",
+      "side": 1,
+      "message": "Falschrum ;)\n\nproduct\u003d\"tablet\" sollte \u0027Lokales Tablet-Konto\u0027 sein.",
+      "revId": "1189f5c9952b7cb392254e8e93a3517add278c91",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
