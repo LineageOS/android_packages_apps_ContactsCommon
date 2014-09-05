@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_a48627b7",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-09-05T23:13:16Z",
+      "side": 1,
+      "message": "tab\n\nAlso, I/O error doesn\u0027t sound very user friendly",
+      "revId": "e26ce260dd2b8588ddbca3e32a51279edc1ebdcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_04943be0",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-09-05T23:13:16Z",
+      "side": 1,
+      "message": "should be \u0027or\u0027, not \u0027of\u0027",
+      "revId": "e26ce260dd2b8588ddbca3e32a51279edc1ebdcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
