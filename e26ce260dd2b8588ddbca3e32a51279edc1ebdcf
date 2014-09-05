@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a1b2928_84b68b88",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2014-09-05T23:15:18Z",
+      "side": 1,
+      "message": "Right, but I/O error is also in AOSP strings.",
+      "parentUuid": "7a1b2928_a48627b7",
+      "revId": "e26ce260dd2b8588ddbca3e32a51279edc1ebdcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a1b2928_04943be0",
         "filename": "res/values/cm_strings.xml",
         "patchSetId": 1
