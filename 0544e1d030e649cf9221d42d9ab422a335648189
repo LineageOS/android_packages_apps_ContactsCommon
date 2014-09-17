@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_5207071c",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-09-17T01:44:58Z",
+      "side": 1,
+      "message": "imported? Shouldn\u0027t it be \u0027exported\u0027?",
+      "revId": "0544e1d030e649cf9221d42d9ab422a335648189",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
