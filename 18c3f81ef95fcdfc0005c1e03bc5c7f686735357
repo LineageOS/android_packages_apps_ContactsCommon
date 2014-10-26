@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a18252c_34c70947",
+        "filename": "src/com/android/contacts/common/list/ContactListAdapter.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2014-10-26T04:55:18Z",
+      "side": 1,
+      "message": "oops",
+      "revId": "18c3f81ef95fcdfc0005c1e03bc5c7f686735357",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
