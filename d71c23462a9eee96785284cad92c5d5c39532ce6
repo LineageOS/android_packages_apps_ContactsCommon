@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a9d85d2_b60949e0",
+        "filename": "src/com/android/contacts/common/list/ContactEntryListFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 919,
+      "author": {
+        "id": 10293
+      },
+      "writtenOn": "2015-01-16T13:54:46Z",
+      "side": 1,
+      "message": "i would probably move this line inside the touch slop check.  otherwise this will not fire if you move your finger really slow",
+      "revId": "d71c23462a9eee96785284cad92c5d5c39532ce6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a9d85d2_160f7de2",
+        "filename": "src/com/android/contacts/common/list/ContactEntryListFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 924,
+      "author": {
+        "id": 10293
+      },
+      "writtenOn": "2015-01-16T13:54:46Z",
+      "side": 1,
+      "message": "should probably keep hideSoftKeyboard inside the if(view \u003d\u003d mListView) check?",
+      "revId": "d71c23462a9eee96785284cad92c5d5c39532ce6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
