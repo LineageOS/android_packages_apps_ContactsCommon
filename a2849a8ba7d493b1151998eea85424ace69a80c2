@@ -50,6 +50,58 @@
       "revId": "a2849a8ba7d493b1151998eea85424ace69a80c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_d12a162c",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-02-02T23:26:18Z",
+      "side": 1,
+      "message": "I\u0027d use \u0027Export was cancelled, \u003cxliff:g id\u003d\"insertCount\"\u003e%s\u003c/xliff:g\u003e items were exported\u0027",
+      "parentUuid": "bacf61ea_2b8985cb",
+      "revId": "a2849a8ba7d493b1151998eea85424ace69a80c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_3120d249",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-02-02T23:26:18Z",
+      "side": 1,
+      "message": "..., copying some records failed",
+      "revId": "a2849a8ba7d493b1151998eea85424ace69a80c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_111dce0f",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-02-02T23:26:18Z",
+      "side": 1,
+      "message": "Maybe \u0027via\u0027 instead of \u0027with\u0027?",
+      "revId": "a2849a8ba7d493b1151998eea85424ace69a80c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
