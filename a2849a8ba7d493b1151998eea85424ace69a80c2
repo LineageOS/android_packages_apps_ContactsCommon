@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bacf61ea_cbd549ba",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2015-02-02T08:11:25Z",
+      "side": 1,
+      "message": "remove \"The vCard\", it\u0027s obvious",
+      "revId": "a2849a8ba7d493b1151998eea85424ace69a80c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_cba3894e",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2015-02-02T08:11:25Z",
+      "side": 1,
+      "message": "\"Unable to load SIM contacts\" (we don\u0027t care how much of them failed, it\u0027s bad anyway)",
+      "revId": "a2849a8ba7d493b1151998eea85424ace69a80c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_2b8985cb",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2015-02-02T08:11:25Z",
+      "side": 1,
+      "message": "Not sure about this, probably \"is\" should be removed.",
+      "revId": "a2849a8ba7d493b1151998eea85424ace69a80c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
