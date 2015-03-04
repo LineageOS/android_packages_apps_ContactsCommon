@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_10266568",
+        "filename": "src/com/android/contacts/common/list/ContactListItemView.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 992,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2015-03-04T09:21:43Z",
+      "side": 1,
+      "message": "tab",
+      "revId": "33401a33a81a9cb0328c1734f3349765360509e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
