@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_bf62c2ab",
+        "filename": "res/values/cm_colors.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2015-03-05T13:04:25Z",
+      "side": 1,
+      "message": "CM copyright please. Example:\nhttps://raw.githubusercontent.com/CyanogenMod/android_packages_apps_Settings/cm-12.0/res/values/cm_colors.xml",
+      "revId": "45d11f5ed81044cf991af84ceb6029eeaf9eae89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_1f582efa",
+        "filename": "res/values/cm_colors.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2015-03-05T13:04:25Z",
+      "side": 1,
+      "message": "Remove tabs please. We follow AOSP guidelines: https://source.android.com/source/code-style.html",
+      "revId": "45d11f5ed81044cf991af84ceb6029eeaf9eae89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
