@@ -16,6 +16,24 @@
       "revId": "fb050df7ee1090384fd0e0def6a4ba75ead84175",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7ac969e8_2ff8697c",
+        "filename": "src/com/android/contacts/common/SimContactsOperation.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-03-13T06:23:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7ac969e8_af03b975",
+      "revId": "fb050df7ee1090384fd0e0def6a4ba75ead84175",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
