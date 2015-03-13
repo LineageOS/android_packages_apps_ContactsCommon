@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7ac969e8_af03b975",
+        "filename": "src/com/android/contacts/common/SimContactsOperation.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2015-03-13T06:17:40Z",
+      "side": 1,
+      "message": "Should you check the length here?",
+      "revId": "fb050df7ee1090384fd0e0def6a4ba75ead84175",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
