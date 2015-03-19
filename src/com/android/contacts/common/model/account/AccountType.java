@@ -51,12 +51,6 @@ public abstract class AccountType {
     private static final String TAG = "AccountType";
 
     /**
-     * Local phone-storage account
-     * @hide
-     */
-    public static final String LOCAL_ACCOUNT = "phone-local";
-
-    /**
      * The {@link RawContacts#ACCOUNT_TYPE} these constraints apply to.
      */
     public String accountType = null;
@@ -204,6 +198,9 @@ public abstract class AccountType {
     }
 
     public CharSequence getDisplayLabel(Context context) {
+        if (PhoneAccountType.ACCOUNT_TYPE.equals(accountType)) {
+            return context.getResources().getString(R.string.local_storage_account);
+        }
         // Note this resource is defined in the sync adapter package, not resourcePackageName.
         return getResourceText(context, syncAdapterPackageName, titleRes, accountType);
     }
