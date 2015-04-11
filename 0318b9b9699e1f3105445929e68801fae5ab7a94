@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ac371cc_7ff9684d",
+        "filename": "src/com/android/contacts/common/util/MultiSensorManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-04-11T03:12:26Z",
+      "side": 1,
+      "message": "mEnabled",
+      "revId": "0318b9b9699e1f3105445929e68801fae5ab7a94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_7fe208a1",
+        "filename": "src/com/android/contacts/common/util/MultiSensorManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-04-11T03:12:26Z",
+      "side": 1,
+      "message": "Why implement this as a subclass instead of making MultiSensorManager itself implement SensorEventListener?\n\nAlso, IMHO the MultiSensorManager class should rather be named PickupGestureDetector.",
+      "revId": "0318b9b9699e1f3105445929e68801fae5ab7a94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_dfedfc8f",
+        "filename": "src/com/android/contacts/common/util/MultiSensorManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-04-11T03:12:26Z",
+      "side": 1,
+      "message": "mYOrientation / mProximityValue / mProximityChanged / mProximityInitialized",
+      "revId": "0318b9b9699e1f3105445929e68801fae5ab7a94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_3fd890ef",
+        "filename": "src/com/android/contacts/common/util/MultiSensorManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-04-11T03:12:26Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "0318b9b9699e1f3105445929e68801fae5ab7a94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_9fe544aa",
+        "filename": "src/com/android/contacts/common/util/MultiSensorManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-04-11T03:12:26Z",
+      "side": 1,
+      "message": "if (...) {",
+      "revId": "0318b9b9699e1f3105445929e68801fae5ab7a94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_bff2c06d",
+        "filename": "src/com/android/contacts/common/util/MultiSensorManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-04-11T03:12:26Z",
+      "side": 1,
+      "message": "100 chars, and remove space before \u0027)\u0027",
+      "revId": "0318b9b9699e1f3105445929e68801fae5ab7a94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_1fe8347c",
+        "filename": "src/com/android/contacts/common/util/MultiSensorManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-04-11T03:12:26Z",
+      "side": 1,
+      "message": "return orientation \u003e -130 \u0026\u0026 orientation \u003c -50;",
+      "revId": "0318b9b9699e1f3105445929e68801fae5ab7a94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
