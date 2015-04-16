@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ac371cc_1d9b12cb",
+        "filename": "src/com/android/contacts/common/ContactPhotoManager.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 938,
+      "author": {
+        "id": 10293
+      },
+      "writtenOn": "2015-04-16T10:45:41Z",
+      "side": 1,
+      "message": "make sure holder !\u003d null also",
+      "revId": "88eab7383d8e20318db1bac7e434cb7a6a7e7ed7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
