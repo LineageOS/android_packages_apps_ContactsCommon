@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da36d5c6_af2abd7c",
+        "filename": "src/com/android/contacts/common/model/AccountTypeManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 469,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2015-06-18T12:51:22Z",
+      "side": 1,
+      "message": "it looks like this project does 4 space line wraps rather than 8 spaces\nthis has a weird 5 space indent ?",
+      "range": {
+        "startLine": 469,
+        "startChar": 8,
+        "endLine": 469,
+        "endChar": 13
+      },
+      "revId": "e52aa4eae9b8b571d051bd475784253c1554ddac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
