@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_819ae0c2",
+        "filename": "src/com/android/contacts/common/list/ContactListAdapter.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-28T03:21:26Z",
+      "side": 1,
+      "message": "Shouldn\u0027t be ACTION_CALL_EMERGENCY then?",
+      "range": {
+        "startLine": 249,
+        "startChar": 51,
+        "endLine": 249,
+        "endChar": 73
+      },
+      "revId": "5a8cb83347fa816a11dc3fb810ad4039df886621",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
