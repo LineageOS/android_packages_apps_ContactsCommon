@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_df6c2c9e",
+        "filename": "src/com/android/contacts/common/vcard/SelectAccountActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-29T13:54:07Z",
+      "side": 1,
+      "message": "In that case this is alwasys false, so we need to change this too, to match the case when:\n\n* if there is only one acount then don\u0027t show the dialog and pass the account through setResult(RESULT_OK, intent); too.\n* if we have two or more accounts then display a dialog.",
+      "range": {
+        "startLine": 64,
+        "startChar": 24,
+        "endLine": 64,
+        "endChar": 28
+      },
+      "revId": "300590b075e20fa1200caa9d4bd258fc8c3f1208",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
