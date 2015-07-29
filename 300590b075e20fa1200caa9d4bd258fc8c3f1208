@@ -22,6 +22,30 @@
       "revId": "300590b075e20fa1200caa9d4bd258fc8c3f1208",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_1f8864c4",
+        "filename": "src/com/android/contacts/common/vcard/SelectAccountActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2015-07-29T22:23:12Z",
+      "side": 1,
+      "message": "Currently, the clients of this class (like ImportVCardActivity and NfcImportVCardActivity) already perform a check on the number of accounts to determine whether or not to call this class to disambiguate the account of interest. That is a contract that I would like future uses of this class to adhere to.\n\n\nIf for some reason, someone does call this class in the presence of a single account, it might be better to go through the usual flow and do something implicit behind the scenes.\n\n\nAs far as the size check, though this shouldn\u0027t normally happen, I left that bit of code in there as a fail-safe.",
+      "parentUuid": "bf091321_df6c2c9e",
+      "range": {
+        "startLine": 64,
+        "startChar": 24,
+        "endLine": 64,
+        "endChar": 28
+      },
+      "revId": "300590b075e20fa1200caa9d4bd258fc8c3f1208",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
