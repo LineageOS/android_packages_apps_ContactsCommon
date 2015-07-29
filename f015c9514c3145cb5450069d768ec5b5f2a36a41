@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_f20e0831",
+        "filename": "src/com/android/contacts/common/vcard/SelectAccountActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-07-29T03:39:34Z",
+      "side": 1,
+      "message": "Rohit, seems to me like it this class shouldn\u0027t never return the local phone account, and no return anything caller must understood that is the local account. Dont you understand the same for this part of code/comment.\nI guess we should fix it in the ImportVCardActivity, or at least return the phone account here also.",
+      "range": {
+        "startLine": 64,
+        "startChar": 12,
+        "endLine": 64,
+        "endChar": 23
+      },
+      "revId": "f015c9514c3145cb5450069d768ec5b5f2a36a41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
