@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f201791_a45f2c0d",
+        "filename": "src/com/android/contacts/common/util/AccountSelectionUtil.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-19T04:47:38Z",
+      "side": 1,
+      "message": "Damn qualcomm trying to make these interchangable.",
+      "revId": "b836c45fd80afe786cdca02d41b29a839ca3fb0c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
