@@ -126,7 +126,8 @@ public class AccountFilterActivity extends Activity implements AdapterView.OnIte
                 // Hide extensions with no raw_contacts.
                 continue;
             }
-            Drawable icon = accountType != null ? accountType.getDisplayIcon(context) : null;
+            Drawable icon = accountType != null ? accountType.getDisplayIcon(
+                    context, account.name) : null;
             String accountName = account.name;
             String customLabel = MoreContactUtils.getSimAccountName(context, accountName);
             if (!TextUtils.isEmpty(customLabel)) {

@@ -24,11 +24,13 @@ import android.provider.ContactsContract.CommonDataKinds.Phone;
 import android.provider.ContactsContract.CommonDataKinds.StructuredPostal;
 import android.provider.ContactsContract.Contacts;
 import android.provider.ContactsContract.RawContacts;
+import android.telephony.TelephonyManager;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 
 import com.android.contacts.common.R;
 import com.android.contacts.common.model.dataitem.DataKind;
+import com.android.internal.telephony.PhoneConstants;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
@@ -276,12 +278,24 @@ public abstract class AccountType {
         }
     }
 
+    public CharSequence getDisplayLabel(Context context, String accountName) {
+        if ((SimAccountType.ACCOUNT_TYPE).equals(accountType)) {
+            final int slot = MoreContactUtils.getSubscription(accountType,
+                    accountName);
+            return MoreContactUtils.getMultiSimAliasesName(context, slot);
+        }
+        return getDisplayLabel(context);
+    }
+
     public Drawable getDisplayIcon(Context context) {
         return getDisplayIcon(context, titleRes, iconRes, syncAdapterPackageName);
     }
 
     public static Drawable getDisplayIcon(Context context, int titleRes, int iconRes,
             String syncAdapterPackageName) {
+        if (PhoneAccountType.ACCOUNT_TYPE.equals(accountType)) {
+            return context.getResources().getDrawable(R.drawable.phone_account);
+        }
         if (titleRes != -1 && syncAdapterPackageName != null) {
             final PackageManager pm = context.getPackageManager();
             return pm.getDrawable(syncAdapterPackageName, iconRes, null);
@@ -290,6 +304,30 @@ public abstract class AccountType {
         } else {
             return null;
         }
+    }
+
+    public Drawable getDisplayIcon(Context context, String accountName) {
+        if ((SimAccountType.ACCOUNT_TYPE).equals(accountType)) {
+            final int slot = MoreContactUtils.getSubscription(accountType,
+                    accountName);
+            if (TelephonyManager.getDefault().isMultiSimEnabled()) {
+                switch (slot) {
+                    case PhoneConstants.SUB1:
+                        return context.getResources().getDrawable(
+                                R.drawable.sim1_account);
+                    case PhoneConstants.SUB2:
+                        return context.getResources().getDrawable(
+                                R.drawable.sim2_account);
+                    default:
+                        return context.getResources().getDrawable(
+                                R.drawable.simcard_account);
+                }
+            } else {
+                return context.getResources().getDrawable(
+                        R.drawable.simcard_account);
+            }
+        }
+        return getDisplayIcon(context);
     }
 
     /**
