@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df3967d1_b4206ef9",
+        "filename": "src/com/android/contacts/common/model/ContactBuilder.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-09-22T02:01:57Z",
+      "side": 1,
+      "message": "Not sure how licensing works for this, do we want to add this under a CM license header?",
+      "revId": "8f8792b3825bb990091407e8cc6de1d3dcb5354b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df3967d1_d423f204",
+        "filename": "src/com/android/contacts/common/util/CallerMetaData.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-09-22T02:01:57Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "revId": "8f8792b3825bb990091407e8cc6de1d3dcb5354b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
