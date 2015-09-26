@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df3967d1_c6aa2018",
+        "filename": "src/com/android/contacts/common/model/ContactBuilder.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 10293
+      },
+      "writtenOn": "2015-09-26T05:28:02Z",
+      "side": 1,
+      "message": "what is this actually used for?  i think  google added the contact builder functionality for places/businesses... i\u0027m wondering if changing this could break anything",
+      "revId": "403570f4ee23258af6f45855338c1fbadaffb077",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
