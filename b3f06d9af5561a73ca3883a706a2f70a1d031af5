@@ -2,6 +2,98 @@
   "comments": [
     {
       "key": {
+        "uuid": "7f287b81_3888e61d",
+        "filename": "info_lookup/src/com/cyanogen/lookup/phonenumber/LookupHandlerThread.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2015-10-08T23:49:30Z",
+      "side": 1,
+      "message": "use the TAG defined above",
+      "range": {
+        "startLine": 49,
+        "startChar": 18,
+        "endLine": 49,
+        "endChar": 59
+      },
+      "revId": "b3f06d9af5561a73ca3883a706a2f70a1d031af5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_389d8659",
+        "filename": "info_lookup/src/com/cyanogen/lookup/phonenumber/LookupHandlerThread.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2015-10-08T23:49:30Z",
+      "side": 1,
+      "message": "It makes it seem like the handler thread is responsible for marking the number as spam. Maybe reword it along the lines of \"sends it to the provider impl to mark the number as spam\" .",
+      "range": {
+        "startLine": 82,
+        "startChar": 44,
+        "endLine": 83,
+        "endChar": 27
+      },
+      "revId": "b3f06d9af5561a73ca3883a706a2f70a1d031af5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_78bc2ebb",
+        "filename": "info_lookup/src/com/cyanogen/lookup/phonenumber/LookupHandlerThread.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2015-10-08T23:49:30Z",
+      "side": 1,
+      "message": "same as comment below",
+      "range": {
+        "startLine": 105,
+        "startChar": 16,
+        "endLine": 105,
+        "endChar": 70
+      },
+      "revId": "b3f06d9af5561a73ca3883a706a2f70a1d031af5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_d8ab2273",
+        "filename": "info_lookup/src/com/cyanogen/lookup/phonenumber/LookupHandlerThread.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2015-10-08T23:49:30Z",
+      "side": 1,
+      "message": "can we move these instructions into mInitialized, no point in doing this if there isn\u0027t a valid provider impl",
+      "range": {
+        "startLine": 111,
+        "startChar": 16,
+        "endLine": 111,
+        "endChar": 54
+      },
+      "revId": "b3f06d9af5561a73ca3883a706a2f70a1d031af5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7f287b81_f5238704",
         "filename": "info_lookup/src/com/cyanogen/lookup/phonenumber/provider/LookupProviderImpl.java",
         "patchSetId": 1
