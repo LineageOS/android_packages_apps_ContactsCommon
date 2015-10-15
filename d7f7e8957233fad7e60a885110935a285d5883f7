@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_f5d6ce4f",
+        "filename": "info_lookup/src/com/cyanogen/lookup/phonenumber/contract/LookupProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2015-10-15T03:41:15Z",
+      "side": 1,
+      "message": "why not jst call this supportsSpamReporting() or something like that ? The way it stands, we are asking a LookupProvider to getSpamReportingProvider doesn\u0027t read cogent",
+      "range": {
+        "startLine": 42,
+        "startChar": 11,
+        "endLine": 42,
+        "endChar": 35
+      },
+      "revId": "d7f7e8957233fad7e60a885110935a285d5883f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
