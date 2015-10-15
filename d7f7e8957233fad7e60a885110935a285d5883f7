@@ -46,6 +46,30 @@
       "revId": "d7f7e8957233fad7e60a885110935a285d5883f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_55e482ac",
+        "filename": "info_lookup/src/com/cyanogen/lookup/phonenumber/contract/LookupProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 11035
+      },
+      "writtenOn": "2015-10-15T08:01:48Z",
+      "side": 1,
+      "message": "Why not return a boolean ? The LookupProvider will reply with whether or not it is interested in identifying spam numbers.\n\n\nIf it is getSpam*(), then we are asking a LookupProvider to identify a Provider that wants to know about spam which breaks the abstraction of a LookupProvider. It would have been a valid method on a LookupProviderManager or sth akin to that.\n\n\nThe LookupProviderImpl in vendor/extra will always return true to spam reporting as long as there is a valid provider - the settings db check. And if and when we do have multiple plugins that only satisfy a subset of the CallerInfoProvider contract we can provide a more accurate answer to the \"supports spam?\" query.",
+      "parentUuid": "7f287b81_552122fb",
+      "range": {
+        "startLine": 42,
+        "startChar": 11,
+        "endLine": 42,
+        "endChar": 35
+      },
+      "revId": "d7f7e8957233fad7e60a885110935a285d5883f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
