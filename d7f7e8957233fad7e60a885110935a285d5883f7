@@ -22,6 +22,30 @@
       "revId": "d7f7e8957233fad7e60a885110935a285d5883f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_552122fb",
+        "filename": "info_lookup/src/com/cyanogen/lookup/phonenumber/contract/LookupProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2015-10-15T07:06:59Z",
+      "side": 1,
+      "message": "yeah, I was trying to figure out a good name in slack.  this was the best I could do at the time.  Your proposed name makes it sound like it should return a boolean which it doesn\u0027t.  getSpamReportingService()?  getSpamReporter()? getSpamReporting()?",
+      "parentUuid": "7f287b81_f5d6ce4f",
+      "range": {
+        "startLine": 42,
+        "startChar": 11,
+        "endLine": 42,
+        "endChar": 35
+      },
+      "revId": "d7f7e8957233fad7e60a885110935a285d5883f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
