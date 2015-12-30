@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fce034c_003836d1",
+        "filename": "res/layout/search_bar_expanded.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-12-30T00:36:47Z",
+      "side": 1,
+      "message": "Should rename to search_back_button_tint_color to make it clear that that\u0027s the view it is affecting.",
+      "range": {
+        "startLine": 33,
+        "startChar": 29,
+        "endLine": 33,
+        "endChar": 39
+      },
+      "revId": "98f023b83a0588823a4c3d14c9611d54bf9740af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
