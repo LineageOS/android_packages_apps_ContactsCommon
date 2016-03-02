@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_1b2e3a43",
+        "filename": "info_lookup/phonenumber_lookup_provider.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-03-02T00:22:49Z",
+      "side": 1,
+      "message": "Can you not just replace this with a period?  I think we are already in the $croot/packages/apps/ContactsCommon directory",
+      "range": {
+        "startLine": 1,
+        "startChar": 39,
+        "endLine": 1,
+        "endChar": 76
+      },
+      "revId": "36063e1006931f239312cbc478a491667fbe385e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
