@@ -22,6 +22,30 @@
       "revId": "36063e1006931f239312cbc478a491667fbe385e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_bb1e0e0a",
+        "filename": "info_lookup/phonenumber_lookup_provider.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2016-03-02T00:36:56Z",
+      "side": 1,
+      "message": "Well this .mk file is included from other packages (e.g. from Messaging\u0027s .mk file), so it isn\u0027t actually called from the ContactsCommon .mk file.\n\nThat said, this still makes the assumption that we\u0027re exactly 3 dirs deep from the croot. So that\u0027s a little odd, not sure if we can tell it go from croot some how?",
+      "parentUuid": "ffb9cba7_1b2e3a43",
+      "range": {
+        "startLine": 1,
+        "startChar": 39,
+        "endLine": 1,
+        "endChar": 76
+      },
+      "revId": "36063e1006931f239312cbc478a491667fbe385e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
