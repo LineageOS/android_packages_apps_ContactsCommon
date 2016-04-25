@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_9f45581a",
+        "filename": "src/com/android/contacts/common/util/PhoneNumberHelper.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-25T22:32:26Z",
+      "side": 1,
+      "message": "1) yes it is backwards, will fix\n2) contactsdb already has country code associated with the specified number, if its not supplied we use the one from GeoUtil (which happens to be the \"default\" used in the rest of this class, please look around, I\u0027ll use your method for populating default if you can give me a better reason)",
+      "parentUuid": "5faad753_5fc28087",
+      "revId": "65d50c528fa89019122f21b5e7b17887af4ff4f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ffbeccfd",
         "filename": "src/com/android/contacts/common/util/PhoneNumberHelper.java",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2016-04-25T22:26:24Z",
       "side": 1,
       "message": "Loe.g(TAG, \"MSG\", e);",
+      "revId": "65d50c528fa89019122f21b5e7b17887af4ff4f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_3f4a2427",
+        "filename": "src/com/android/contacts/common/util/PhoneNumberHelper.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 12937
+      },
+      "writtenOn": "2016-04-25T22:32:26Z",
+      "side": 1,
+      "message": "will fix",
+      "parentUuid": "5faad753_ffbeccfd",
       "revId": "65d50c528fa89019122f21b5e7b17887af4ff4f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
