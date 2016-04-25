@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_5fc28087",
+        "filename": "src/com/android/contacts/common/util/PhoneNumberHelper.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2016-04-25T22:26:24Z",
+      "side": 1,
+      "message": "isn\u0027t this the wrong way around?\n\nso not sure what the best way to get the default country iso is, but this is what I used (uses SIM if available, and then falls back to default locale):\n\n                 String countryIso \u003d ((TelephonyManager) getApplicationContext().getSystemService(\n                         Context.TELEPHONY_SERVICE)).getSimCountryIso().toUpperCase();\n \n                 if (TextUtils.isEmpty(countryIso)) {\n                     countryIso \u003d Locale.getDefault().getCountry();\n                 }",
+      "revId": "65d50c528fa89019122f21b5e7b17887af4ff4f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ffbeccfd",
+        "filename": "src/com/android/contacts/common/util/PhoneNumberHelper.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2016-04-25T22:26:24Z",
+      "side": 1,
+      "message": "Loe.g(TAG, \"MSG\", e);",
+      "revId": "65d50c528fa89019122f21b5e7b17887af4ff4f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
