@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_d9dc2c48",
+        "filename": "src/com/android/contacts/common/vcard/ExportVCardActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 13408
+      },
+      "writtenOn": "2016-05-05T21:56:50Z",
+      "side": 1,
+      "message": "Was this something we lost somewhere along the way? seems like a funny little mistake.",
+      "range": {
+        "startLine": 116,
+        "startChar": 16,
+        "endLine": 116,
+        "endChar": 47
+      },
+      "revId": "93d2151268f974f5fd149b7dbdec93c6d46d6fde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
