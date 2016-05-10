@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_8fa2d44a",
+        "filename": "src/com/android/contacts/common/util/SingletonHolder.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 14474
+      },
+      "writtenOn": "2016-05-10T15:47:01Z",
+      "side": 1,
+      "message": "I was actually hoping to reconsider this design. It\u0027s not very safe if a bad consumer calls release multiple times. I wrote a safer approach that keeps track of consumer instances in my discovery patch: http://gerrit.cyngn.com/#/c/29310/5/app/src/main/java/com/cyngn/discovery/AmbientConnection.java",
+      "range": {
+        "startLine": 72,
+        "startChar": 4,
+        "endLine": 92,
+        "endChar": 5
+      },
+      "revId": "13c6c99fa4799c3af18b45a4deaa9edbb6de04d0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
