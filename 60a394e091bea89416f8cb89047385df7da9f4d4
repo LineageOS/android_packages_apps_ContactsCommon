@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_2ce692ea",
+        "filename": "src/com/android/contacts/common/activity/BlockContactActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 13956
+      },
+      "writtenOn": "2016-08-16T13:35:37Z",
+      "side": 1,
+      "message": "It finish the activity here without mBlockContactHelper being created.",
+      "revId": "60a394e091bea89416f8cb89047385df7da9f4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
