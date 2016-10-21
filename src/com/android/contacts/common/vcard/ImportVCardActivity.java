@@ -110,6 +110,8 @@ public class ImportVCardActivity extends Activity {
 
     private Handler mHandler = new Handler();
 
+    private boolean mBind = false;
+
     // Runs on the UI thread.
     private class DialogDisplayer implements Runnable {
         private final int mResId;
@@ -153,6 +155,7 @@ public class ImportVCardActivity extends Activity {
         @Override
         public void onServiceConnected(ComponentName name, IBinder binder) {
             mService = ((VCardService.MyBinder) binder).getService();
+            mBind = true;
             Log.i(LOG_TAG,
                     String.format("Connected to VCardService. Kick a vCard cache thread (uri: %s)",
                             Arrays.toString(mVCardCacheThread.getSourceUris())));
@@ -161,6 +164,7 @@ public class ImportVCardActivity extends Activity {
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
+            mBind = false;
             Log.i(LOG_TAG, "Disconnected from VCardService");
         }
     }
@@ -284,9 +288,10 @@ public class ImportVCardActivity extends Activity {
             } finally {
                 Log.i(LOG_TAG, "Finished caching vCard.");
                 mWakeLock.release();
-                unbindService(mConnection);
-                mProgressDialogForCachingVCard.dismiss();
-                mProgressDialogForCachingVCard = null;
+                if (mProgressDialogForCachingVCard != null) {
+                    mProgressDialogForCachingVCard.dismiss();
+                    mProgressDialogForCachingVCard = null;
+                }
                 finish();
             }
         }
@@ -765,5 +770,14 @@ public class ImportVCardActivity extends Activity {
                         getString(R.string.vcard_import_failed), Toast.LENGTH_LONG).show();
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mBind) {
+            unbindService(mConnection);
+            mBind = false;
+        }
     }
 }
