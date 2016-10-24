@@ -156,10 +156,12 @@ public class ImportVCardActivity extends Activity {
         public void onServiceConnected(ComponentName name, IBinder binder) {
             mService = ((VCardService.MyBinder) binder).getService();
             mBind = true;
-            Log.i(LOG_TAG,
-                    String.format("Connected to VCardService. Kick a vCard cache thread (uri: %s)",
-                            Arrays.toString(mVCardCacheThread.getSourceUris())));
-            mVCardCacheThread.start();
+            if (mVCardCacheThread != null) {
+                Log.i(LOG_TAG, String.format(
+                                "Connected to VCardService. Kick a vCard cache thread (uri: %s)",
+                                Arrays.toString(mVCardCacheThread.getSourceUris())));
+                mVCardCacheThread.start();
+            }
         }
 
         @Override
