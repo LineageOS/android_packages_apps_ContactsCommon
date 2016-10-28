@@ -624,11 +624,6 @@ public class ImportExportDialogFragment extends DialogFragment
                                     for (int j = 1; j < phoneCountInOneSimContact; j++) {
                                         if (arrayNumber.size() > 0 && emptyAnr-- > 0 ) {
                                             String s = arrayNumber.remove(0);
-                                            if (s.length() > MoreContactUtils
-                                                    .MAX_LENGTH_NUMBER_IN_SIM) {
-                                                s = s.substring(0,
-                                                        MoreContactUtils.MAX_LENGTH_NUMBER_IN_SIM);
-                                            }
                                             anrNum.append(s);
                                             anrNum.append(SimContactsConstants.ANR_SEP);
                                         }
@@ -638,11 +633,6 @@ public class ImportExportDialogFragment extends DialogFragment
                                     for (int j = 0; j < emailCountInOneSimContact; j++) {
                                         if (arrayEmail.size() > 0) {
                                             String s = arrayEmail.remove(0);
-                                            if (s.length() > MoreContactUtils
-                                                    .MAX_LENGTH_EMAIL_IN_SIM) {
-                                                s = s.substring(0,
-                                                        MoreContactUtils.MAX_LENGTH_EMAIL_IN_SIM);
-                                            }
                                             email.append(s);
                                             email.append(SimContactsConstants.EMAIL_SEP);
                                         }
