@@ -209,11 +209,12 @@ public class CallUtil {
      *
      * @param context The context, enable.
      */
-    public static void saveVideoCallConfig(Context context, boolean enable) {
+    public static boolean saveVideoCallConfig(Context context, boolean enable) {
         if(Settings.System.canWrite(context)) {
-            Settings.System.putInt(context.getContentResolver(),
+            return Settings.System.putInt(context.getContentResolver(),
                     CONFIG_VIDEO_CALLING,enable?ENABLE_VIDEO_CALLING:DISABLE_VIDEO_CALLING);
         }
+        return false;
     }
 
     /**
