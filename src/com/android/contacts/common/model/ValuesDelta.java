@@ -71,8 +71,9 @@ public class ValuesDelta implements Parcelable {
         // init data1 to mAfter map. when no operation edittext of
         // sim phone in the UI, the mAfter init have no data1 value,
         // it will cause the builddiff data not right.
-        if (before.containsKey(Data.DATA1) && account != null
-                && !ExchangeAccountType.isExchangeType(account)) {
+        if (before.containsKey(Data.DATA1)
+                && (account == null || account != null
+                        && !ExchangeAccountType.isExchangeType(account))) {
             String contactInfo = before.getAsString(Data.DATA1);
             if (null != contactInfo && !"".equals(contactInfo)) {
                 entry.mAfter.put(Data.DATA1, contactInfo);
