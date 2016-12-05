@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.content.Loader;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -34,6 +35,7 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
+import com.android.contacts.common.MoreContactUtils;
 import com.android.contacts.common.R;
 import com.android.contacts.common.model.AccountTypeManager;
 import com.android.contacts.common.model.account.AccountType;
@@ -125,8 +127,18 @@ public class AccountFilterActivity extends Activity implements AdapterView.OnIte
                 continue;
             }
             Drawable icon = accountType != null ? accountType.getDisplayIcon(context) : null;
+            String accountName = account.name;
+            String customLabel = MoreContactUtils.getSimAccountName(context, accountName);
+            if (!TextUtils.isEmpty(customLabel)) {
+                accountName = customLabel;
+            }
+            Drawable customIcon = accountType != null ? MoreContactUtils.
+                    getDisplayIcon(context, account.name) : null;
+            if (customIcon != null) {
+                icon = customIcon;
+            }
             accountFilters.add(ContactListFilter.createAccountFilter(
-                    account.type, account.name, account.dataSet, icon));
+                    account.type, accountName, account.dataSet, icon));
         }
 
         // Always show "All", even when there's no accounts.  (We may have local contacts)
