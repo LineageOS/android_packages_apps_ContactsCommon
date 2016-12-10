@@ -29,6 +29,7 @@ import android.content.OperationApplicationException;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteException;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.graphics.Rect;
 import android.net.Uri;
 import android.os.RemoteException;
@@ -52,6 +53,7 @@ import android.util.Log;
 
 import com.android.contacts.common.model.account.AccountType;
 import com.android.contacts.common.SimContactsConstants;
+import com.android.internal.telephony.OperatorSimInfo;
 
 import org.codeaurora.wrapper.UiccPhoneBookController_Wrapper;
 import java.util.ArrayList;
@@ -78,6 +80,8 @@ public class MoreContactUtils {
     private static final int EMAIL_USED_POS = 3;
     private static final int ANR_COUNT_POS = 4;
     private static final int ANR_USED_POS = 5;
+    public static final String SIM1_TYPE = "SIM1";
+    public static final String SIM2_TYPE = "SIM2";
 
     public static final String PREFERRED_SIM_ICON_INDEX = "preferred_sim_icon_index";
     public final static int[] IC_SIM_PICTURE = {
@@ -744,4 +748,72 @@ public class MoreContactUtils {
 
         return simFilter.toString();
     }
+
+    public static String getCustomOperatorLabel(Context context, int slotIndex) {
+        String customLabel = "";
+        OperatorSimInfo operatorSimInfo = new OperatorSimInfo(context);
+        boolean isCustomSimFeatureEnabled = operatorSimInfo.isOperatorFeatureEnabled();
+        if (isCustomSimFeatureEnabled) {
+            boolean isSimTypeOperator = operatorSimInfo.isSimTypeOperator(slotIndex);
+            if (isSimTypeOperator) {
+                customLabel = operatorSimInfo.getOperatorDisplayName();
+            } else {
+                int subId = MoreContactUtils.getActiveSubId(context, slotIndex);
+                customLabel = operatorSimInfo.getOperatorNameForSubId(subId);
+            }
+        }
+        return customLabel;
+    }
+
+    public static void setSimOperatorName(String accountName, TextView accountNameTextView,
+            Context context) {
+        String operatorSimLabel = "";
+        if (accountName != null) {
+            if (accountName.equals(SIM1_TYPE)) {
+                operatorSimLabel = getCustomOperatorLabel(context, SimContactsConstants.SLOT1);
+            } else if(accountName.equals(SIM2_TYPE)) {
+                operatorSimLabel = getCustomOperatorLabel(context, SimContactsConstants.SLOT2);
+            }
+        }
+        if (!TextUtils.isEmpty(operatorSimLabel)) {
+            accountNameTextView.setText(operatorSimLabel);
+        }
+    }
+
+    public static String getSimAccountName(Context context, String accountName) {
+        String operatorSimLabel = "";
+        if (accountName != null) {
+            if (accountName.equalsIgnoreCase(SIM1_TYPE)) {
+                operatorSimLabel = getCustomOperatorLabel(context, SimContactsConstants.SLOT1);
+            } else if(accountName.equalsIgnoreCase(SIM2_TYPE)) {
+                operatorSimLabel = getCustomOperatorLabel(context, SimContactsConstants.SLOT2);
+            }
+        }
+        return operatorSimLabel;
+    }
+
+    public static Drawable getDisplayIcon(Context context, String accountName) {
+        int slotIndex = -1;
+        OperatorSimInfo operatorSimInfo = new OperatorSimInfo(context);
+        boolean isCustomSimFeatureEnabled = operatorSimInfo.isOperatorFeatureEnabled();
+        if (isCustomSimFeatureEnabled) {
+            if (accountName != null && accountName.equals(SIM1_TYPE)) {
+                slotIndex = SimContactsConstants.SLOT1;
+            } else if (accountName != null && accountName.equals(SIM2_TYPE)) {
+                slotIndex = SimContactsConstants.SLOT2;
+            }
+            if (slotIndex >=0) {
+                boolean isSimTypeOperator = operatorSimInfo.isSimTypeOperator(slotIndex);
+                if (isSimTypeOperator) {
+                    return operatorSimInfo.getOperatorDrawable();
+                }
+                else {
+                    return operatorSimInfo.getGenericSimDrawable();
+                }
+            }
+            return null;
+        }
+        return null;
+    }
+
 }
