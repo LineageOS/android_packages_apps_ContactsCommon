@@ -119,7 +119,7 @@ public abstract class BaseAccountType extends AccountType {
         this.accountType = null;
         this.dataSet = null;
         this.titleRes = R.string.account_phone;
-        this.iconRes = R.mipmap.ic_contacts_launcher;
+        this.iconRes = R.drawable.unknown_source;
     }
 
     protected static EditType buildPhoneType(int type) {
@@ -256,7 +256,7 @@ public abstract class BaseAccountType extends AccountType {
     protected DataKind addDataKindPhone(Context context) throws DefinitionException {
         DataKind kind = addKind(new DataKind(Phone.CONTENT_ITEM_TYPE, R.string.phoneLabelsGroup,
                 Weight.PHONE, true));
-        kind.iconAltRes = R.drawable.ic_message_24dp;
+        kind.iconAltRes = R.drawable.ic_message_24dp_mirrored;
         kind.iconAltDescriptionRes = R.string.sms;
         kind.actionHeader = new PhoneActionInflater();
         kind.actionAltHeader = new PhoneActionAltInflater();
@@ -1044,7 +1044,7 @@ public abstract class BaseAccountType extends AccountType {
                     Phone.CONTENT_ITEM_TYPE, Phone.TYPE, R.string.phoneLabelsGroup, Weight.PHONE,
                     new PhoneActionInflater(), new SimpleInflater(Phone.NUMBER));
 
-            kind.iconAltRes = R.drawable.ic_message_24dp;
+            kind.iconAltRes = R.drawable.ic_message_24dp_mirrored;
             kind.iconAltDescriptionRes = R.string.sms;
             kind.actionAltHeader = new PhoneActionAltInflater();
 

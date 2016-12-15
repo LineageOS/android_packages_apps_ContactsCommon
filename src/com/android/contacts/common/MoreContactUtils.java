@@ -678,10 +678,6 @@ public class MoreContactUtils {
         mValues.put(SimContactsConstants.STR_TAG, name);
         if (!TextUtils.isEmpty(number)) {
             number = PhoneNumberUtils.stripSeparators(number);
-            if (number.length() > MAX_LENGTH_NUMBER_IN_SIM) {
-                number = number.substring(0, MAX_LENGTH_NUMBER_IN_SIM);
-            }
-
             mValues.put(SimContactsConstants.STR_NUMBER, number);
         }
         if (!TextUtils.isEmpty(emails)) {
