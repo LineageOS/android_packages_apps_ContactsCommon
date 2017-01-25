@@ -346,6 +346,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Action string for selecting a SIM subscription for importing contacts -->
   <!-- Action string for selecting a SIM subscription for importing contacts, without a phone number -->
   <!-- Action string for selecting a .vcf file to import contacts from [CHAR LIMIT=30] -->
+  <!-- Dialog message asking the user for confirmation before starting to import contacts from a .vcf file. [CHAR LIMIT=NONE] -->
   <!-- Message shown in a Dialog confirming a user's cancel request toward existing vCard import.
          The argument is file name for the vCard import the user wants to cancel.
          [CHAR LIMIT=128] -->

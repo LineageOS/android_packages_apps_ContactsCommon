@@ -139,9 +139,6 @@
          (also in contacts) -->
   <string name="listFoundAllContactsZero">ئالاقەداش يوق</string>
   <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
-  <plurals name="searchFoundContacts">
-    <item quantity="other">1 نى تاپتى</item>
-  </plurals>
   <!-- String describing the text for photo of a contact in a contacts list.
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
@@ -338,6 +335,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Action string for selecting a SIM subscription for importing contacts -->
   <!-- Action string for selecting a SIM subscription for importing contacts, without a phone number -->
   <!-- Action string for selecting a .vcf file to import contacts from [CHAR LIMIT=30] -->
+  <!-- Dialog message asking the user for confirmation before starting to import contacts from a .vcf file. [CHAR LIMIT=NONE] -->
   <!-- Message shown in a Dialog confirming a user's cancel request toward existing vCard import.
          The argument is file name for the vCard import the user wants to cancel.
          [CHAR LIMIT=128] -->
