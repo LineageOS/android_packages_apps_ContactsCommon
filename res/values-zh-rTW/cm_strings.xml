@@ -28,7 +28,7 @@
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">聯絡人過多，分享失敗</string>
   <string name="label_groups">群組</string>
-  <string name="exporting">正在匯出\u2026</string>
+  <string name="exporting">匯出中\u2026</string>
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
           The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g> 個檔案中的 <xliff:g id="current_number">%1$s</xliff:g> 個</string>
@@ -49,8 +49,8 @@
   <string name="ipcall_dialog_edit_hint">請輸入 IP 地區號碼</string>
   <string name="menu_block_contact">封鎖</string>
   <string name="menu_unblock_contact">解除封鎖</string>
-  <string name="block_dialog_title">是否封鎖此聯絡人？</string>
-  <string name="unblock_dialog_title">是否解除封鎖此聯絡人？</string>
+  <string name="block_dialog_title">封鎖此聯絡人？</string>
+  <string name="unblock_dialog_title">解除封鎖此聯絡人？</string>
   <string name="block_dialog_positive">封鎖</string>
   <string name="unblock_dialog_positive">解除封鎖</string>
   <string name="block_dialog_negative">取消</string>

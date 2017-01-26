@@ -26,4 +26,14 @@
     <item quantity="few">Cartela SIM este plină,<xliff:g id="insertCount">%d </xliff:g> elemente au fost exportate</item>
     <item quantity="other">Cartela SIM este plină, <xliff:g id="insertCount">%d </xliff:g> elemente au fost exportate</item>
   </plurals>
+  <plurals name="export_cancelled">
+    <item quantity="one">Exportul a fost anulat, <xliff:g id="insertCount">%d</xliff:g> obiect a fost exportat</item>
+    <item quantity="few">Exportul a fost anulat, <xliff:g id="insertCount">%d</xliff:g> (de) obiecte au fost exportate</item>
+    <item quantity="other">Exportul a fost anulat, <xliff:g id="insertCount">%d</xliff:g> (de) obiecte au fost exportate</item>
+  </plurals>
+  <plurals name="spam_count_text">
+    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> persoană a marcat acesta ca spam</item>
+    <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> (de) persoane au marcat acesta ca spam</item>
+    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> (de) persoane au marcat acesta ca spam</item>
+  </plurals>
 </resources>

@@ -31,7 +31,7 @@
   <string name="exporting">正在导出\u2026</string>
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
           The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%2$s</xliff:g> 个中的 <xliff:g id="total_number">%1$s</xliff:g> 个文件</string>
+  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> / <xliff:g id="total_number">%2$s</xliff:g> 个文件</string>
   <string name="export_finished">导出完成</string>
   <string name="tag_too_long">联系人名称过长</string>
   <string name="sim_contacts_not_loaded">无法加载 SIM 卡联系人</string>
@@ -41,7 +41,7 @@
   <string name="copy_failure">复制联系人失败</string>
   <string name="card_no_space">复制联系人失败，SIM 卡已满</string>
   <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">IP 呼叫由 <xliff:g id="subName">%s</xliff:g></string>
+  <string name="ip_call_by_slot">通过 <xliff:g id="subName">%s</xliff:g> IP 通话</string>
   <string name="no_ip_number">没有 IP 号码</string>
   <string name="no_ip_number_on_sim_card">在 SIM 卡上没有 IP 号码</string>
   <string name="set_ip_number">设置 IP 号码</string>
@@ -55,8 +55,8 @@
   <string name="unblock_dialog_positive">取消屏蔽</string>
   <string name="block_dialog_negative">取消</string>
   <string name="block_dialog_description">您将不会再收到此人的来电或信息。</string>
-  <string name="block_dialog_report_spam">报告垃圾呼叫到 <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">报告非垃圾呼叫到 <xliff:g id="provider">%s</xliff:g></string>
+  <string name="block_dialog_report_spam">报告骚扰电话至 <xliff:g id="provider">%s</xliff:g></string>
+  <string name="block_dialog_report_nonspam">报告非骚扰电话至 <xliff:g id="provider">%s</xliff:g></string>
   <string name="plugin_login_msg">登录到 <xliff:g id="plugin_name">%1$s</xliff:g> 以便在这里查看您的 <xliff:g id="plugin_name">%1$s</xliff:g> 联系人</string>
   <string name="plugin_login_button_title">登录</string>
   <string name="plugin_empty_list_text">您没有 <xliff:g id="plugin_name">%s</xliff:g> 联系人，\n</string>

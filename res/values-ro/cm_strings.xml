@@ -22,7 +22,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Export în cartela SIM</string>
   <!-- Action string for selecting a SIM subscription for exporting contacts -->
+  <string name="export_to_sim_summary">Exportați la SIM-ul <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
   <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
+  <string name="export_to_sim_summary_no_number">Exportați la SIM-ul <xliff:g id="sim_name">%1$s</xliff:g></string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Prea multe contacte, distribuire eșuată</string>
   <string name="label_groups">Grup</string>
@@ -55,4 +57,8 @@
   <string name="block_dialog_description">Nu veți mai primi apeluri sau mesaje de la această persoană.</string>
   <string name="block_dialog_report_spam">Raportează ca spam la <xliff:g id="provider">%s</xliff:g></string>
   <string name="block_dialog_report_nonspam">Raportează ca non-spam la <xliff:g id="provider">%s </xliff:g></string>
+  <string name="plugin_login_msg">Conectați-vă la <xliff:g id="plugin_name">%1$s</xliff:g> pentru a vedea contactele <xliff:g id="plugin_name">%1$s</xliff:g> aici</string>
+  <string name="plugin_login_button_title">Conectați-vă</string>
+  <string name="plugin_empty_list_text">Nu aveți niciun contact <xliff:g id="plugin_name">%s</xliff:g>,\n</string>
+  <string name="plugin_empty_list_action_text">adăugați persoane</string>
 </resources>
