@@ -563,9 +563,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <string name="contact_status_update_attribution">per aciu de <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
   <!-- Attribution of a contact status update, when the time of update is known -->
   <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> per aciu de <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="progressdialog_cancel">Encaboxar</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
