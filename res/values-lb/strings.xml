@@ -336,11 +336,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Message asking user to select an account to save contacts imported from vcard or SIM card [CHAR LIMIT=64] -->
   <!-- Action string for selecting SIM for importing contacts -->
   <string name="import_from_sim">Vun der SIM-Kaart importéieren</string>
-  <!-- Action that exports all contacts to SIM -->
-  <!-- Action string for selecting SIM for importing contacts -->
-  <string name="import_from_sim">Vun der SIM-Kaart importéieren</string>
-  <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
-  <string name="import_from_sdcard" product="default">Aus dem Späicher importéieren</string>
   <!-- Action string for selecting a SIM subscription for importing contacts -->
   <string name="import_from_sim_summary">Importéiere vun der SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
   <!-- Action string for selecting a SIM subscription for importing contacts, without a phone number -->
@@ -482,8 +477,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          [CHAR LIMIT=20] -->
   <string name="progress_notifier_message"><xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g id="name" example="Joe Due">%s</xliff:g> gëtt importéiert</string>
   <!-- Action that exports all contacts to a user selected destination. [CHAR LIMIT=25] -->
-  <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
-  <string name="export_to_sdcard" product="default">An de Späicher exportéieren</string>
   <!-- Contact preferences related strings -->
   <!-- Label of the "sort by" display option -->
   <string name="display_options_sort_list_by">Zortéieren no</string>
@@ -515,7 +508,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Toast indicating that sharing a contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_error">Dëse Kontakt kann net gedeelt ginn.</string>
   <!-- Toast indicating that no visible contact to share [CHAR LIMIT=NONE]  -->
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <!-- Menu item to search contacts -->
   <string name="menu_search">Sichen</string>
   <!-- The menu item to filter the list of contacts displayed -->
@@ -553,11 +545,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <string name="contact_status_update_attribution">iwwer <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
   <!-- Attribution of a contact status update, when the time of update is known -->
   <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> iwwer <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
-  <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
-  <!-- Dialog title shown when SD Card does not exist -->
-  <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
-  <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
-  <!-- The slot common name -->
   <!-- Font family used when drawing letters for letter tile avatars.
          Do not translate. -->
   <!-- Content description for the fake action menu up button as used
