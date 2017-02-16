@@ -50,7 +50,7 @@
 
     <string name="export_cancelled">Export was canceled, <xliff:g id="insertCount">%s</xliff:g> items were exported</string>
 
-    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>has not phone number or email address</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> does not have a phone number or email address</string>
 
     <string name="import_from_sim_select">Choose card to import</string>
 
