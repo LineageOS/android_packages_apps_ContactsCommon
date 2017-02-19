@@ -36,7 +36,7 @@
   <string name="tag_too_long">Navn på kontakt er for langt</string>
   <string name="sim_contacts_not_loaded">Kan ikke laste inn SIM-kontakter</string>
   <string name="export_cancelled">Eksporteringen ble avbrutt, <xliff:g id="insertCount">%s</xliff:g> elementer ble eksportert</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>har ikke ett telefonnummer eller en e-postadresse</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> har ikke ett telefonnummer eller e-postadresse</string>
   <string name="import_from_sim_select">Velg kort å importere</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">Lagring utilgjengelig</string>

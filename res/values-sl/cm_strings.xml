@@ -17,7 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Izvozi na kartico SIM</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Uvozi iz pomnilnika</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
+  <string name="export_to_sdcard" product="default">Izvoz v pomnilnik</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Preveč stikov, deljenje je spodletelo</string>
   <string name="label_groups">Skupina</string>
@@ -25,14 +27,25 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> od <xliff:g id="total_number">%2$s</xliff:g> datotek</string>
+  <string name="export_to_sim_failed">Izvoz ni uspel, izvoženih je bilo <xliff:g id="insertCount">%d</xliff:g> predmetov</string>
+  <string name="sim_contact_export_failed">Izvoz stika ni uspel (ime: <xliff:g id="name">%1$s</xliff:g>, številka: <xliff:g id="number">%2$s</xliff:g>, e-pošta: <xliff:g id="email">%3$s</xliff:g>)</string>
+  <string name="export_sim_card_full">Kartica SIM je polna, izvoženih je bilo <xliff:g id="insertCount">%d</xliff:g> predmetov</string>
+  <string name="export_failed">Izvoz ni uspel</string>
+  <string name="sim_card_full">Kartica SIM je polna</string>
   <string name="export_finished">Izvoz končan</string>
   <string name="tag_too_long">Ime stika je predolgo</string>
   <string name="sim_contacts_not_loaded">Ni mogoče naložiti stikov SIM</string>
+  <string name="export_cancelled">Izvoz je bil preklican, izvoženih je bilo <xliff:g id="insertCount">%s</xliff:g> predmetov</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nima telefonske številke ali e-poštnega naslova</string>
   <string name="import_from_sim_select">Izberite kartico za uvoz</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
+  <string name="no_sdcard_title" product="nosdcard">Pomnilniška naprava ni na voljo</string>
   <!-- Dialog title shown when SD Card does not exist -->
+  <string name="no_sdcard_title" product="default">Ni kartice SD</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Izbriši stik?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+  <string name="deleteConfirmation">Ta stik bo izbrisan.</string>
   <string name="copy_done">Stik je bil uspešno kopiran</string>
   <string name="copy_failure">Kopiranje stika je spodletelo</string>
   <string name="card_no_space">Kopiranje stika je spodletelo, kartica SIM je polna</string>

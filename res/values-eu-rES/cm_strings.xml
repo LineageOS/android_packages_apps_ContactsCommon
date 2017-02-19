@@ -28,6 +28,7 @@
   <string name="export_finished">Esportazioa burutu da</string>
   <string name="tag_too_long">Kontaktuaren izena luzeegia da</string>
   <string name="sim_contacts_not_loaded">Ez izan dira SIM txarteleko kontaktuak kargatu</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>(e)k ez du telefono zenbakirik edo e-posta helbiderik</string>
   <string name="import_from_sim_select">Hautatu inportatuko den txartela</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

@@ -28,6 +28,7 @@
   <string name="export_finished">Uitvoer Klaar</string>
   <string name="tag_too_long">Kontak naam is te lank</string>
   <string name="sim_contacts_not_loaded">Kon nie SIM kontakte laai nie</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> het nie \'n telefoonnommer of epos adres nie</string>
   <string name="import_from_sim_select">Kies kaart om in te voer</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

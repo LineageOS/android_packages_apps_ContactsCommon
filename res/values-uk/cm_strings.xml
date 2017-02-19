@@ -36,7 +36,7 @@
   <string name="tag_too_long">Ім`я контакта занадто довге</string>
   <string name="sim_contacts_not_loaded">Не вдається завантажити контакти SIM-карти</string>
   <string name="export_cancelled">Експорт скасовано, <xliff:g id="insertCount">%s</xliff:g> елементів було експортовано</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> не має номеру телефону або електронної пошти</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> не мае телефонного номеру чи електронної пошти</string>
   <string name="import_from_sim_select">Виберіть карту для імпорту</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">Накопичувач недоступний</string>

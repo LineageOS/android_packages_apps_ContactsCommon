@@ -28,6 +28,7 @@
   <string name="export_finished">ৰপ্তানি সম্পূৰ্ণ হৈছে</string>
   <string name="tag_too_long">যোগাযোগৰ নাম অতি দীঘল</string>
   <string name="sim_contacts_not_loaded">SIM যোগাযোগবোৰ লোড কৰিবলৈ অক্ষম</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ৰ ফোন নম্বৰ বা ই-মেইল ঠিকনা নাই</string>
   <string name="import_from_sim_select">আমদানি কৰিবলৈ কাৰ্ড পচন্দ কৰক</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

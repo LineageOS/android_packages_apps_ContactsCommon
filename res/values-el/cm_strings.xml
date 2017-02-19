@@ -28,6 +28,7 @@
   <string name="export_finished">Η εξαγωγή ολοκληρώθηκε</string>
   <string name="tag_too_long">Το όνομα της επαφής είναι πολύ μεγάλο</string>
   <string name="sim_contacts_not_loaded">Δεν είναι δυνατή η φόρτωση των επαφών SIM</string>
+  <string name="export_no_phone_or_email">Η επαφή <xliff:g id="name">%s</xliff:g> δεν έχει τηλεφωνικό αριθμό ή ηλεκτρονική διεύθυνση</string>
   <string name="import_from_sim_select">Επιλέξτε κάρτα για εισαγωγή</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

@@ -36,7 +36,7 @@
   <string name="tag_too_long">Numele contactului este prea lung</string>
   <string name="sim_contacts_not_loaded">Imposibil de încărcat contactele de pe cartela SIM</string>
   <string name="export_cancelled">Exportul a fost anulat, <xliff:g id="insertCount">%s</xliff:g> (de) elemente au fost exportate</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nu are un număr de telefon sau o adresă de e-mail</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nu are un număr de telefon sau adresă de email</string>
   <string name="import_from_sim_select">Alege cardul ce se va importa</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">Stocarea este indisponibilă</string>

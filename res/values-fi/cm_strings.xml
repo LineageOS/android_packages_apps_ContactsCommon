@@ -28,6 +28,7 @@
   <string name="export_finished">Vienti valmis</string>
   <string name="tag_too_long">Yhteystiedon nimi on liian pitkä</string>
   <string name="sim_contacts_not_loaded">Ei voi ladata SIM-kortin yhteystietoja</string>
+  <string name="export_no_phone_or_email">Yhteystiedolla <xliff:g id="name">%s</xliff:g> ei ole puhelinnumeroa tai sähköpostiosoitetta</string>
   <string name="import_from_sim_select">Valitse kortti josta tuodaan</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

@@ -27,6 +27,7 @@
   <string name="export_finished">匯出完成</string>
   <string name="tag_too_long">聯絡人名稱過長</string>
   <string name="sim_contacts_not_loaded">無法載入 SIM 卡聯絡人</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> 沒有電話號碼或電子郵件地址</string>
   <string name="import_from_sim_select">選擇要匯入的卡</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

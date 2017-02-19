@@ -28,6 +28,7 @@
   <string name="export_finished">Экспорт завершён</string>
   <string name="tag_too_long">Слишком длинное имя контакта</string>
   <string name="sim_contacts_not_loaded">Не удалось загрузить контакты с SIM-карты</string>
+  <string name="export_no_phone_or_email">У контакта «<xliff:g id="name">%s</xliff:g>» нет номера телефона или адреса электронной почты</string>
   <string name="import_from_sim_select">Выберите карту для импорта</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

@@ -28,6 +28,7 @@
   <string name="export_finished">ರಫ್ತು ಮುಗಿದಿದೆ</string>
   <string name="tag_too_long">ಸಂಪರ್ಕ ಹೆಸರು ಬಹಳಾ ಉದ್ದವಾಯಿತು</string>
   <string name="sim_contacts_not_loaded">ಸಿಮ್ ಸಂಪರ್ಕಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಹೊಂದಿಲ್ಲ</string>
   <string name="import_from_sim_select">ಆಮದುಮಾಡಲು ಕಾರ್ಡ್ ಆರಿಸಿ</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

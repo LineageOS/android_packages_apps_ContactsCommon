@@ -28,6 +28,7 @@
   <string name="export_finished">എക്സ്പോർട്ട് പൂർത്തിയായി</string>
   <string name="tag_too_long">കോണ്‍ടാക്റ്റ് നാമം ദൈർഘ്യമേറിയതാണ്</string>
   <string name="sim_contacts_not_loaded">SIM കോണ്‍ടാക്റ്റുകള്‍ ലോഡ് ചെയ്യാന്‍ കഴിഞ്ഞില്ല</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ന് ഒരു ഫോൺ നമ്പറോ അല്ലെങ്കില്‍ ഇമെയിൽ വിലാസമോ ഇല്ല</string>
   <string name="import_from_sim_select">ഇറക്കുമതി ചെയ്യേണ്ട കാർഡ് തിരഞ്ഞെടുക്കുക</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

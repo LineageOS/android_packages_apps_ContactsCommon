@@ -17,7 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Xuất đến thẻ SIM</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Nhập từ bô nhớ</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
+  <string name="export_to_sdcard" product="default">Xuất ra bộ nhớ</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Quá nhiều số liên lạc, chia sẻ thất bại</string>
   <string name="label_groups">Nhóm</string>
@@ -25,14 +27,25 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> / <xliff:g id="total_number">%2$s</xliff:g> tập tin</string>
+  <string name="export_to_sim_failed">Xuất ra không thành công, đã xuất <xliff:g id="insertCount">%d </xliff:g> mục</string>
+  <string name="sim_contact_export_failed">Không thể xuất ra các liên hệ (tên: <xliff:g id="name">%1$s</xliff:g>, số: <xliff:g id="number">%2$s</xliff:g>, email: <xliff:g id="email">%3$s</xliff:g>)</string>
+  <string name="export_sim_card_full">Thẻ SIM đầy, đã xuất <xliff:g id="insertCount">%d</xliff:g> mục</string>
+  <string name="export_failed">Không thể xuất dữ liệu</string>
+  <string name="sim_card_full">Thẻ SIM đầy</string>
   <string name="export_finished">Xuất hoàn tất</string>
   <string name="tag_too_long">Tên liên lạc quá dài</string>
   <string name="sim_contacts_not_loaded">Không thể nạp danh bạ trên SIM</string>
+  <string name="export_cancelled">Quá trình xuất bị huỷ, đã xuất <xliff:g id="insertCount">%s</xliff:g> mục</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> không có số điện thoại hoặc địa chỉ email</string>
   <string name="import_from_sim_select">Chọn thẻ để nhập</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
+  <string name="no_sdcard_title" product="nosdcard">Bộ nhớ không có sẵn</string>
   <!-- Dialog title shown when SD Card does not exist -->
+  <string name="no_sdcard_title" product="default">Không có thẻ SD</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Xoá liên hệ?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+  <string name="deleteConfirmation">Liên hệ này sẽ bị xóa.</string>
   <string name="copy_done">Số liên lạc đã được sao chép thành công</string>
   <string name="copy_failure">Sao chép số liên lạc đã thất bại</string>
   <string name="card_no_space">Sao chép số liên lạc đã thất bại, thẻ SIM đã đầy</string>

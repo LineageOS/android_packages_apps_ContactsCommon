@@ -36,7 +36,7 @@
   <string name="tag_too_long">連絡先の名前が長すぎます</string>
   <string name="sim_contacts_not_loaded">SIMの連絡先を読み込めませんでした</string>
   <string name="export_cancelled">エクスポートをキャンセルしました。<xliff:g id="insertCount">%s</xliff:g>個のアイテムをエクスポートしました</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>には電話番号やメールアドレスがありません</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>には電話番号またはメールアドレスがありません</string>
   <string name="import_from_sim_select">インポートするカードを選択</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">ストレージが利用できません</string>

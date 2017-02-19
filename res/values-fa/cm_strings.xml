@@ -27,6 +27,7 @@
   <string name="export_finished">صدور تمام شد</string>
   <string name="tag_too_long">نام مخاطب بسیار طولانی است</string>
   <string name="sim_contacts_not_loaded">نمی‌توان مخاطبین سیم کارت را بارگذاری کرد</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> شماره تلفن یا آدرس ایمیلی ندارد</string>
   <string name="import_from_sim_select">انتخاب سیم کارت برای وارد کردن</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

@@ -28,6 +28,7 @@
   <string name="export_finished">Eksport afsluttet</string>
   <string name="tag_too_long">Kontaktnavn er for langt</string>
   <string name="sim_contacts_not_loaded">Kan ikke indlæse SIM-kontakter</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> har ikke et telefonnummer eller en e-mail adresse</string>
   <string name="import_from_sim_select">Vælg det kort, der skal importeres</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

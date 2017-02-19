@@ -27,6 +27,7 @@
   <string name="export_finished">هەناردن تەواو بوو</string>
   <string name="tag_too_long">ناو زۆر درێژە</string>
   <string name="sim_contacts_not_loaded">ناتوانرێت ناوەکان دابەزێنرێت لەسەر سیمکارتەکە</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>ژمارەی تەلەفۆن یان پۆستی ئەلیکترۆنی نیە</string>
   <string name="import_from_sim_select">کارتێک هەڵبژێرە بۆ هاوردن</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

@@ -36,7 +36,7 @@
   <string name="tag_too_long">Meno kontaktu je príliš dlhé</string>
   <string name="sim_contacts_not_loaded">Nepodarilo sa načítať kontakty zo SIM</string>
   <string name="export_cancelled">Export bol zrušený, <xliff:g id="insertCount">%s</xliff:g> položiek bolo exportovaných</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nemá telefónne číslo alebo e-mailovú adresu</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nemá svoje telefónne číslo alebo e-mailovú adresu</string>
   <string name="import_from_sim_select">Vyberte kartu na importovanie</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">Nedostupné úložisko</string>

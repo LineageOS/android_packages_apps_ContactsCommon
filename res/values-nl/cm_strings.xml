@@ -28,6 +28,7 @@
   <string name="export_finished">Exporteren voltooid</string>
   <string name="tag_too_long">Naam van contact is te lang</string>
   <string name="sim_contacts_not_loaded">Kan SIM-contacten niet laden</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> beschikt niet over een telefoonnummer of e-mailadres</string>
   <string name="import_from_sim_select">Kies kaart om te importeren</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

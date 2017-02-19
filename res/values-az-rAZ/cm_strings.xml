@@ -27,6 +27,7 @@
   <string name="export_finished">İxrac tamamlandı</string>
   <string name="tag_too_long">Şəxs adı çox uzundur</string>
   <string name="sim_contacts_not_loaded">SIM şəxsləri yüklənə bilmədi</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> telefon nömrəsinə və e-poçt ünvanına sahib deyil</string>
   <string name="import_from_sim_select">İdxal olunacaq kartı seçin</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

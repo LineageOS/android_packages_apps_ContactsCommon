@@ -28,6 +28,7 @@
   <string name="export_finished">چىقىرىش تامام</string>
   <string name="tag_too_long">ئالاقەداش ئىسمى بەك ئۇزۇن</string>
   <string name="sim_contacts_not_loaded">SIM كارتىدىكى ئالاقەداشلارنى يۈكلىيەلمىدى</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>نىڭ تېلېفون نومۇرى ياكى تورخەت ئادرېسى يوق</string>
   <string name="import_from_sim_select">ئەكىرىدىغان كارتىنى تاللاڭ</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

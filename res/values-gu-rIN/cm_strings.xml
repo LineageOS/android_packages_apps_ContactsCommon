@@ -28,6 +28,7 @@
   <string name="export_finished">નિકાસ સમાપ્ત થયેલ છે</string>
   <string name="tag_too_long">સંપર્ક નામ ઘણું લાંબુ છે</string>
   <string name="sim_contacts_not_loaded">SIM સંપર્કો લોડ થવામાં ‌અક્ષમ</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> માં ફોન નંબર અથવા ઈમેલ સરનામું નથી</string>
   <string name="import_from_sim_select">આયાત કરવા કાર્ડ પસંદ કરો</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

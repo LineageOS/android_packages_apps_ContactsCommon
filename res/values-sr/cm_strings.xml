@@ -28,6 +28,7 @@
   <string name="export_finished">Извоз завршен</string>
   <string name="tag_too_long">Име контакта је предуго</string>
   <string name="sim_contacts_not_loaded">Не могу учитати SIM контакте</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> нема број телефона или адресу е-поште</string>
   <string name="import_from_sim_select">Изабери картицу за увоз</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

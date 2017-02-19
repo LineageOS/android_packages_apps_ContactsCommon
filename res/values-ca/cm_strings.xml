@@ -28,6 +28,7 @@
   <string name="export_finished">S\'ha finalitzat l\'exportació</string>
   <string name="tag_too_long">El nom del contacte és massa llarg</string>
   <string name="sim_contacts_not_loaded">No s\'han pogut carregar els contactes de la SIM</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> no té un número de telèfon o una adreça de correu electrònic</string>
   <string name="import_from_sim_select">Tria la targeta a importar</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

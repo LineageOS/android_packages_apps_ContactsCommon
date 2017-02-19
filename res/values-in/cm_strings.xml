@@ -28,6 +28,7 @@
   <string name="export_finished">Ekspor selesai</string>
   <string name="tag_too_long">Nama kontak terlalu panjang</string>
   <string name="sim_contacts_not_loaded">Tidak dapat memuat kontak SIM</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> tidak memiliki nomor telepon atau alamat email</string>
   <string name="import_from_sim_select">Pilih kartu untuk mengimpor</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

@@ -28,6 +28,7 @@
   <string name="export_finished">Finó la esportación</string>
   <string name="tag_too_long">El nome del contautu ye enforma llargu</string>
   <string name="sim_contacts_not_loaded">Nun puen cargase los contautos de la tarxeta SIM</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nun tien un númberu de tefnu o una direición de corréu</string>
   <string name="import_from_sim_select">Escueyi una tarxeta pa importar</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

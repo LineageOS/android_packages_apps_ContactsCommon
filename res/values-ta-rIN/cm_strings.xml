@@ -28,6 +28,7 @@
   <string name="export_finished">ஏற்றுமதி முடிந்தது</string>
   <string name="tag_too_long">தொடர்பு பெயர் மிக நீளம்</string>
   <string name="sim_contacts_not_loaded">SIM தொடர்புகளை லோட் செய்ய முடியவில்லை</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> இடம் தொலைபேசி எண் அல்லது மின்னஞ்சல் முகவரி இல்லை</string>
   <string name="import_from_sim_select">இறக்குமதிசெய்ய அட்டையை தேர்ந்தெடுக்கவும்</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

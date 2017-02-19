@@ -17,7 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Esporta nella SIM</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Importa dalla memoria</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
+  <string name="export_to_sdcard" product="default">Esporta nella memoria</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Troppi contatti, condividisione fallita</string>
   <string name="label_groups">Gruppo</string>
@@ -25,14 +27,25 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> di <xliff:g id="total_number">%2$s</xliff:g> file</string>
+  <string name="export_to_sim_failed">Esportazione fallita, <xliff:g id="insertCount">%d</xliff:g> elementi sono stati esportati</string>
+  <string name="sim_contact_export_failed">Esportazione del contatto fallita (nome: <xliff:g id="name">%1$s</xliff:g>, numero: <xliff:g id="number">%2$s</xliff:g>, email: <xliff:g id="email">%3$s</xliff:g>)</string>
+  <string name="export_sim_card_full">Scheda SIM piena, sono stati esportati solo <xliff:g id="insertCount">%d</xliff:g> elementi</string>
+  <string name="export_failed">Esportazione fallita</string>
+  <string name="sim_card_full">Scheda SIM piena</string>
   <string name="export_finished">Esportazione completata</string>
   <string name="tag_too_long">Nome del contatto troppo lungo</string>
   <string name="sim_contacts_not_loaded">Impossibile caricare contatti SIM</string>
+  <string name="export_cancelled">Esportazione annullata, sono stati esportati <xliff:g id="insertCount">%s</xliff:g> elementi</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> non ha un numero di telefono o un indirizzo email</string>
   <string name="import_from_sim_select">Scegli la scheda da importare</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
+  <string name="no_sdcard_title" product="nosdcard">Memoria non disponibile</string>
   <!-- Dialog title shown when SD Card does not exist -->
+  <string name="no_sdcard_title" product="default">Nessuna scheda SD</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Eliminare il contatto?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+  <string name="deleteConfirmation">Questo contatto sarà eliminato.</string>
   <string name="copy_done">Contatto copiato con successo</string>
   <string name="copy_failure">Copia del contatto fallita</string>
   <string name="card_no_space">Copia del contatto fallita, la SIM è piena</string>

@@ -28,6 +28,7 @@
   <string name="export_finished">ରପ୍ତାନୀ ସ୍ମାପ୍ତ ହୋଇଛି</string>
   <string name="tag_too_long">ସସମ୍ପର୍କ ନାମ ଅଧିକ ଲମ୍ବା ହୋଇଯାଉଛି</string>
   <string name="sim_contacts_not_loaded">SIM ସମ୍ପର୍କଗୁଡିକ ଲୋଡ୍‍ କରିବାରେ ଅଷ୍ମ</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ଙ୍କର କୌଣସି ଫୋନ୍‍ ନମ୍ବର ବା ଇମେଲ୍‍ ଠିକଣା ନାହିଁ</string>
   <string name="import_from_sim_select">ଆମଦାନି କରିବା ପାଇଁ କାର୍ଡ ଚୟନ କରନ୍ତୁ</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

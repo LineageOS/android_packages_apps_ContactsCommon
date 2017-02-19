@@ -28,6 +28,7 @@
   <string name="export_finished">Exportálás kész</string>
   <string name="tag_too_long">A névjegynél megadott név túl hosszú</string>
   <string name="sim_contacts_not_loaded">Nem sikerült betölteni a SIM névjegyeket</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nem rendelkezik telefonszámmal, vagy e-mail címmel</string>
   <string name="import_from_sim_select">Kártya kiválasztása importáláshoz</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

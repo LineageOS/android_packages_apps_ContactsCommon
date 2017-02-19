@@ -28,6 +28,7 @@
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> von <xliff:g id="total_number">%2$s</xliff:g> Dateien</string>
   <string name="export_to_sim_failed">Export fehlgeschlagen, <xliff:g id="insertCount">%d</xliff:g> Elemente wurden exportiert</string>
+  <string name="sim_contact_export_failed">Fehler beim Exportieren von Kontakt (Name: <xliff:g id="name">%1$s</xliff:g>, Nummer: <xliff:g id="number">%2$s</xliff:g>, E-Mail: <xliff:g id="email">%3$s</xliff:g>)</string>
   <string name="export_sim_card_full">SIM-Karte ist voll, <xliff:g id="insertCount">%d</xliff:g> Elemente wurden exportiert</string>
   <string name="export_failed">Export fehlgeschlagen</string>
   <string name="sim_card_full">SIM-Karte ist voll</string>
@@ -35,6 +36,7 @@
   <string name="tag_too_long">Der Kontaktname ist zu lang.</string>
   <string name="sim_contacts_not_loaded">SIM-Kontakte konnten nicht geladen werden</string>
   <string name="export_cancelled">Export abgebrochen, <xliff:g id="insertCount">%s</xliff:g> Elemente wurden exportiert</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> hat keine Telefonnummer oder E-Mail-Adresse.</string>
   <string name="import_from_sim_select">SIM-Karte zum Importieren auswählen</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">Speicher nicht verfügbar</string>

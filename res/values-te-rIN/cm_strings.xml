@@ -28,6 +28,7 @@
   <string name="export_finished">ఎగుమతి పూర్తయింది</string>
   <string name="tag_too_long">పరిచయం పేరు చాలా పెద్దదిగా ఉంది</string>
   <string name="sim_contacts_not_loaded">SIM పరిచయాలను లోడ్ చేయడం సాధ్యపడలేదు</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>కు ఫోన్ నంబర్ లేదా ఇమెయిల్ చిరునామా లేదు</string>
   <string name="import_from_sim_select">దిగుమతి చేసేందుకు కార్డును ఎంచుకొనుము</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->

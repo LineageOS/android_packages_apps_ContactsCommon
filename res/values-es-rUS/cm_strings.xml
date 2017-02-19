@@ -36,7 +36,7 @@
   <string name="tag_too_long">El nombre del contacto es demasiado largo</string>
   <string name="sim_contacts_not_loaded">No se pudieron cargar los contactos de la tarjeta SIM</string>
   <string name="export_cancelled">Exportación cancelada, sólo <xliff:g id="insertCount">%s</xliff:g> elementos exportados</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> no tiene número de teléfono o dirección de correo</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> no tiene un número de teléfono o dirección de correo</string>
   <string name="import_from_sim_select">Elige una tarjeta para importar</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">Almacenamiento no disponible</string>
