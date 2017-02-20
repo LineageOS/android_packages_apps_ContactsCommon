@@ -47,4 +47,18 @@
   <string name="set_ip_number">Задати IP-номер</string>
   <string name="ipcall_dialog_title">Налаштування IP-телефонії</string>
   <string name="ipcall_dialog_edit_hint">Будь ласка, введіть префікс IP</string>
+  <string name="menu_block_contact">Заблокувати</string>
+  <string name="menu_unblock_contact">Розблокувати</string>
+  <string name="block_dialog_title">Заблокувати контакт?</string>
+  <string name="unblock_dialog_title">Розблокувати контакт?</string>
+  <string name="block_dialog_positive">Заблокувати</string>
+  <string name="unblock_dialog_positive">Розблокувати</string>
+  <string name="block_dialog_negative">Скаcувати</string>
+  <string name="block_dialog_description">Ви вже не отримуватимете викликів та повідомлень від даного абонента.</string>
+  <string name="block_dialog_report_spam">Повідомити про спам до <xliff:g id="provider">%s</xliff:g></string>
+  <string name="block_dialog_report_nonspam">Повідомити що це не спам до <xliff:g id="provider">%s</xliff:g></string>
+  <string name="plugin_login_msg">Увійдіть до <xliff:g id="plugin_name">%1$s</xliff:g>, щоб переглянути свої контакти <xliff:g id="plugin_name">%1$s</xliff:g></string>
+  <string name="plugin_login_button_title">Увійти</string>
+  <string name="plugin_empty_list_text">У вас не має контактів <xliff:g id="plugin_name">%s</xliff:g>,\n</string>
+  <string name="plugin_empty_list_action_text">додати людей</string>
 </resources>
