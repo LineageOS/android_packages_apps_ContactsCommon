@@ -32,7 +32,7 @@
   <string name="export_sim_card_full">Капацитетът на СИМ картата е изчерпан, експортирани <xliff:g id="insertCount">%d</xliff:g> елемента</string>
   <string name="export_failed">Експортирането се провали</string>
   <string name="sim_card_full">СИМ картата е пълна</string>
-  <string name="export_finished">Експортирането  завърши</string>
+  <string name="export_finished">Експортирането завърши</string>
   <string name="tag_too_long">Името на контакта е твърде дълго</string>
   <string name="sim_contacts_not_loaded">Зареждането на контактите от СИМ картата не е възможно</string>
   <string name="export_cancelled">Експортирането е прекратено, експортирани <xliff:g id="insertCount">%%s</xliff:g> елемента</string>

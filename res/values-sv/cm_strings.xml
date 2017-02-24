@@ -17,6 +17,7 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Exportera till SIM-kort</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Importera från lagring</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">För många kontakter, delning misslyckades</string>
@@ -25,6 +26,7 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> av <xliff:g id="total_number">%2$s</xliff:g> filer</string>
+  <string name="sim_card_full">SIM-kortet är fullt</string>
   <string name="export_finished">Export slutförd</string>
   <string name="tag_too_long">Kontaktnamnet är för långt</string>
   <string name="sim_contacts_not_loaded">Det gick inte att läsa in SIM-kontakter</string>
@@ -33,6 +35,7 @@
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Ta bort kontakt?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
   <string name="copy_done">Kontakten kopierades</string>
   <string name="copy_failure">Kopiering av kontakten misslyckades</string>

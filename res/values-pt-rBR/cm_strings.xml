@@ -17,7 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Exportar para o cartão SIM</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Importar do armazenamento</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
+  <string name="export_to_sdcard" product="default">Exportar para o armazenamento</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Muitos contatos, falha ao compartilhar</string>
   <string name="label_groups">Grupo</string>
@@ -25,15 +27,22 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> de <xliff:g id="total_number">%2$s</xliff:g> arquivos</string>
+  <string name="sim_contact_export_failed">A exportação do contato (nome: <xliff:g id="name">%1$s </xliff:g>, número: <xliff:g id="number">%2$s</xliff:g>, e-mail: <xliff:g id="email">%3$s</xliff:g>) falhou</string>
+  <string name="export_failed">A exportação falhou</string>
+  <string name="sim_card_full">O cartão SIM está cheio</string>
   <string name="export_finished">Exportação concluída</string>
   <string name="tag_too_long">O nome do contato é muito longo</string>
   <string name="sim_contacts_not_loaded">Impossível carregar contatos do cartão SIM</string>
   <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> não tem um número de telefone ou endereço de e-mail</string>
   <string name="import_from_sim_select">Escolha o cartão para importar</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
+  <string name="no_sdcard_title" product="nosdcard">Armazenamento indisponível</string>
   <!-- Dialog title shown when SD Card does not exist -->
+  <string name="no_sdcard_title" product="default">Nenhum cartão SD</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Apagar contato?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+  <string name="deleteConfirmation">Este contato será apagado.</string>
   <string name="copy_done">Contato copiado</string>
   <string name="copy_failure">Falha ao copiar o contato</string>
   <string name="card_no_space">Falha ao copiar o contato, o cartão SIM está cheio</string>

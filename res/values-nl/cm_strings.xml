@@ -36,5 +36,5 @@
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
   <string name="copy_done">Contact kopiëren gelukt</string>
   <string name="copy_failure">Contact kopiëren mislukt</string>
-  <string name="card_no_space">Kopiëren van contact mislukt, simkaart is vol</string>
+  <string name="card_no_space">Contact kopiëren mislukt, simkaart vol</string>
 </resources>
