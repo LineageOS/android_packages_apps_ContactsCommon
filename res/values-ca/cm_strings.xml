@@ -17,7 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Exporta a la targeta SIM</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Importa des de l\'emmagatzematge</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
+  <string name="export_to_sdcard" product="default">Exporta a l\'emmagatzematge</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Massa contactes, error al compartir</string>
   <string name="label_groups">Grup</string>
@@ -25,15 +27,25 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> de <xliff:g id="total_number">%2$s</xliff:g> fitxers</string>
+  <string name="export_to_sim_failed">Ha fallat l\'exportació, s\'han exportat <xliff:g id="insertCount">%d</xliff:g> elements</string>
+  <string name="sim_contact_export_failed">Ha fallat l\'exportació del contact (nom: <xliff:g id="name">%1$s</xliff:g>, número: <xliff:g id="number">%2$s</xliff:g>, correu: <xliff:g id="email">%3$s</xliff:g>)</string>
+  <string name="export_sim_card_full">La targeta SIM està plena, s\'han exportat <xliff:g id="insertCount">%d</xliff:g> elements</string>
+  <string name="export_failed">Exportació fallida</string>
+  <string name="sim_card_full">La targeta SIM és plena</string>
   <string name="export_finished">S\'ha finalitzat l\'exportació</string>
   <string name="tag_too_long">El nom del contacte és massa llarg</string>
   <string name="sim_contacts_not_loaded">No s\'han pogut carregar els contactes de la SIM</string>
+  <string name="export_cancelled">S\'ha cancel·lat l\'exportació, s\'han exportat <xliff:g id="insertCount">%s</xliff:g> elements</string>
   <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> no té un número de telèfon o una adreça de correu electrònic</string>
   <string name="import_from_sim_select">Tria la targeta a importar</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
+  <string name="no_sdcard_title" product="nosdcard">Emmagatzematge no disponible</string>
   <!-- Dialog title shown when SD Card does not exist -->
+  <string name="no_sdcard_title" product="default">No hi ha targeta SD</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Vols esborrar el contacte?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+  <string name="deleteConfirmation">S\'esborrarà aquest contacte.</string>
   <string name="copy_done">El contacte ha sigut copiat satisfactòriament</string>
   <string name="copy_failure">No s\'ha pogut copiar el contacte</string>
   <string name="card_no_space">No s\'ha pogut copiar el contacte, la targeta SIM és plena</string>
