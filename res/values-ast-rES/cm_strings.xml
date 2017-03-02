@@ -15,26 +15,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Esportar a la tarxeta SIM</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">Milenta contautos, falló la compartición</string>
-  <string name="label_groups">Grupu</string>
-  <string name="exporting">Esportando\u2026</string>
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> de <xliff:g id="total_number">%2$s</xliff:g> ficheros</string>
-  <string name="export_finished">Finó la esportación</string>
-  <string name="tag_too_long">El nome del contautu ye enforma llargu</string>
-  <string name="sim_contacts_not_loaded">Nun puen cargase los contautos de la tarxeta SIM</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nun tien un númberu de tefnu o una direición de corréu</string>
-  <string name="import_from_sim_select">Escueyi una tarxeta pa importar</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <!-- Dialog title shown when SD Card does not exist -->
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
-  <string name="copy_done">Contautu copiáu correchamente</string>
-  <string name="copy_failure">Falló la copia del contautu</string>
-  <string name="card_no_space">Falló la copia de tolos contautos. La tarxeta SIM ta enllena</string>
 </resources>

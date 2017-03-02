@@ -27,10 +27,15 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g>개 중 <xliff:g id="current_number">%1$s</xliff:g>번째 파일</string>
+  <string name="export_to_sim_failed">내보내기에 실패하였습니다. <xliff:g id="insertCount">%d</xliff:g>건의 연락처가 내보내졌습니다</string>
+  <string name="sim_contact_export_failed">연락처 내보내기에 실패하였습니다 (이름: <xliff:g id="name">%1$s</xliff:g>, 번호: <xliff:g id="number">%2$s</xliff:g>, 이메일: <xliff:g id="email">%3$s</xliff:g>)</string>
+  <string name="export_sim_card_full">SIM 카드가 가득 찼습니다. <xliff:g id="insertCount">%d</xliff:g>건의 연락처가 내보내졌습니다</string>
+  <string name="export_failed">내보내기 실패</string>
   <string name="sim_card_full">SIM 카드가 가득 찼습니다</string>
   <string name="export_finished">내보내기 완료</string>
   <string name="tag_too_long">연락처 이름이 너무 깁니다</string>
   <string name="sim_contacts_not_loaded">SIM 연락처를 불러올 수 없습니다</string>
+  <string name="export_cancelled">내보내기가 취소되었습니다. <xliff:g id="insertCount">%s</xliff:g>건의 연락처가 내보내졌습니다</string>
   <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>에 전화번호 또는 이메일 주소가 필요합니다</string>
   <string name="import_from_sim_select">가져올 SIM 카드 선택</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
@@ -38,6 +43,7 @@
   <!-- Dialog title shown when SD Card does not exist -->
   <string name="no_sdcard_title" product="default">SD 카드 없음</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">연락처를 삭제할까요?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
   <string name="deleteConfirmation">이 연락처가 삭제됩니다.</string>
   <string name="copy_done">연락처가 성공적으로 복사되었습니다</string>
