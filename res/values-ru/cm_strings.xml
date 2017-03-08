@@ -17,7 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Экспорт на SIM-карту</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Импорт из накопителя</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
+  <string name="export_to_sdcard" product="default">Экспорт на внешний накопитель</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Слишком много контактов, не удалось отправить</string>
   <string name="label_groups">Группа</string>
@@ -25,15 +27,25 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files">Обработка: <xliff:g id="current_number">%1$s</xliff:g> из <xliff:g id="total_number">%2$s</xliff:g></string>
+  <string name="export_to_sim_failed">Произошел сбой. Удалось экспортировать <xliff:g id="insertCount">%d </xliff:g> контактов</string>
+  <string name="sim_contact_export_failed">Ошибка экспорта контакта (имя: <xliff:g id="name">%1$s </xliff:g>, номер: <xliff:g id="number">%2$s </xliff:g>, электронная почта: <xliff:g id="email">%3$s </xliff:g>)</string>
+  <string name="export_sim_card_full">SIM-карта заполнена. Экспортированы <xliff:g id="insertCount">%d </xliff:g> контактов</string>
+  <string name="export_failed">Сбой экспорта</string>
+  <string name="sim_card_full">SIM-карта заполнена</string>
   <string name="export_finished">Экспорт завершён</string>
   <string name="tag_too_long">Слишком длинное имя контакта</string>
   <string name="sim_contacts_not_loaded">Не удалось загрузить контакты с SIM-карты</string>
+  <string name="export_cancelled">Экспорт отменен. Экспортированы <xliff:g id="insertCount">%s</xliff:g> контактов</string>
   <string name="export_no_phone_or_email">У контакта «<xliff:g id="name">%s</xliff:g>» нет номера телефона или адреса электронной почты</string>
   <string name="import_from_sim_select">Выберите карту для импорта</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
+  <string name="no_sdcard_title" product="nosdcard">Внешний накопитель недоступен</string>
   <!-- Dialog title shown when SD Card does not exist -->
+  <string name="no_sdcard_title" product="default">Нет SD-карты</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Удалить контакт?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+  <string name="deleteConfirmation">Этот контакт будет удален.</string>
   <string name="copy_done">Контакт скопирован</string>
   <string name="copy_failure">Не удалось скопировать контакт</string>
   <string name="card_no_space">Не удалось скопировать контакт, SIM-карта заполнена</string>
