@@ -33,10 +33,10 @@
   <string name="export_failed">Не вдалося експортувати</string>
   <string name="sim_card_full">SIM карта заповнена</string>
   <string name="export_finished">Експорт завершено</string>
-  <string name="tag_too_long">Ім`я контакта занадто довге</string>
+  <string name="tag_too_long">Ім\'я контакту занадто довге</string>
   <string name="sim_contacts_not_loaded">Не вдається завантажити контакти SIM-карти</string>
   <string name="export_cancelled">Експорт скасовано, <xliff:g id="insertCount">%s</xliff:g> елементів було експортовано</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> не мае телефонного номеру чи електронної пошти</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> не має телефонного номеру чи електронної пошти</string>
   <string name="import_from_sim_select">Виберіть карту для імпорту</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">Накопичувач недоступний</string>
@@ -46,7 +46,7 @@
   <string name="deleteConfirmation_title">Видалити контакт?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
   <string name="deleteConfirmation">Цей контакт буде видалено.</string>
-  <string name="copy_done">Контакт був скопійован успішно</string>
+  <string name="copy_done">Контакт було успішно скопійовано</string>
   <string name="copy_failure">Не вдалося скопіювати контакт</string>
   <string name="card_no_space">Копіювання контактів не вдалося, SIM-карта заповнена</string>
 </resources>

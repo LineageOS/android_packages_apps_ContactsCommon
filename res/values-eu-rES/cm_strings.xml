@@ -17,7 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Esportatu SIM txartelera</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Inportatu biltegiratzetik</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
+  <string name="export_to_sdcard" product="default">Esportatu biltegiratzera</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Kontaktu gehiegi, partekatzeak huts egin du</string>
   <string name="label_groups">Taldea</string>
@@ -25,17 +27,23 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> fitxategi <xliff:g id="total_number">%2$s</xliff:g>tik</string>
+  <string name="export_to_sim_failed">Esportazioak huts egin du, <xliff:g id="insertCount">%d</xliff:g> elementu esportatu dira</string>
+  <string name="sim_contact_export_failed">Kontaktuaren esportazioak huts egin du (izena: <xliff:g id="name">%1$s</xliff:g>, zenbakia: <xliff:g id="number">%2$s</xliff:g>, email: <xliff:g id="e-posta">%3$s</xliff:g>)</string>
+  <string name="export_sim_card_full">SIM txartela beteta dago, <xliff:g id="insertCount">%d</xliff:g> elementu esportatu dira</string>
   <string name="export_failed">Esportazioak huts egin du</string>
   <string name="sim_card_full">SIM txartela beteta dago</string>
   <string name="export_finished">Esportazioa burutu da</string>
   <string name="tag_too_long">Kontaktuaren izena luzeegia da</string>
   <string name="sim_contacts_not_loaded">Ez izan dira SIM txarteleko kontaktuak kargatu</string>
+  <string name="export_cancelled">Esportazioa eten da, <xliff:g id="insertCount">%s</xliff:g> elementu esportatu dira</string>
   <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>(e)k ez du telefono zenbakirik edo e-posta helbiderik</string>
   <string name="import_from_sim_select">Hautatu inportatuko den txartela</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
   <string name="no_sdcard_title" product="nosdcard">Biltegiratzea ez dago eskuragarri</string>
   <!-- Dialog title shown when SD Card does not exist -->
+  <string name="no_sdcard_title" product="default">SD txartelik ez</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Ezabatu kontaktua?</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
   <string name="deleteConfirmation">Kontaktu hau ezabatu egingo da.</string>
   <string name="copy_done">Kontaktua ondo kopiatu da</string>
