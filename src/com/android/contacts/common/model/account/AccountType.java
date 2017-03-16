@@ -280,6 +280,9 @@ public abstract class AccountType {
     }
 
     public Drawable getDisplayIcon(Context context) {
+        if (PhoneAccountType.ACCOUNT_TYPE.equals(accountType)) {
+            return context.getResources().getDrawable(R.drawable.ic_smartphone_24dp);
+        }
         return getDisplayIcon(context, titleRes, iconRes, syncAdapterPackageName);
     }
 
