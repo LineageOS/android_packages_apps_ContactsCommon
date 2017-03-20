@@ -37,4 +37,7 @@
   <string name="copy_done">Kontakt został skopiowany pomyślnie</string>
   <string name="copy_failure">Kopiowanie kontaktu nie powiodło się</string>
   <string name="card_no_space">Kopiowanie kontaktu nie powiodło się, karta SIM jest pełna</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Lokalne konto tabletu</string>
+  <string name="local_storage_account" product="default">Lokalne konto telefonu</string>
 </resources>

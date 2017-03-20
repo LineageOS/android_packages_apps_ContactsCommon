@@ -49,4 +49,7 @@
   <string name="copy_done">Kontakt wurde erfolgreich kopiert</string>
   <string name="copy_failure">Kopieren des Kontakts fehlgeschlagen</string>
   <string name="card_no_space">Das Kopieren des Kontakts ist fehlgeschlagen, da die SIM-Karte voll ist.</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Lokales Tablet-Konto</string>
+  <string name="local_storage_account" product="default">Lokales Telefon-Konto</string>
 </resources>

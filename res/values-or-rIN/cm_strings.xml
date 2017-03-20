@@ -37,4 +37,7 @@
   <string name="copy_done">ସମ୍ପର୍କ ସଫଳତାର ସହିତ କପି ହୋଇଯାଇଛି</string>
   <string name="copy_failure">ସମ୍ପର୍କ କପି କରିବା ବିଫଳ ହୋଇଛି</string>
   <string name="card_no_space">ସମ୍ପର୍କ କପି କରିବା ବିଫଳ ହୋଇଛି, SIM କାର୍ଡ ପୂର୍ଣ୍ଣ ଅଛି</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">ଲୋକାଲ୍‍ ଟାବ୍‍ଲେଟ୍‍ ଆକାଉଣ୍ଟ</string>
+  <string name="local_storage_account" product="default">ଲୋକାଲ୍‍ ଫୋନ୍‍ ଆକାଉଣ୍ଟ</string>
 </resources>

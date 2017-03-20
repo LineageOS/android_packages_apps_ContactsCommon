@@ -37,4 +37,7 @@
   <string name="copy_done">ಸಂಪರ್ಕವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಕಲಿಸಲಾಗಿದೆ</string>
   <string name="copy_failure">ಸಂಪರ್ಕವನ್ನು ನಕಲಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ</string>
   <string name="card_no_space">ಸಂಪರ್ಕವನ್ನು ನಕಲಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ, ಸಿಮ್ ಕಾರ್ಡ್ ಭರ್ತಿಯಾಗಿದೆ</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">ಸ್ಥಳೀಯ ಟ್ಯಾಬ್ಲೆಟ್ ಖಾತೆ</string>
+  <string name="local_storage_account" product="default">ಸ್ಥಳೀಯ ಫೋನ್ ಖಾತೆ</string>
 </resources>

@@ -49,4 +49,7 @@
   <string name="copy_done">El contacte ha sigut copiat satisfactòriament</string>
   <string name="copy_failure">No s\'ha pogut copiar el contacte</string>
   <string name="card_no_space">No s\'ha pogut copiar el contacte, la targeta SIM és plena</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Compte local de la tauleta</string>
+  <string name="local_storage_account" product="default">Compte local del telèfon</string>
 </resources>

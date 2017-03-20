@@ -37,4 +37,7 @@
   <string name="copy_done">పరిచయం విజయవంతంగా కాపీ చేయబడింది</string>
   <string name="copy_failure">పరిచయాన్ని కాపీ చేయడం విఫలమయింది</string>
   <string name="card_no_space">పరిచయాన్ని కాపీ చేయడం విఫలమయింది, SIM కార్డ్ నిండిపోయింది</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">స్థానిక టాబ్లెట్ ఖాతా</string>
+  <string name="local_storage_account" product="default">స్థానిక ఫోన్ ఖాతా</string>
 </resources>

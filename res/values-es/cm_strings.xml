@@ -49,4 +49,7 @@
   <string name="copy_done">Contacto copiado correctamente</string>
   <string name="copy_failure">No se pudo copiar el contacto</string>
   <string name="card_no_space">No se pudieron copiar los contactos. La tarjeta SIM está llena</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Cuenta de tablet local</string>
+  <string name="local_storage_account" product="default">Cuenta de teléfono local</string>
 </resources>

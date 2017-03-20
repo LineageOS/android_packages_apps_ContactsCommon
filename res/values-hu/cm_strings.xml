@@ -49,4 +49,7 @@
   <string name="copy_done">A névjegy másolása sikeres</string>
   <string name="copy_failure">A névjegy másolása sikertelen</string>
   <string name="card_no_space">A névjegy másolása sikertelen, a SIM-kártya megtelt</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Helyi táblagép fiók</string>
+  <string name="local_storage_account" product="default">Helyi telefon fiók</string>
 </resources>

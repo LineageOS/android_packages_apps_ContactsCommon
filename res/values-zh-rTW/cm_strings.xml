@@ -49,4 +49,7 @@
   <string name="copy_done">已成功複製聯絡人</string>
   <string name="copy_failure">複製聯絡人失敗</string>
   <string name="card_no_space">複製聯絡人失敗，SIM 卡已滿</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">本機平板電腦帳戶</string>
+  <string name="local_storage_account" product="default">本機手機帳戶</string>
 </resources>

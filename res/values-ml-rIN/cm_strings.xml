@@ -37,4 +37,7 @@
   <string name="copy_done">കോണ്‍ടാക്റ്റ് വിജയകരമായി പകർത്തി</string>
   <string name="copy_failure">കോൺടാക്റ്റ് പകർത്തുന്നത് പരാജയപ്പെട്ടു</string>
   <string name="card_no_space">കോൺടാക്റ്റ് പകർത്തുന്നത് പരാജയപ്പെട്ടു, SIM കാർഡ് നിറഞ്ഞു</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">ലോക്കല്‍ ടാബ്ലെറ്റ് അക്കൗണ്ട്</string>
+  <string name="local_storage_account" product="default">ലോക്കല്‍ ഫോൺ അക്കൗണ്ട്</string>
 </resources>

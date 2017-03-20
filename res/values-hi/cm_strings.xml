@@ -36,4 +36,7 @@
   <string name="copy_done">संपर्क को सफलतापूर्वक कॉपी किया गया</string>
   <string name="copy_failure">संपर्क को कॉपी करना विफल हुआ</string>
   <string name="card_no_space">संपर्क को कॉपी करना विफल हुआ, सि कार्ड भर चुका है</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">स्थानीय टैब्लेट खाता</string>
+  <string name="local_storage_account" product="default">स्थानीय फ़ोन खाता</string>
 </resources>

@@ -49,4 +49,7 @@
   <string name="copy_done">Контактът е копиран успешно</string>
   <string name="copy_failure">Копирането на контакта се провали</string>
   <string name="card_no_space">Копирането на контакта се провали, защото СИМ картата е пълна</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Локален профил (на таблета)</string>
+  <string name="local_storage_account" product="default">Локален профил (на телефона)</string>
 </resources>

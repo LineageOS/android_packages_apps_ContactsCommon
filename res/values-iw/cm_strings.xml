@@ -49,4 +49,7 @@
   <string name="copy_done">איש הקשר הועתק בהצלחה</string>
   <string name="copy_failure">העתקת איש הקשר נכשלה</string>
   <string name="card_no_space">העתקת איש הקשר נכשלה, כרטיס ה-SIM מלא</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">חשבון טאבלט מקומי</string>
+  <string name="local_storage_account" product="default">חשבון טלפון מקומי</string>
 </resources>

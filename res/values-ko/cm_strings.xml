@@ -49,4 +49,7 @@
   <string name="copy_done">연락처가 성공적으로 복사되었습니다</string>
   <string name="copy_failure">연락처를 복사하지 못했습니다</string>
   <string name="card_no_space">SIM 카드가 가득 차 있어 연락처를 복사하지 못했습니다</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">로컬 태블릿 계정</string>
+  <string name="local_storage_account" product="default">로컬 휴대전화 계정</string>
 </resources>

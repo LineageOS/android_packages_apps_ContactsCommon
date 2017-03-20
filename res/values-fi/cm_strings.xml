@@ -49,4 +49,7 @@
   <string name="copy_done">Yhteystieto kopioitu onnistuneesti</string>
   <string name="copy_failure">Yhteystiedon kopioiminen epäonnistui</string>
   <string name="card_no_space">Yhteystiedon kopioiminen epäonnistui, SIM-kortti on täynnä</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Paikallinen tablet-tili</string>
+  <string name="local_storage_account" product="default">Paikallinen puhelin-tili</string>
 </resources>

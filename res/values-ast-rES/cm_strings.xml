@@ -43,4 +43,7 @@
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
   <string name="deleteConfirmation">Desaniciaráse esti contautu.</string>
   <string name="copy_failure">Falló la copia del contautu</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Cuenta llocal de la tableta</string>
+  <string name="local_storage_account" product="default">Cuenta llocal del teléfonu</string>
 </resources>

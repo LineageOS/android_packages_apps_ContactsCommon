@@ -37,4 +37,7 @@
   <string name="copy_done">คัดลอกรายชื่อติดต่อเสร็จสมบูรณ์</string>
   <string name="copy_failure">คัดลอกรายชื่อล้มเหลว</string>
   <string name="card_no_space">คัดลอกรายชื่อล้มเหลว ซิมการ์ดเต็ม</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">บัญชีภายในแท็บเล็ต</string>
+  <string name="local_storage_account" product="default">บัญชีภายในโทรศัพท์</string>
 </resources>

@@ -37,4 +37,7 @@
   <string name="copy_done">Кантакт паспяхова скапіяваны</string>
   <string name="copy_failure">Капіяванне кантакту не атрымалася</string>
   <string name="card_no_space">Капіяванне кантакту не атрымалася, SIM-картка запоўнена</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Лакальны ўліковы запіс планшэта</string>
+  <string name="local_storage_account" product="default">Лакальны ўліковы запіс тэлефона</string>
 </resources>

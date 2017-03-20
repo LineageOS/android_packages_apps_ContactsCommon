@@ -36,4 +36,7 @@
   <string name="copy_done">Şəxs uğurla kopyalandı</string>
   <string name="copy_failure">Şəxs kopyalanmadı</string>
   <string name="card_no_space">Şəxs kopyalanmadı, SIM kart dolub</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Yerli planşet hesabı</string>
+  <string name="local_storage_account" product="default">Yerli telefon hesabı</string>
 </resources>

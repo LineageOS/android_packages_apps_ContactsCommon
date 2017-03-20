@@ -49,4 +49,7 @@
   <string name="copy_done">Контакт скопирован</string>
   <string name="copy_failure">Не удалось скопировать контакт</string>
   <string name="card_no_space">Не удалось скопировать контакт, SIM-карта заполнена</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Локальный аккаунт планшета</string>
+  <string name="local_storage_account" product="default">Локальный аккаунт телефона</string>
 </resources>

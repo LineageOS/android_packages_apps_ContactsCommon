@@ -36,4 +36,7 @@
   <string name="copy_done">Kontaktas buvo sėkmingai nukopijuotas</string>
   <string name="copy_failure">Nepavyko nukopijuoti kontakto</string>
   <string name="card_no_space">Nepavyko nukopijuoti kontakto, SIM kortelė yra pilna</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Vietinė planšetinio kompiuterio paskyra</string>
+  <string name="local_storage_account" product="default">Vietinė telefono paskyra</string>
 </resources>

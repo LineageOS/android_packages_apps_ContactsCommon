@@ -49,4 +49,7 @@
   <string name="copy_done">Kontakt bol úspešne skopírovaný</string>
   <string name="copy_failure">Kopírovanie kontaktu zlyhalo</string>
   <string name="card_no_space">Kopírovanie kontaktu zlyhalo, karta SIM je plná</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Miestny účet tabletu</string>
+  <string name="local_storage_account" product="default">Miestny účet telefónu</string>
 </resources>

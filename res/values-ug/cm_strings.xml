@@ -37,4 +37,7 @@
   <string name="copy_done">ئالاقەداش مۇۋەپپەقىيەتلىك كۆچۈرۈلدى</string>
   <string name="copy_failure">ئالاقەداشنى كۆچۈرەلمىدى</string>
   <string name="card_no_space">ئالاقەداشنى كۆچۈرەلمىدى، SIM كارتا لىق</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">يەرلىك تاختا كومپيۇتېر ھېساباتى</string>
+  <string name="local_storage_account" product="default">يەرلىك تېلېفون ھېساباتى</string>
 </resources>

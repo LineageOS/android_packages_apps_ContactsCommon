@@ -36,4 +36,7 @@
   <string name="copy_done">ناوەکان بەسەرکەوتووی لەبەریگیرایەوە</string>
   <string name="copy_failure">لەبەرگرتنەوەی ناوەکان سەرکەوتونەبوو</string>
   <string name="card_no_space">لەبەرگرتنەوەی ناوەکان سەرکەوتونەبو. سیمکارتەکە پڕە</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">هەژماری ناوخۆی تاتەبژمێر</string>
+  <string name="local_storage_account" product="default">هەژماری ناوخۆی تەلەفۆن</string>
 </resources>

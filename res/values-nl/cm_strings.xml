@@ -49,4 +49,7 @@
   <string name="copy_done">Contact kopiëren gelukt</string>
   <string name="copy_failure">Contact kopiëren mislukt</string>
   <string name="card_no_space">Contact kopiëren mislukt, simkaart vol</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Lokaal tabletaccount</string>
+  <string name="local_storage_account" product="default">Lokaal telefoonaccount</string>
 </resources>

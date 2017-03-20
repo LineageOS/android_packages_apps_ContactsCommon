@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Експорт до SIM-картки</string>
+  <string name="export_to_sim">Експорт до SIM-карти</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
   <string name="import_from_sdcard" product="default">Імпортувати з накопичувача</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
@@ -29,9 +29,9 @@
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> із <xliff:g id="total_number">%2$s</xliff:g> файлів</string>
   <string name="export_to_sim_failed">Помилка експортування, <xliff:g id="insertCount">%d</xliff:g> елементів було експортовано</string>
   <string name="sim_contact_export_failed">Не вдалося виконати експортування контактів (ім\'я: <xliff:g id="name">%1$s </xliff:g>, номер: <xliff:g id="number">%2$s </xliff:g>, електронна пошта: <xliff:g id="email">%3$s </xliff:g>)</string>
-  <string name="export_sim_card_full">SIM карта заповнена, <xliff:g id="insertCount">%d</xliff:g> елементів було експортовано</string>
+  <string name="export_sim_card_full">SIM-карта заповнена, <xliff:g id="insertCount">%d</xliff:g> елементів було експортовано</string>
   <string name="export_failed">Не вдалося експортувати</string>
-  <string name="sim_card_full">SIM карта заповнена</string>
+  <string name="sim_card_full">SIM-карта заповнена</string>
   <string name="export_finished">Експорт завершено</string>
   <string name="tag_too_long">Ім\'я контакту занадто довге</string>
   <string name="sim_contacts_not_loaded">Не вдається завантажити контакти SIM-карти</string>
@@ -49,4 +49,7 @@
   <string name="copy_done">Контакт було успішно скопійовано</string>
   <string name="copy_failure">Не вдалося скопіювати контакт</string>
   <string name="card_no_space">Копіювання контактів не вдалося, SIM-карта заповнена</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Локальний обліковий запис планшета</string>
+  <string name="local_storage_account" product="default">Локальний обліковий запис телефону</string>
 </resources>

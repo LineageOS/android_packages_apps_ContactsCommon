@@ -37,4 +37,7 @@
   <string name="copy_done">تم نسخ جهة الاتصال بنجاح</string>
   <string name="copy_failure">فشل نسخ جهة الاتصال</string>
   <string name="card_no_space">فشل نسخ جهة الاتصال، بطاقة SIM ممتلئة</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">حساب الجهاز اللوحي المحلي</string>
+  <string name="local_storage_account" product="default">حساب الهاتف المحلي</string>
 </resources>

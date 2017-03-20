@@ -39,4 +39,7 @@
   <string name="copy_done">Контакт је копиран успешно</string>
   <string name="copy_failure">Копирање контакта није успело</string>
   <string name="card_no_space">Копирање контакта није успело, SIM картица је пуна</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Локални налог таблета</string>
+  <string name="local_storage_account" product="default">Локални налог телефона</string>
 </resources>

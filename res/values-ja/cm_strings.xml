@@ -49,4 +49,7 @@
   <string name="copy_done">連絡先のコピーが完了しました</string>
   <string name="copy_failure">連絡先をコピーできませんでした</string>
   <string name="card_no_space">連絡先をコピーできませんでした、SIMカードがいっぱいです</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">端末のローカルアカウント</string>
+  <string name="local_storage_account" product="default">端末のローカルアカウント</string>
 </resources>

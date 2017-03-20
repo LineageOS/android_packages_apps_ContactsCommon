@@ -40,4 +40,7 @@
   <string name="copy_done">Kontakten kopierades</string>
   <string name="copy_failure">Kopiering av kontakten misslyckades</string>
   <string name="card_no_space">Kopiering av kontakten misslyckades, SIM-kortet är fullt</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Lokalt surfplattekonto</string>
+  <string name="local_storage_account" product="default">Lokalt telefonkonto</string>
 </resources>

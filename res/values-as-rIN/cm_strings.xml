@@ -37,4 +37,7 @@
   <string name="copy_done">যোগাযোগ সফলভাবে কপি কৰা হৈছিল</string>
   <string name="copy_failure">যোগাযোগ কপি কৰা ব্যৰ্থ হৈছে</string>
   <string name="card_no_space">যোগাযোগ কপি কৰা ব্যৰ্থ হৈছে, SIM কাৰ্ড পূৰ্ণ আছে</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">স্থানীয় টেবলেট একাউণ্ট</string>
+  <string name="local_storage_account" product="default">স্থানীয় ফোন একাউণ্ট</string>
 </resources>

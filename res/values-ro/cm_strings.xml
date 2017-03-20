@@ -49,4 +49,7 @@
   <string name="copy_done">Contactul a fost copiat cu succes</string>
   <string name="copy_failure">Copierea contactului a eșuat</string>
   <string name="card_no_space">Copierea contactului a eșuat, cartela SIM este plină</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Cont local tabletă</string>
+  <string name="local_storage_account" product="default">Cont local telefon</string>
 </resources>

@@ -25,4 +25,6 @@
   <!-- Dialog title shown when SD Card does not exist -->
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">স্থানীয় ট্যাবলেট একাউন্ট</string>
 </resources>

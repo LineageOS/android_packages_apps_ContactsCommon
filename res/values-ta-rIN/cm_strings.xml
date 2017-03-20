@@ -37,4 +37,7 @@
   <string name="copy_done">தொடர்பு வெற்றிகரமாக நகல்செய்யப்பட்டது</string>
   <string name="copy_failure">தொடர்பை நகல்செய்தல் தோல்வியுற்றது</string>
   <string name="card_no_space">தொடர்பை நகல்செய்தல் தோல்வியுற்றது, Sim கார்டு நிரம்பியுள்ளது</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">உள்ளூர் டேப்ளட் கணக்கு</string>
+  <string name="local_storage_account" product="default">உள்ளூர் தொலைப்பேசி கணக்கு</string>
 </resources>

@@ -49,4 +49,7 @@
   <string name="copy_done">Kişi başarıyla kopyalandı</string>
   <string name="copy_failure">Kişi kopyalanamadı</string>
   <string name="card_no_space">Kişi kopyalanamadı, SIM kart dolu</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Yerel tablet hesabı</string>
+  <string name="local_storage_account" product="default">Yerel telefon hesabı</string>
 </resources>

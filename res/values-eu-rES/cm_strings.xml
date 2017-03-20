@@ -49,4 +49,7 @@
   <string name="copy_done">Kontaktua ondo kopiatu da</string>
   <string name="copy_failure">Kontaktuaren kopiak huts egin du</string>
   <string name="card_no_space">Kontaktuaren kopiak huts egin du, SIM txartela beteta dago</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Tabletaren tokiko kontua</string>
+  <string name="local_storage_account" product="default">Telefonoaren tokiko kontua</string>
 </resources>

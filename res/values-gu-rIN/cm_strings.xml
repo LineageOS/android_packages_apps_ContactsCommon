@@ -37,4 +37,7 @@
   <string name="copy_done">સંપર્ક સફળતાપૂર્વક કૉપિ કરવામાં આવ્યું</string>
   <string name="copy_failure">સંપર્ક કૉપિ થવામાં નિષ્ફળ</string>
   <string name="card_no_space">સંપર્ક કૉપિ થવામાં નિષ્ફળ, SIM કાર્ડ પૂર્ણ ભરેલ છે</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">સ્થાનિક ટૅબ્લેટ ખાતું</string>
+  <string name="local_storage_account" product="default">સ્થાનિક ફોન ખાતું</string>
 </resources>

@@ -180,6 +180,7 @@
          [CHAR LIMIT=NONE] -->
   <!-- Content description for the expand or collapse phonetic name fields button. [CHAR LIMIT=100] -->
   <!-- Contact list filter label indicating that the list is showing all available accounts [CHAR LIMIT=64] -->
+  <string name="list_filter_all_accounts">Tolos contautos</string>
   <!-- Contact list filter label indicating that the list is showing all starred contacts [CHAR LIMIT=64] -->
   <!-- Contact list filter selection indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
   <!-- Contact list filter selection indicating that the list shows only the selected contact [CHAR LIMIT=64] -->
@@ -309,6 +310,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!--Label of the "Sync contact metadata" setting dialog to set sync account for Lychee. [CHAR LIMIT=80]-->
   <!-- Label of the "About" setting -->
   <!-- Title of the settings activity [CHAR LIMIT=64] -->
+  <string name="activity_title_settings">Axustes</string>
   <!-- Action that shares visible contacts -->
   <!-- A framework exception (ie, transaction too large) can be thrown while attempting to share all visible contacts. If so, show this toast. -->
   <!-- Action that shares favorite contacts [CHAR LIMIT=40]-->
@@ -342,6 +344,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <string name="tab_font_family">sans-serif</string>
   <!-- Attribution of a contact status update, when the time of update is unknown -->
   <!-- Attribution of a contact status update, when the time of update is known -->
+  <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> per <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
   <!-- Font family used when drawing letters for letter tile avatars.
          Do not translate. -->
   <!-- Content description for the fake action menu up button as used

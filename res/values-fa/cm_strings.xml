@@ -36,4 +36,7 @@
   <string name="copy_done">مخاطب با موفقیت کپی شد</string>
   <string name="copy_failure">کپی مخاطب ناموفق بود</string>
   <string name="card_no_space">نمی‌توان مخاطب را کپی کرد، سیم کارت پر است</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">حساب محلی تبلت</string>
+  <string name="local_storage_account" product="default">حساب محلی گوشی</string>
 </resources>

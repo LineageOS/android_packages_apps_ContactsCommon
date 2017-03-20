@@ -49,4 +49,7 @@
   <string name="copy_done">Số liên lạc đã được sao chép thành công</string>
   <string name="copy_failure">Sao chép số liên lạc đã thất bại</string>
   <string name="card_no_space">Sao chép số liên lạc đã thất bại, thẻ SIM đã đầy</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Tài khoản máy tính bảng nội bộ</string>
+  <string name="local_storage_account" product="default">Tài khoản điện thoại nội bộ</string>
 </resources>

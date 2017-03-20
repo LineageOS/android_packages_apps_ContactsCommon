@@ -36,4 +36,7 @@
   <string name="copy_done">Contact was copied successfully</string>
   <string name="copy_failure">Copying the contact failed</string>
   <string name="card_no_space">Copying the contact failed, SIM card is full</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Local tablet account</string>
+  <string name="local_storage_account" product="default">Local phone account</string>
 </resources>

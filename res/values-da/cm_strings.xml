@@ -37,4 +37,7 @@
   <string name="copy_done">Kontakt blev kopieret korrekt</string>
   <string name="copy_failure">Kopiering af kontaktpersonen mislykkedes</string>
   <string name="card_no_space">Kopiering af kontaktpersonen mislykkedes, SIM-kortet er fyldt</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Lokal tabletkonto</string>
+  <string name="local_storage_account" product="default">Lokal telefonkonto</string>
 </resources>

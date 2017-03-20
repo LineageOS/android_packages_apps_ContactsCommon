@@ -49,4 +49,7 @@
   <string name="copy_done">Stik je bil uspešno kopiran</string>
   <string name="copy_failure">Kopiranje stika je spodletelo</string>
   <string name="card_no_space">Kopiranje stika je spodletelo, kartica SIM je polna</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Lokalni račun tablice</string>
+  <string name="local_storage_account" product="default">Lokalni račun telefona</string>
 </resources>

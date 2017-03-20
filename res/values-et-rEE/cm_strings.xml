@@ -37,4 +37,7 @@
   <string name="copy_done">Kontakt kopeeriti edukalt</string>
   <string name="copy_failure">Kontakti kopeerimine nurjus</string>
   <string name="card_no_space">Kontakti kopeerimine nurjus, SIM-kaart on täis</string>
+  <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Kohalik tahvli konto</string>
+  <string name="local_storage_account" product="default">Kohalik telefoni konto</string>
 </resources>
