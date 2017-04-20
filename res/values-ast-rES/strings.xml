@@ -108,6 +108,7 @@
          [CHAR LIMIT=20] -->
   <!-- Field title for the full name of a contact [CHAR LIMIT=64]-->
   <!-- Field title for the given name of a contact -->
+  <string name="name_given">Nome</string>
   <!-- Field title for the family name of a contact -->
   <!-- Field title for the prefix name of a contact -->
   <!-- Field title for the middle name of a contact -->
@@ -301,14 +302,18 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Contact preferences related strings -->
   <!-- Label of the "sort by" display option -->
   <!-- An allowable value for the "sort list by" contact display option  -->
+  <string name="display_options_sort_by_given_name">Nome</string>
   <!-- An allowable value for the "sort list by" contact display option  -->
   <!-- Label of the "name format" display option [CHAR LIMIT=64]-->
   <!-- An allowable value for the "view names as" contact display option  -->
+  <string name="display_options_view_given_name_first">Primero\'l nome</string>
   <!-- An allowable value for the "view names as" contact display option  -->
+  <string name="display_options_view_family_name_first">Primeru los apellíos</string>
   <!--Label of the "default account" setting option to set default editor account. [CHAR LIMIT=80]-->
   <!--Label of the "Sync contact metadata" setting option to set sync account for Lychee. [CHAR LIMIT=80]-->
   <!--Label of the "Sync contact metadata" setting dialog to set sync account for Lychee. [CHAR LIMIT=80]-->
   <!-- Label of the "About" setting -->
+  <string name="setting_about">Tocante a Contautos</string>
   <!-- Title of the settings activity [CHAR LIMIT=64] -->
   <string name="activity_title_settings">Axustes</string>
   <!-- Action that shares visible contacts -->
@@ -331,6 +336,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          This is especially valuable for views without textual representation like ImageView.
 
          [CHAR LIMIT=NONE] -->
+  <string name="contactsFavoritesLabel">Favoritos</string>
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "All contacts" is selected  [CHAR LIMIT=64]-->
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Custom" is selected  [CHAR LIMIT=64]-->
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when starred contact list is selected  [CHAR LIMIT=64]-->
@@ -338,6 +344,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!--  The menu item to clear frequents [CHAR LIMIT=30] -->
   <!-- Menu item to select SIM card -->
   <!-- The menu item to open the list of accounts. [CHAR LIMIT=60]-->
+  <string name="menu_accounts">Xestionar cuentes</string>
   <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card.  [CHAR LIMIT=30]-->
   <!-- The font-family to use for tab text.
          Do not translate. -->
