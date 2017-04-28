@@ -58,5 +58,6 @@
   <string name="block_dialog_report_spam">Rapportera som spam till <xliff:g id="provider">%s</xliff:g></string>
   <string name="block_dialog_report_nonspam">Rapportera som icke-spam till <xliff:g id="provider">%s</xliff:g></string>
   <string name="plugin_login_button_title">Logga in</string>
+  <string name="plugin_empty_list_text">Du har inga <xliff:g id="plugin_name">%s</xliff:g> kontakter,\n</string>
   <string name="plugin_empty_list_action_text">lägg till personer</string>
 </resources>

@@ -45,7 +45,7 @@
   <string name="no_ip_number">Sense número IP</string>
   <string name="no_ip_number_on_sim_card">Sense número IP a la targeta SIM</string>
   <string name="set_ip_number">Estableix un número IP</string>
-  <string name="ipcall_dialog_title">Ajustaments de trucada IP</string>
+  <string name="ipcall_dialog_title">Configuració de trucada IP</string>
   <string name="ipcall_dialog_edit_hint">Si us plau introdueix el prefix IP</string>
   <string name="menu_block_contact">Bloqueja</string>
   <string name="menu_unblock_contact">Desbloqueja</string>

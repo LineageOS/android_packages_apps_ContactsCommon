@@ -22,9 +22,9 @@
     <item quantity="other">Помилка експортування, <xliff:g id="insertCount">%d</xliff:g> елементів було експортовано</item>
   </plurals>
   <plurals name="export_sim_card_full">
-    <item quantity="one">SIM-картка переповнена, <xliff:g id="insertCount">%d</xliff:g> елемент було експортовано</item>
-    <item quantity="few">SIM-картка переповнена, <xliff:g id="insertCount">%d</xliff:g> елементи було експортовано</item>
-    <item quantity="other">SIM-картка переповнена, <xliff:g id="insertCount">%d</xliff:g> елементів було експортовано</item>
+    <item quantity="one">SIM-карта переповнена, <xliff:g id="insertCount">%d</xliff:g> елемент було експортовано</item>
+    <item quantity="few">SIM-карта переповнена, <xliff:g id="insertCount">%d</xliff:g> елементи було експортовано</item>
+    <item quantity="other">SIM-карта переповнена, <xliff:g id="insertCount">%d</xliff:g> елементів було експортовано</item>
   </plurals>
   <plurals name="export_cancelled">
     <item quantity="one">Експорт скасовано, <xliff:g id="insertCount">%d</xliff:g> елемент було експортовано</item>
@@ -34,6 +34,6 @@
   <plurals name="spam_count_text">
     <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> людина позначила це як спам</item>
     <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> людини позначили це як спам</item>
-    <item quantity="other"><xliff:g id="spamCount">%d </xliff:g> людина позначила це як спам</item>
+    <item quantity="other"><xliff:g id="spamCount">%d </xliff:g> людей позначили це як спам</item>
   </plurals>
 </resources>

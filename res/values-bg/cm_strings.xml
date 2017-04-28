@@ -32,7 +32,7 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
           The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> от <xliff:g id="total_number">%2$s</xliff:g> файла</string>
-  <string name="export_finished">Експортирането  завърши</string>
+  <string name="export_finished">Експортирането завърши</string>
   <string name="tag_too_long">Името на контакта е твърде дълго</string>
   <string name="sim_contacts_not_loaded">Зареждането на контактите от СИМ картата не е възможно</string>
   <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> няма телефонен номер или имейл адрес</string>

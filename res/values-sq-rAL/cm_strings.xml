@@ -17,11 +17,48 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Virtual local storage account name -->
+  <string name="local_storage_account" product="tablet">Llogaria lokale e tabletës</string>
+  <string name="local_storage_account" product="default">Llogaria lokale e telefonit</string>
   <!-- Action that exports all contacts to SIM -->
+  <string name="export_to_sim">Eksporto te karta SIM</string>
   <!-- Action string for selecting a SIM subscription for exporting contacts -->
+  <string name="export_to_sim_summary">Eksporto te karta SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
   <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
+  <string name="export_to_sim_summary_no_number">Eksporto te karta SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
+  <string name="share_failed">Më shumë kontakte se ç\'lejohet! Ndarja dështoi</string>
+  <string name="label_groups">Grup</string>
+  <string name="exporting">Duke eksportuar\u2026</string>
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
           The order of "current number" and "total number" cannot be changed -->
+  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> nga <xliff:g id="total_number">%2$s</xliff:g> skedarë</string>
+  <string name="export_finished">Eksportimi mbaroi</string>
+  <string name="tag_too_long">Emri i kontaktit është shumë i gjatë</string>
+  <string name="sim_contacts_not_loaded">Ngarkimi i kontakteve të kartës SIM nuk është i mundur</string>
+  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nuk ka një numër telefoni apo një adresë email-i</string>
+  <string name="import_from_sim_select">Zgjidh kartën për të importuar</string>
+  <string name="copy_done">Kontakti u kopjua me sukses</string>
+  <string name="copy_failure">Kopjimi i kontaktit dështoi</string>
+  <string name="card_no_space">Kopjimi i kontaktit dështoi. Karta SIM është plot</string>
   <!-- Menu item used to initiate ip call -->
+  <string name="ip_call_by_slot">Thirrje IP mbi <xliff:g id="subName">%s</xliff:g></string>
+  <string name="no_ip_number">Asnjë numër IP</string>
+  <string name="no_ip_number_on_sim_card">Asnjë numër IP në kartën SIM</string>
+  <string name="set_ip_number">Cakto numrin IP</string>
+  <string name="ipcall_dialog_title">Parametrat e thirrjeve IP</string>
+  <string name="ipcall_dialog_edit_hint">Vendosni prefiksin IP</string>
+  <string name="menu_block_contact">Blloko</string>
+  <string name="menu_unblock_contact">Zhblloko</string>
+  <string name="block_dialog_title">Dëshiron ta bllokosh këtë kontakt?</string>
+  <string name="unblock_dialog_title">Dëshiron ta zhbllokosh këtë kontakt?</string>
+  <string name="block_dialog_positive">Blloko</string>
+  <string name="unblock_dialog_positive">Zhblloko</string>
+  <string name="block_dialog_negative">Anullo</string>
+  <string name="block_dialog_description">Ju nuk do të merrni më thirrje apo mesazhe nga ky person.</string>
+  <string name="block_dialog_report_spam">Raporto si spam te <xliff:g id="provider">%s</xliff:g></string>
+  <string name="block_dialog_report_nonspam">Raport si jo-spam te <xliff:g id="provider">%s</xliff:g></string>
+  <string name="plugin_login_msg">Hyr në <xliff:g id="plugin_name">%1$s</xliff:g> për të parë kontaket e <xliff:g id="plugin_name">%1$s</xliff:g> këtu</string>
+  <string name="plugin_login_button_title">Hyr</string>
+  <string name="plugin_empty_list_text">Ju nuk keni kontakte <xliff:g id="plugin_name">%s</xliff:g>,\n</string>
+  <string name="plugin_empty_list_action_text">shto njerëz</string>
 </resources>
