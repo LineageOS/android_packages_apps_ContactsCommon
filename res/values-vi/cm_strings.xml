@@ -17,9 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Xuất đến thẻ SIM</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
-  <string name="import_from_sdcard" product="default">Nhập từ bô nhớ</string>
+  <string name="import_from_sdcard" product="default">Nhập từ lưu trữ</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
-  <string name="export_to_sdcard" product="default">Xuất ra bộ nhớ</string>
+  <string name="export_to_sdcard" product="default">Xuất sang lưu trữ</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Quá nhiều số liên lạc, chia sẻ thất bại</string>
   <string name="label_groups">Nhóm</string>
@@ -39,7 +39,7 @@
   <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> không có số điện thoại hoặc địa chỉ email</string>
   <string name="import_from_sim_select">Chọn thẻ để nhập</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
-  <string name="no_sdcard_title" product="nosdcard">Bộ nhớ không có sẵn</string>
+  <string name="no_sdcard_title" product="nosdcard">Lưu trữ không có sẵn</string>
   <!-- Dialog title shown when SD Card does not exist -->
   <string name="no_sdcard_title" product="default">Không có thẻ SD</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
