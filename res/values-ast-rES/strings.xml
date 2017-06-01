@@ -354,6 +354,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> per <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
   <!-- Font family used when drawing letters for letter tile avatars.
          Do not translate. -->
+  <string name="letter_tile_letter_font_family">sans-serif-medium</string>
   <!-- Content description for the fake action menu up button as used
      inside search. [CHAR LIMIT=NONE] -->
   <!--  String describing the icon used to clear the search field -->
