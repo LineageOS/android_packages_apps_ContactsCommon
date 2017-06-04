@@ -55,8 +55,8 @@
   <string name="unblock_dialog_positive">Opphev blokkering</string>
   <string name="block_dialog_negative">Avbryt</string>
   <string name="block_dialog_description">Du vil ikke lenger motta samtaler eller meldinger fra denne personen.</string>
-  <string name="block_dialog_report_spam">Rapporter som ikke-spam til <xliff:g id="provider">%s </xliff:g></string>
-  <string name="block_dialog_report_nonspam">Rapporter som ikke-spam til <xliff:g id="provider">%s </xliff:g></string>
+  <string name="block_dialog_report_spam">Rapporter som søppelpost til <xliff:g id="provider">%s</xliff:g></string>
+  <string name="block_dialog_report_nonspam">Rapporter som ikke-søppelpost til <xliff:g id="provider">%s </xliff:g></string>
   <string name="plugin_login_msg">Logg inn i <xliff:g id="plugin_name">%1$s</xliff:g> for å se dine <xliff:g id="plugin_name">%1$s</xliff:g> kontakter her</string>
   <string name="plugin_login_button_title">Logg inn</string>
   <string name="plugin_empty_list_text">Du har ingen <xliff:g id="plugin_name">%s</xliff:g> kontakter,\n</string>
