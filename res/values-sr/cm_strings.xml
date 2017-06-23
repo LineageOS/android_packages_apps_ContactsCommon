@@ -31,13 +31,13 @@
   <string name="exporting">Извоз\u2026</string>
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
           The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> од <xliff:g id="total_number">%2$s</xliff:g> фајлова</string>
+  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> oд <xliff:g id="total_number">%2$s</xliff:g> фајлова</string>
   <string name="export_finished">Извоз завршен</string>
-  <string name="tag_too_long">Име контакта је предуго</string>
-  <string name="sim_contacts_not_loaded">Не могу учитати SIM контакте</string>
+  <string name="tag_too_long">Име контакта је предугачко</string>
+  <string name="sim_contacts_not_loaded">Не могу да учитам контакте са SIM картице</string>
   <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> нема број телефона или адресу е-поште</string>
   <string name="import_from_sim_select">Изабери картицу за увоз</string>
-  <string name="copy_done">Контакт је копиран успешно</string>
+  <string name="copy_done">Контакт је успешно копиран</string>
   <string name="copy_failure">Копирање контакта није успело</string>
   <string name="card_no_space">Копирање контакта није успело, SIM картица је пуна</string>
   <!-- Menu item used to initiate ip call -->
