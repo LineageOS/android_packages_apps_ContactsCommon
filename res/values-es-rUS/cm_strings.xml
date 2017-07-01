@@ -48,7 +48,7 @@
   <string name="deleteConfirmation">Se borrará el contacto.</string>
   <string name="copy_done">El contacto fue copiado correctamente</string>
   <string name="copy_failure">No se pudo copiar el contacto</string>
-  <string name="card_no_space">Error al copiar el contacto, la tarjeta SIM está llena</string>
+  <string name="card_no_space">Error al copiar el contacto, tarjeta SIM llena</string>
   <!-- Virtual local storage account name -->
   <string name="local_storage_account" product="tablet">Cuenta local de la tableta</string>
   <string name="local_storage_account" product="default">Cuenta local del teléfono</string>
