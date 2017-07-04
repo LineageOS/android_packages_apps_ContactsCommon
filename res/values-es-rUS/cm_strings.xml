@@ -39,7 +39,7 @@
   <string name="import_from_sim_select">Elige una tarjeta para importar</string>
   <string name="copy_done">El contacto fue copiado correctamente</string>
   <string name="copy_failure">No se pudo copiar el contacto</string>
-  <string name="card_no_space">Error al copiar el contacto, la tarjeta SIM está llena</string>
+  <string name="card_no_space">Error al copiar el contacto, tarjeta SIM llena</string>
   <!-- Menu item used to initiate ip call -->
   <string name="ip_call_by_slot">Llamada IP vía <xliff:g id="subName">%s</xliff:g></string>
   <string name="no_ip_number">Sin número IP</string>
