@@ -39,7 +39,7 @@
   <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> bir telefon numarasına veya e-posta adresine sahip değil</string>
   <string name="import_from_sim_select">Alınacak kartı seç</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
-  <string name="no_sdcard_title" product="nosdcard">Depolama uygun değil</string>
+  <string name="no_sdcard_title" product="nosdcard">Depolama alanı kullanılamıyor</string>
   <!-- Dialog title shown when SD Card does not exist -->
   <string name="no_sdcard_title" product="default">SD kart yok</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
