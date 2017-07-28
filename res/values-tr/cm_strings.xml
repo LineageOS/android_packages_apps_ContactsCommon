@@ -54,7 +54,7 @@
   <string name="block_dialog_positive">Engelle</string>
   <string name="unblock_dialog_positive">Engeli kaldır</string>
   <string name="block_dialog_negative">İptal</string>
-  <string name="block_dialog_description">Artık bu kişiden çağrı ya da mesaj almayacaksınız.</string>
+  <string name="block_dialog_description">Artık bu kişiden arama ya da mesaj almayacaksınız.</string>
   <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g> sağlayıcısına spam olarak bildir</string>
   <string name="block_dialog_report_nonspam">Spam olmadığını bildirin <xliff:g id="provider">%s</xliff:g></string>
   <string name="plugin_login_msg">Buradaki <xliff:g id="plugin_name">%1$s</xliff:g> kişinizi görmek için <xliff:g id="plugin_name">%1$s</xliff:g> ile giriş yapın</string>
