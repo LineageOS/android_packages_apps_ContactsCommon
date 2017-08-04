@@ -132,6 +132,7 @@
          [CHAR LIMIT=20] -->
   <!-- Generic action string for text messaging a contact. Used by AccessibilityService to
          announce the purpose of the view. [CHAR LIMIT=NONE] -->
+  <string name="sms">Mensaxe de testu</string>
   <!-- Field title for the full postal address of a contact [CHAR LIMIT=64]-->
   <!-- Hint text for the organization name when editing -->
   <!-- Hint text for the organization title when editing -->
@@ -193,6 +194,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          group that would also cause all ungrouped contacts to stop syncing.  [CHAR LIMIT=NONE] -->
   <!-- Displayed in a spinner dialog as user changes to display options are saved -->
   <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
+  <string name="menu_done">Fecho</string>
   <!-- Menu item to indicate you want to cancel the current editing process and NOT save the changes you've made [CHAR LIMIT=12] -->
   <string name="menu_doNotSave">Encaboxar</string>
   <!-- Displayed at the top of the contacts showing the account filter selected  [CHAR LIMIT=64] -->
@@ -288,11 +290,13 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          when the file is given outside the Contacts app. [CHAR LIMIT=30] -->
   <!-- The message shown when vCard importer is caching files to be imported into local temporary
          data storage. [CHAR LIMIT=NONE] -->
+  <string name="caching_vcard_message">Atroxando vCard(s) nel almacenamientu temporal llocal. La importación aniciará ceo.</string>
   <!-- Message used when vCard import has failed. [CHAR LIMIT=40] -->
   <!-- The "file name" displayed for vCards received directly via NFC [CHAR LIMIT=16] -->
   <!-- Dialog title shown when a user confirms whether he/she export Contact data. [CHAR LIMIT=32] -->
   <!-- The title shown when vCard importer is caching files to be imported into local temporary
          data storage.  [CHAR LIMIT=40] -->
+  <string name="caching_vcard_title">Atroxando na caché</string>
   <!-- The message shown while importing vCard(s).
          First argument is current index of contacts to be imported.
          Second argument is the total number of contacts.
