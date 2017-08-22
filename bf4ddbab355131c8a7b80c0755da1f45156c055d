@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "03ae3114_cfee5698",
+        "filename": "src/com/android/contacts/common/vcard/VCardService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-08-22T19:05:27Z",
+      "side": 0,
+      "message": "String.valueOf(uri) should be safe.",
+      "revId": "bf4ddbab355131c8a7b80c0755da1f45156c055d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
