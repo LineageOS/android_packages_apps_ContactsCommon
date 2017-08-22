@@ -162,7 +162,7 @@ public class VCardService extends Service {
             final ArrayList<String> uris = new ArrayList<String>();
             final ArrayList<String> displayNames = new ArrayList<String>();
             for (ImportRequest request : requests) {
-                uris.add(request.uri.toString());
+                uris.add(request.uri != null : request.uri.toString() : "");
                 displayNames.add(request.displayName);
             }
             Log.d(LOG_TAG,
