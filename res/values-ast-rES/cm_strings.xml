@@ -51,6 +51,8 @@
   <string name="menu_unblock_contact">Desbloquiar</string>
   <string name="block_dialog_title">¿Bloquiar esti contautu?</string>
   <string name="unblock_dialog_title">¿Desbloquiar esti contautu?</string>
+  <string name="block_dialog_positive">Bloquiar</string>
+  <string name="unblock_dialog_positive">Desbloquiar</string>
   <string name="block_dialog_negative">Encaboxar</string>
   <string name="block_dialog_description">Yá nun recibirás más llamaes o mensaxes d\'esta persona.</string>
   <string name="plugin_login_button_title">Aniciar sesión</string>

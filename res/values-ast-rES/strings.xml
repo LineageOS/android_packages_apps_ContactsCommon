@@ -107,7 +107,6 @@
          [CHAR LIMIT=20] -->
   <!-- Field title for the full name of a contact [CHAR LIMIT=64]-->
   <!-- Field title for the given name of a contact -->
-  <string name="name_given">Nome</string>
   <!-- Field title for the family name of a contact -->
   <!-- Field title for the prefix name of a contact -->
   <!-- Field title for the middle name of a contact -->
@@ -179,7 +178,6 @@
          Middle Name, Last Name, Name Suffix).
          [CHAR LIMIT=NONE] -->
   <!-- Contact list filter label indicating that the list is showing all available accounts [CHAR LIMIT=64] -->
-  <string name="list_filter_all_accounts">Tolos contautos</string>
   <!-- Contact list filter label indicating that the list is showing all starred contacts [CHAR LIMIT=64] -->
   <!-- Contact list filter selection indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
   <!-- Contact list filter selection indicating that the list shows only the selected contact [CHAR LIMIT=64] -->
@@ -192,7 +190,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Displayed in a spinner dialog as user changes to display options are saved -->
   <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
   <!-- Menu item to indicate you want to cancel the current editing process and NOT save the changes you've made [CHAR LIMIT=12] -->
-  <string name="menu_doNotSave">Encaboxar</string>
   <!-- Displayed at the top of the contacts showing the account filter selected  [CHAR LIMIT=64] -->
   <!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
   <!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
@@ -201,6 +198,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Action string for selecting a SIM subscription for importing contacts, without a phone number -->
   <!-- Action string for selecting a .vcf file to import contacts from [CHAR LIMIT=30] -->
   <!-- Dialog message asking the user for confirmation before starting to import contacts from a .vcf file. [CHAR LIMIT=NONE] -->
+  <string name="import_from_vcf_file_confirmation_message" product="default">¿Importar contautos de la vCard?</string>
   <!-- Message shown in a Dialog confirming a user's cancel request toward existing vCard import.
          The argument is file name for the vCard import the user wants to cancel.
          [CHAR LIMIT=128] -->
@@ -209,6 +207,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          [CHAR LIMIT=128] -->
   <!-- Title shown in a Dialog telling users cancel vCard import/export operation is failed. [CHAR LIMIT=40] -->
   <!-- The failed reason which should not be shown but it may in some buggy condition. [CHAR LIMIT=40] -->
+  <string name="fail_reason_unknown">Fallu desconocíu.</string>
   <!-- The failed reason shown when vCard importer/exporter could not open the file
          specified by a user. The file name should be in the message. [CHAR LIMIT=NONE] -->
   <!-- The failed reason shown when contacts exporter fails to be initialized.
@@ -289,6 +288,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          when the file is given outside the Contacts app. [CHAR LIMIT=30] -->
   <!-- The message shown when vCard importer is caching files to be imported into local temporary
          data storage. [CHAR LIMIT=NONE] -->
+  <string name="caching_vcard_message">Atroxando vCard(s) nel almacenamientu temporal llocal. La importación aniciará ceo.</string>
   <!-- Message used when vCard import has failed. [CHAR LIMIT=40] -->
   <!-- The failure message shown when the system could not find any vCard file.
          (with extension ".vcf" in (USB) storage.)
@@ -300,6 +300,7 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Dialog title shown when a user confirms whether he/she export Contact data. [CHAR LIMIT=32] -->
   <!-- The title shown when vCard importer is caching files to be imported into local temporary
          data storage.  [CHAR LIMIT=40] -->
+  <string name="caching_vcard_title">Atroxando na caché</string>
   <!-- Dialog message shown when searching VCard data failed.
          An exact reason for the failure should [CHAR LIMIT=NONE] -->
   <!-- Dialog message shown when searching VCard data failed.
@@ -313,7 +314,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- Contact preferences related strings -->
   <!-- Label of the "sort by" display option -->
   <!-- An allowable value for the "sort list by" contact display option  -->
-  <string name="display_options_sort_by_given_name">Nome</string>
   <!-- An allowable value for the "sort list by" contact display option  -->
   <!-- Label of the "name format" display option [CHAR LIMIT=64]-->
   <!-- An allowable value for the "view names as" contact display option  -->
@@ -336,7 +336,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          This is especially valuable for views without textual representation like ImageView.
 
          [CHAR LIMIT=NONE] -->
-  <string name="contactsFavoritesLabel">Favoritos</string>
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "All contacts" is selected  [CHAR LIMIT=64]-->
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Custom" is selected  [CHAR LIMIT=64]-->
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when starred contact list is selected  [CHAR LIMIT=64]-->
@@ -344,7 +343,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!--  The menu item to clear frequents [CHAR LIMIT=30] -->
   <!-- Menu item to select SIM card -->
   <!-- The menu item to open the list of accounts -->
-  <string name="menu_accounts">Cuentes</string>
   <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card.  [CHAR LIMIT=30]-->
   <!-- The font-family to use for tab text.
          Do not translate. -->
@@ -354,7 +352,6 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> per <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
   <!-- Font family used when drawing letters for letter tile avatars.
          Do not translate. -->
-  <string name="letter_tile_letter_font_family">sans-serif-medium</string>
   <!-- Content description for the fake action menu up button as used
      inside search. [CHAR LIMIT=NONE] -->
   <!--  String describing the icon used to clear the search field -->
@@ -364,8 +361,10 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- The title of the preference section that allows users to configure how they want their
          contacts to be displayed. [CHAR LIMIT=128] -->
   <!-- Title for Select Account Dialog [CHAR LIMIT=30] -->
+  <string name="select_account_dialog_title">Cuenta</string>
   <!-- Label for the check box to toggle default sim card setting [CHAR LIMIT=35]-->
   <!-- Title for dialog to select Phone Account for outgoing call.  [CHAR LIMIT=40] -->
+  <string name="select_phone_account_for_calls">Llamar con</string>
   <!-- String used for actions in the dialer call log and the quick contact card to initiate
          a call to an individual.  The user is prompted to enter a note which is sent along with
          the call (e.g. a call subject). [CHAR LIMIT=40] -->
