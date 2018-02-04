@@ -17,7 +17,9 @@
   <!-- Action that exports all contacts to SIM -->
   <string name="export_to_sim">Εξαγωγή στην κάρτα SIM</string>
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
+  <string name="import_from_sdcard" product="default">Εισαγωγή από τον αποθ. χώρο</string>
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
+  <string name="export_to_sdcard" product="default">Εξαγωγή στον αποθ. χώρο</string>
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
   <string name="share_failed">Πάρα πολλές επαφές, η κοινή χρήση απέτυχε</string>
   <string name="label_groups">Ομάδα</string>
@@ -25,10 +27,15 @@
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> από <xliff:g id="total_number">%2$s</xliff:g> αρχεία</string>
+  <string name="export_to_sim_failed">Η εξαγωγή απέτυχε, εξήχθησαν <xliff:g id="insertCount">%d</xliff:g> στοιχεία</string>
+  <string name="sim_contact_export_failed">Η εξαγωγή της επαφής απέτυχε (όνομα: <xliff:g id="name">%1$s</xliff:g>, αριθμός: <xliff:g id="number">%2$s</xliff:g>, email: <xliff:g id="email">%3$s</xliff:g>)</string>
+  <string name="export_sim_card_full">Η κάρτα SIM είναι πλήρης, εξήχθησαν <xliff:g id="insertCount">%d</xliff:g> στοιχεία</string>
   <string name="export_failed">Η εξαγωγή απέτυχε</string>
+  <string name="sim_card_full">Η κάρτα SIM είναι πλήρης</string>
   <string name="export_finished">Η εξαγωγή ολοκληρώθηκε</string>
   <string name="tag_too_long">Το όνομα της επαφής είναι πολύ μεγάλο</string>
   <string name="sim_contacts_not_loaded">Δεν είναι δυνατή η φόρτωση των επαφών SIM</string>
+  <string name="export_cancelled">Η εξαγωγή ακυρώθηκε, εξήχθησαν <xliff:g id="insertCount">%s</xliff:g> στοιχεία</string>
   <string name="export_no_phone_or_email">Η επαφή <xliff:g id="name">%s</xliff:g> δεν έχει τηλεφωνικό αριθμό ή ηλεκτρονική διεύθυνση</string>
   <string name="import_from_sim_select">Επιλέξτε κάρτα για εισαγωγή</string>
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->

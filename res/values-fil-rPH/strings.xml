@@ -40,7 +40,6 @@
   <!-- Action string for calling an assistant phone number -->
   <!-- Action string for calling a MMS phone number -->
   <!-- Action string for calling a contact by shortcut -->
-  <string name="call_by_shortcut"><xliff:g id="contact_name">%s</xliff:g> (Galw)</string>
   <!-- Action string for sending an SMS to a custom phone number -->
   <!-- Action string for sending an SMS to a home phone number -->
   <!-- Action string for sending an SMS to a mobile phone number -->
@@ -63,7 +62,6 @@
   <!-- Action string for sending an SMS to an assistant phone number -->
   <!-- Action string for sending an SMS to a MMS phone number -->
   <!-- Action string for sending an SMS to a contact by shortcut -->
-  <string name="sms_by_shortcut"><xliff:g id="contact_name">%s</xliff:g> (Neges)</string>
   <!-- Description string for an action button to initiate a video call. -->
   <!-- Title of the confirmation dialog for clearing frequents. [CHAR LIMIT=37] -->
   <!-- Confirmation dialog for clearing frequents. [CHAR LIMIT=NONE] -->
@@ -72,22 +70,17 @@
   <!--  Used to display as default status when the contact is away or idle for chat [CHAR LIMIT=19] -->
   <!--  Used to display as default status when the contact is busy or Do not disturb for chat [CHAR LIMIT=19] -->
   <!-- Directory partition name (also exists in contacts) -->
-  <string name="contactsList">Cysylltiadau</string>
   <!-- The name of the invisible local contact directory -->
   <!-- The label in section header in the contact list for a contact directory [CHAR LIMIT=128] -->
   <!-- The label in section header in the contact list for a work contact directory [CHAR LIMIT=128] -->
-  <string name="directory_search_label_work">Cyfeiriadur gwaith</string>
   <!-- The label in section header in the contact list for a local contacts [CHAR LIMIT=128] -->
-  <string name="local_search_label">Pob cyswllt</string>
   <!-- String describing the text on the header of the profile contact in the contacts list
          This may be programatically capitalized. [CHAR LIMIT=20] -->
-  <string name="user_profile_contacts_list_header" msgid="9154761216179882405">Fi</string>
   <!-- Title shown in the search result activity of contacts app while searching.  [CHAR LIMIT=20]
          (also in contacts) -->
   <!-- Displayed at the top of search results indicating that more contacts were found than shown [CHAR LIMIT=64] -->
   <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected. [CHAR LIMIT=30]
          (also in contacts) -->
-  <string name="listFoundAllContactsZero">Dim cysylltiadau</string>
   <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
   <!-- String describing the text for photo of a contact in a contacts list.
 
@@ -103,11 +96,8 @@
 
        [CHAR LIMIT=NONE]
     -->
-  <string name="description_view_contact_detail" msgid="2795575601596468581">Gweld y cyswllt</string>
   <!-- Contact list filter selection indicating that the list shows all contacts with phone numbers [CHAR LIMIT=64] -->
-  <string name="list_filter_phones">Pob cyswllt gyda rhif ffôn</string>
   <!-- Contact list filter selection indicating that the list shows all work contacts with phone numbers [CHAR LIMIT=64] -->
-  <string name="list_filter_phones_work">Cysylltiadau proffil gwaith</string>
   <!-- Button to view the updates from the current group on the group detail page [CHAR LIMIT=25] -->
   <!-- Title for data source when creating or editing a contact that doesn't
          belong to a specific account.  This contact will only exist on the phone
@@ -139,7 +129,6 @@
   <!-- Header for the list of all relationships for a contact [CHAR LIMIT=20] -->
   <!-- Header that expands to list all event types when editing an event of a contact
          [CHAR LIMIT=20] -->
-  <string name="eventLabelsGroup">Dyddiad arbennig</string>
   <!-- Generic action string for text messaging a contact. Used by AccessibilityService to
          announce the purpose of the view. [CHAR LIMIT=NONE] -->
   <!-- Field title for the full postal address of a contact [CHAR LIMIT=64]-->
@@ -153,7 +142,6 @@
   <!-- Header for the list of all groups for a contact [CHAR LIMIT=20] -->
   <!-- Action string for sending an email to a home email address -->
   <!-- Action string for sending an email to a mobile email address -->
-  <string name="email_mobile">Ebost i symudol</string>
   <!-- Action string for sending an email to a work email address -->
   <!-- Action string for sending an email to an other email address -->
   <!-- Action string for sending an email to a custom email address -->
@@ -191,35 +179,27 @@
          Middle Name, Last Name, Name Suffix).
          [CHAR LIMIT=NONE] -->
   <!-- Content description for the expand or collapse phonetic name fields button. [CHAR LIMIT=100] -->
-  <string name="expand_collapse_phonetic_name_fields_description">Ehangu neu cwympo meysydd enwau ffonetig</string>
   <!-- Contact list filter label indicating that the list is showing all available accounts [CHAR LIMIT=64] -->
-  <string name="list_filter_all_accounts">Pob cyswllt</string>
   <!-- Contact list filter label indicating that the list is showing all starred contacts [CHAR LIMIT=64] -->
   <!-- Contact list filter selection indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
   <!-- Contact list filter selection indicating that the list shows only the selected contact [CHAR LIMIT=64] -->
-  <string name="list_filter_single">Cyswllt</string>
   <!-- List title for a special contacts group that covers all contacts. [CHAR LIMIT=25] -->
-  <string name="display_ungrouped">Pob cyswllt arall</string>
   <!-- List title for a special contacts group that covers all contacts that
 a        ren't members of any other group. [CHAR LIMIT=25] -->
-  <string name="display_all_contacts">Pob cyswllt</string>
   <!-- Warning message given to users just before they remove a currently syncing
          group that would also cause all ungrouped contacts to stop syncing.  [CHAR LIMIT=NONE] -->
   <!-- Displayed in a spinner dialog as user changes to display options are saved -->
   <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
   <!-- Menu item to indicate you want to cancel the current editing process and NOT save the changes you've made [CHAR LIMIT=12] -->
   <!-- Displayed at the top of the contacts showing the account filter selected  [CHAR LIMIT=64] -->
-  <string name="listAllContactsInAccount">Cysylltiadau gyda <xliff:g id="name" example="abc@gmail.com">%s</xliff:g></string>
   <!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
   <!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
   <!-- Message asking user to select an account to save contacts imported from vcard or SIM card [CHAR LIMIT=64] -->
-  <string name="dialog_new_contact_account">Cadw\'r cysylltiadau a fewnforiwyd i:</string>
   <!-- Action string for selecting SIM for importing contacts -->
   <!-- Action string for selecting a SIM subscription for importing contacts -->
   <!-- Action string for selecting a SIM subscription for importing contacts, without a phone number -->
   <!-- Action string for selecting a .vcf file to import contacts from [CHAR LIMIT=30] -->
   <!-- Dialog message asking the user for confirmation before starting to import contacts from a .vcf file. [CHAR LIMIT=NONE] -->
-  <string name="import_from_vcf_file_confirmation_message" product="default">Mewnforio cysylltiadau o vCard?</string>
   <!-- Message shown in a Dialog confirming a user's cancel request toward existing vCard import.
          The argument is file name for the vCard import the user wants to cancel.
          [CHAR LIMIT=128] -->
@@ -257,15 +237,12 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- The title shown when exporting vCard is successfuly finished [CHAR LIMIT=40] -->
   <!-- The title shown when exporting vCard has finished successfully but the destination filename could not be resolved. [CHAR LIMIT=NONE] -->
   <!-- The toast message shown when exporting vCard has finished and vCards are ready to be shared [CHAR LIMIT=150]-->
-  <string name="exporting_vcard_finished_toast">Wedi gorffen allforio cysylltiadau. Clicia\'r hysbysiad i rannu\'r cysylltiadau.</string>
   <!-- The message on notification shown when exporting vCard has finished and vCards are ready to be shared [CHAR LIMIT=60]-->
-  <string name="touch_to_share_contacts">Tara i rannu cysylltiadau.</string>
   <!-- The title shown when exporting vCard is canceled (probably by a user)
          The argument is file name the user canceled importing.
          [CHAR LIMIT=40] -->
   <!-- Dialog title shown when the application is exporting contact data outside. [CHAR LIMIT=NONE] -->
   <!-- Message shown when the application is exporting contact data outside -->
-  <string name="exporting_contact_list_message">Mae data cysylltiadau yn cael ei allforio.</string>
   <!-- The error reason the vCard composer "may" emit when database is corrupted or
          something is going wrong. Usually users should not see this text. [CHAR LIMIT=NONE] -->
   <!-- This error message shown when the user actually have no contact
@@ -302,11 +279,9 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
          [CHAR LIMIT=40] -->
   <!-- The message shown when a vCard export request is accepted but the destination filename could not be resolved. [CHAR LIMIT=NONE] -->
   <!-- The message shown when a vCard export request is accepted and contacts will be exported shortly. [CHAR LIMIT=70]-->
-  <string name="contacts_export_will_start_message">Caiff cysylltiadau eu hallforio\'n fuan.</string>
   <!-- The message shown when a given vCard export request is rejected by the system. [CHAR LIMIT=NONE] -->
   <!-- Used when file name is unknown in vCard processing. It typically happens
          when the file is given outside the Contacts app. [CHAR LIMIT=30] -->
-  <string name="vcard_unknown_filename">cyswllt</string>
   <!-- The message shown when vCard importer is caching files to be imported into local temporary
          data storage. [CHAR LIMIT=NONE] -->
   <!-- Message used when vCard import has failed. [CHAR LIMIT=40] -->
@@ -328,34 +303,24 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
   <!-- An allowable value for the "view names as" contact display option  -->
   <!-- An allowable value for the "view names as" contact display option  -->
   <!--Label of the "default account" setting option to set default editor account. [CHAR LIMIT=80]-->
-  <string name="default_editor_account">Cyfrif rhagosod ar gyfer cysylltiadau newydd</string>
   <!--Label of the "Sync contact metadata" setting option to set sync account for Lychee. [CHAR LIMIT=80]-->
-  <string name="sync_contact_metadata_title">Cysoni metaddata cysylltiadau [DOGFOOD]</string>
   <!--Label of the "Sync contact metadata" setting dialog to set sync account for Lychee. [CHAR LIMIT=80]-->
-  <string name="sync_contact_metadata_dialog_title">Cysoni metaddata cysylltiadau</string>
   <!-- Label of the "About" setting -->
-  <string name="setting_about">Ymghylch Cysylltiadau</string>
   <!-- Title of the settings activity [CHAR LIMIT=64] -->
-  <string name="activity_title_settings">Gosodiadau</string>
   <!-- Action that shares visible contacts -->
   <!-- A framework exception (ie, transaction too large) can be thrown while attempting to share all visible contacts. If so, show this toast. -->
   <!-- Action that shares favorite contacts [CHAR LIMIT=40]-->
-  <string name="share_favorite_contacts">Rhannu hoff cysylltiadau</string>
   <!-- Action that shares contacts [CHAR LIMIT=30]-->
-  <string name="share_contacts">Rhannu pob cyswllt</string>
   <!-- A framework exception can be thrown while attempting to share all contacts. If so, show this toast. [CHAR LIMIT=40]-->
-  <string name="share_contacts_failure">Methwyd rhannu cysylltiadau.</string>
   <!-- Dialog title when selecting the bulk operation to perform from a list. [CHAR LIMIT=36] -->
   <!-- Dialog title when importing contacts from an external source. [CHAR LIMIT=36] -->
   <!-- Toast indicating that sharing a contact has failed. [CHAR LIMIT=NONE]  -->
   <!-- Toast indicating that no visible contact to share [CHAR LIMIT=NONE]  -->
-  <string name="no_contact_to_share">Does dim cysylltiadau i\'w rhannu.</string>
   <!-- Menu item to search contacts -->
   <!-- The menu item to filter the list of contacts displayed -->
   <!-- Title of the activity that allows the uesr to filter the list of contacts displayed according to account [CHAR LIMIT=25] -->
   <!-- Title of the activity that allows the user to customize filtering of contact list [CHAR LIMIT=128] -->
   <!-- Query hint displayed inside the search field [CHAR LIMIT=64] -->
-  <string name="hint_findContacts">Canfod cysylltiadau</string>
   <!-- The description text for the favorites tab.
 
          Note: AccessibilityServices use this attribute to announce what the view represents.
@@ -363,15 +328,12 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
 
          [CHAR LIMIT=NONE] -->
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "All contacts" is selected  [CHAR LIMIT=64]-->
-  <string name="listTotalAllContactsZero">Dim cysylltiadau.</string>
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Custom" is selected  [CHAR LIMIT=64]-->
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when starred contact list is selected  [CHAR LIMIT=64]-->
-  <string name="listTotalAllContactsZeroStarred">Dim ffefrynnau</string>
   <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when a group or account is selected  [CHAR LIMIT=64]-->
   <!--  The menu item to clear frequents [CHAR LIMIT=30] -->
   <!-- Menu item to select SIM card -->
   <!-- The menu item to open the list of accounts. [CHAR LIMIT=60]-->
-  <string name="menu_accounts">Rheoli cyfrifon</string>
   <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card.  [CHAR LIMIT=30]-->
   <!-- The font-family to use for tab text.
          Do not translate. -->
@@ -403,50 +365,20 @@ a        ren't members of any other group. [CHAR LIMIT=25] -->
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-  <plurals name="tab_title_with_unread_items">
-    <item quantity="zero">
-<xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitemau heb eu darllen.
-        </item>
-    <item quantity="one">
-<xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb ei ddarllen.
-        </item>
-    <item quantity="two">
-<xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
-        </item>
-    <item quantity="few">
-<xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
-        </item>
-    <item quantity="many">
-<xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
-        </item>
-    <item quantity="other">
-<xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> eitem heb eu darllen.
-        </item>
-  </plurals>
   <!-- Build version title in About preference. [CHAR LIMIT=40]-->
-  <string name="about_build_version">Fersiwn adeiledd</string>
   <!-- Open source licenses title in About preference. [CHAR LIMIT=60] -->
-  <string name="about_open_source_licenses">Trwyddedau cod agored</string>
   <!-- Open source licenses summary in About preference. [CHAR LIMIT=NONE] -->
-  <string name="about_open_source_licenses_summary">Manylion trwyddedau ar gyfer meddalwedd cod agored</string>
   <!-- Privacy policy title in About preference. [CHAR LIMIT=40]-->
-  <string name="about_privacy_policy">Polisi preifatrwydd</string>
   <!-- Terms of service title in about preference. [CHAR LIMIT=60]-->
-  <string name="about_terms_of_service">Telerau gwasanaeth</string>
   <!-- Title for the activity that displays licenses for open source libraries. [CHAR LIMIT=100]-->
-  <string name="activity_title_licenses">Trwyddedau cod agored</string>
   <!-- Toast message showing when failed to open the url. [CHAR LIMIT=100]-->
-  <string name="url_open_error_toast">Methwyd agor yr URL.</string>
   <!-- Content description of entries (including that radio button is checked) in contact
          accounts list filter. For example: Google abc@gmail.com checked, etc [CHAR LIMIT=30]-->
-  <string name="account_filter_view_checked"><xliff:g id="account_info">%s</xliff:g> wedi\'i wirio</string>
   <!-- Content description of entries (including that the radio button is not checked) in contact
          accounts list filter. For example: Google abc@gmail.com not checked, etc [CHAR LIMIT=30]-->
-  <string name="account_filter_view_not_checked"><xliff:g id="account_info">%s</xliff:g> heb ei wirio</string>
   <!-- Description string for an action button to initiate a video call from search results.
          Note: AccessibilityServices use this attribute to announce what the view represents.
          This is especially valuable for views without textual representation like ImageView.
 
          [CHAR LIMIT=NONE]-->
-  <string name="description_search_video_call">Gwneud galwad fideo</string>
 </resources>
