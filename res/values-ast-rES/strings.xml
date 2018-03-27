@@ -17,18 +17,29 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Toast shown when text is copied to the clipboard [CHAR LIMIT=64] -->
+  <string name="toast_text_copied">Copióse\'l testu</string>
   <!-- Option displayed in context menu to copy long pressed item to clipboard [CHAR LIMIT=64] -->
+  <string name="copy_text">Copiar al cartafueyu</string>
   <!-- Action string for calling a custom phone number -->
   <!-- Action string for calling a home phone number -->
+  <string name="call_home">Llamar a casa</string>
   <!-- Action string for calling a mobile phone number -->
+  <string name="call_mobile">Llamar al móvil</string>
   <!-- Action string for calling a work phone number -->
+  <string name="call_work">Llamar al trabayu</string>
   <!-- Action string for calling a work fax phone number -->
+  <string name="call_fax_work">Llamar al fax del trabayu</string>
   <!-- Action string for calling a home fax phone number -->
+  <string name="call_fax_home">Llamar al fax de casa</string>
   <!-- Action string for calling a pager phone number -->
+  <string name="call_pager">Llamar al busca</string>
   <!-- Action string for calling an other phone number -->
+  <string name="call_other">Llamar</string>
   <!-- Action string for calling a callback number -->
   <!-- Action string for calling a car phone number -->
+  <string name="call_car">Llamar al coche</string>
   <!-- Action string for calling a company main phone number -->
+  <string name="call_company_main">Llamar al teléfonu principal de la empresa</string>
   <!-- Action string for calling a ISDN phone number -->
   <!-- Action string for calling a main phone number -->
   <!-- Action string for calling an other fax phone number -->
