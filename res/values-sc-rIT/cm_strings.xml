@@ -18,6 +18,7 @@
   <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
   <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
   <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
+  <string name="label_groups">Grupu</string>
   <!-- Message while reading multiple vCard files "(current number) of (total number) files"
          The order of "current number" and "total number" cannot be changed -->
   <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
