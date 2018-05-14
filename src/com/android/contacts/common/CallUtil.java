@@ -46,6 +46,7 @@ import android.widget.TextView;
 
 import com.android.contacts.common.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -144,6 +145,26 @@ public class CallUtil {
      */
     public static Uri getVoicemailUri() {
         return Uri.fromParts(PhoneAccount.SCHEME_VOICEMAIL, "", null);
+    }
+
+    /**
+     * Returns a list of phone accounts that are able to call to numbers with the supplied scheme
+     */
+    public static List<PhoneAccount> getCallCapablePhoneAccounts(Context context, String scheme) {
+        if (!PermissionsUtil.hasPermission(context,
+                    android.Manifest.permission.READ_PHONE_STATE)) {
+            return null;
+        }
+        TelecomManager tm = (TelecomManager) context.getSystemService(Context.TELECOM_SERVICE);
+        final ArrayList<PhoneAccount> accounts = new ArrayList<>();
+
+        for (PhoneAccountHandle handle : tm.getCallCapablePhoneAccounts()) {
+            final PhoneAccount account = tm.getPhoneAccount(handle);
+            if (account != null && account.supportsUriScheme(scheme)) {
+                accounts.add(account);
+            }
+        }
+        return accounts;
     }
 
     /**
