@@ -32,7 +32,7 @@
   <string name="export_sim_card_full">SIM-карта заполнена. Экспортированы <xliff:g id="insertCount">%d </xliff:g> контактов</string>
   <string name="export_failed">Сбой экспорта</string>
   <string name="sim_card_full">SIM-карта заполнена</string>
-  <string name="export_finished">Экспорт завершён</string>
+  <string name="export_finished">Экспорт завершен</string>
   <string name="tag_too_long">Слишком длинное имя контакта</string>
   <string name="sim_contacts_not_loaded">Не удалось загрузить контакты с SIM-карты</string>
   <string name="export_cancelled">Экспорт отменен. Экспортированы <xliff:g id="insertCount">%s</xliff:g> контактов</string>
