@@ -14,29 +14,18 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">सिम कार्ड में निर्यात करें</string>
-  <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
-  <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="label_groups">समूह</string>
-  <string name="exporting">निर्यात कर रहे हैं\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-         The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files">कुल  <xliff:g id="total_number">%2$s</xliff:g> में से <xliff:g id="current_number">%1$s</xliff:g> फ़ाइलें</string>
-  <string name="export_finished">निर्यात पूरा हुआ</string>
-  <string name="tag_too_long">संपर्क नाम बहुत लंबा है</string>
-  <string name="sim_contacts_not_loaded">सिम संपर्कों को लोड नहीं कर सके</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> के फ़ोन नंबर या ईमेल पता नहीं है</string>
-  <string name="import_from_sim_select">आयात करने के लिए कार्ड चुनें</string>
-  <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
-  <!-- Dialog title shown when SD Card does not exist -->
-  <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
-  <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
-  <string name="copy_done">संपर्क को सफलतापूर्वक कॉपी किया गया</string>
-  <string name="copy_failure">संपर्क को कॉपी करना विफल हुआ</string>
-  <string name="card_no_space">संपर्क को कॉपी करना विफल हुआ, सि कार्ड भर चुका है</string>
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">स्थानीय टैब्लेट खाता</string>
-  <string name="local_storage_account" product="default">स्थानीय फ़ोन खाता</string>
+    <string name="export_to_sim">सिम कार्ड में निर्यात करें</string>
+    <string name="label_groups">समूह</string>
+    <string name="exporting">निर्यात कर रहे हैं\u2026</string>
+    <string name="reading_vcard_files">कुल  <xliff:g id="total_number">%2$s</xliff:g> में से <xliff:g id="current_number">%1$s</xliff:g> फ़ाइलें</string>
+    <string name="export_finished">निर्यात पूरा हुआ</string>
+    <string name="tag_too_long">संपर्क नाम बहुत लंबा है</string>
+    <string name="sim_contacts_not_loaded">सिम संपर्कों को लोड नहीं कर सके</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> के फ़ोन नंबर या ईमेल पता नहीं है</string>
+    <string name="import_from_sim_select">आयात करने के लिए कार्ड चुनें</string>
+    <string name="copy_done">संपर्क को सफलतापूर्वक कॉपी किया गया</string>
+    <string name="copy_failure">संपर्क को कॉपी करना विफल हुआ</string>
+    <string name="card_no_space">संपर्क को कॉपी करना विफल हुआ, सि कार्ड भर चुका है</string>
+    <string name="local_storage_account" product="tablet">स्थानीय टैब्लेट खाता</string>
+    <string name="local_storage_account" product="default">स्थानीय फ़ोन खाता</string>
 </resources>

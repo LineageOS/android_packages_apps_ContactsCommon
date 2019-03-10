@@ -14,29 +14,18 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">صدور به سیم کارت</string>
-  <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
-  <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="label_groups">گروه</string>
-  <string name="exporting">صدور\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-         The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> از <xliff:g id="total_number">%2$s</xliff:g> فایل</string>
-  <string name="export_finished">صدور تمام شد</string>
-  <string name="tag_too_long">نام مخاطب بسیار طولانی است</string>
-  <string name="sim_contacts_not_loaded">نمی‌توان مخاطبین سیم کارت را بارگذاری کرد</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> شماره تلفن یا آدرس ایمیلی ندارد</string>
-  <string name="import_from_sim_select">انتخاب سیم کارت برای وارد کردن</string>
-  <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
-  <!-- Dialog title shown when SD Card does not exist -->
-  <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
-  <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
-  <string name="copy_done">مخاطب با موفقیت کپی شد</string>
-  <string name="copy_failure">کپی مخاطب ناموفق بود</string>
-  <string name="card_no_space">نمی‌توان مخاطب را کپی کرد، سیم کارت پر است</string>
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">حساب محلی تبلت</string>
-  <string name="local_storage_account" product="default">حساب محلی گوشی</string>
+    <string name="export_to_sim">صدور به سیم کارت</string>
+    <string name="label_groups">گروه</string>
+    <string name="exporting">صدور\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> از <xliff:g id="total_number">%2$s</xliff:g> فایل</string>
+    <string name="export_finished">صدور تمام شد</string>
+    <string name="tag_too_long">نام مخاطب بسیار طولانی است</string>
+    <string name="sim_contacts_not_loaded">نمی‌توان مخاطبین سیم کارت را بارگذاری کرد</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> شماره تلفن یا آدرس ایمیلی ندارد</string>
+    <string name="import_from_sim_select">انتخاب سیم کارت برای وارد کردن</string>
+    <string name="copy_done">مخاطب با موفقیت کپی شد</string>
+    <string name="copy_failure">کپی مخاطب ناموفق بود</string>
+    <string name="card_no_space">نمی‌توان مخاطب را کپی کرد، سیم کارت پر است</string>
+    <string name="local_storage_account" product="tablet">حساب محلی تبلت</string>
+    <string name="local_storage_account" product="default">حساب محلی گوشی</string>
 </resources>

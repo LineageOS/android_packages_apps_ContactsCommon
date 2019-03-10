@@ -14,42 +14,31 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Exportar para o cartão SIM</string>
-  <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
-  <string name="import_from_sdcard" product="default">Importar do armazenamento</string>
-  <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
-  <string name="export_to_sdcard" product="default">Exportar para o armazenamento</string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">Demasiados contactos. A partilha falhou</string>
-  <string name="label_groups">Grupo</string>
-  <string name="exporting">A exportar\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-         The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> de <xliff:g id="total_number">%2$s</xliff:g> ficheiros</string>
-  <string name="export_to_sim_failed">Falha na exportação. <xliff:g id="insertCount">%d</xliff:g> itens foram exportados</string>
-  <string name="sim_contact_export_failed">A exportação de contacto falhou (nome: <xliff:g id="name">%1$s </xliff:g>, número: <xliff:g id="number">%2$s</xliff:g>, e-mail: <xliff:g id="email">%3$s</xliff:g>)</string>
-  <string name="export_sim_card_full">O cartão SIM está cheio. <xliff:g id="insertCount">%d</xliff:g> itens foram exportados</string>
-  <string name="export_failed">A exportação falhou</string>
-  <string name="sim_card_full">O cartão SIM está cheio</string>
-  <string name="export_finished">Exportação terminada</string>
-  <string name="tag_too_long">O nome do contacto é muito longo</string>
-  <string name="sim_contacts_not_loaded">Não é possível carregar os contactos do SIM</string>
-  <string name="export_cancelled">A exportação foi cancelada. <xliff:g id="insertCount">%s</xliff:g> itens foram exportados</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> não tem um número de telefone ou endereço de e-mail</string>
-  <string name="import_from_sim_select">Escolher o cartão a importar</string>
-  <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
-  <string name="no_sdcard_title" product="nosdcard">Armazenamento indisponível</string>
-  <!-- Dialog title shown when SD Card does not exist -->
-  <string name="no_sdcard_title" product="default">Sem cartão SD</string>
-  <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
-  <string name="deleteConfirmation_title">Apagar contacto?</string>
-  <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
-  <string name="deleteConfirmation">Este contacto será apagado.</string>
-  <string name="copy_done">O contacto foi copiado com sucesso</string>
-  <string name="copy_failure">Falhou a cópia do contacto</string>
-  <string name="card_no_space">A cópia do contacto falhou porque o cartão SIM está cheio</string>
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Conta local do tablet</string>
-  <string name="local_storage_account" product="default">Conta local do telefone</string>
+    <string name="export_to_sim">Exportar para o cartão SIM</string>
+    <string name="import_from_sdcard" product="default">Importar do armazenamento</string>
+    <string name="export_to_sdcard" product="default">Exportar para o armazenamento</string>
+    <string name="share_failed">Demasiados contactos. A partilha falhou</string>
+    <string name="label_groups">Grupo</string>
+    <string name="exporting">A exportar\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> de <xliff:g id="total_number">%2$s</xliff:g> ficheiros</string>
+    <string name="export_to_sim_failed">Falha na exportação. <xliff:g id="insertCount">%d</xliff:g> itens foram exportados</string>
+    <string name="sim_contact_export_failed">A exportação de contacto falhou (nome: <xliff:g id="name">%1$s </xliff:g>, número: <xliff:g id="number">%2$s</xliff:g>, e-mail: <xliff:g id="email">%3$s</xliff:g>)</string>
+    <string name="export_sim_card_full">O cartão SIM está cheio. <xliff:g id="insertCount">%d</xliff:g> itens foram exportados</string>
+    <string name="export_failed">A exportação falhou</string>
+    <string name="sim_card_full">O cartão SIM está cheio</string>
+    <string name="export_finished">Exportação terminada</string>
+    <string name="tag_too_long">O nome do contacto é muito longo</string>
+    <string name="sim_contacts_not_loaded">Não é possível carregar os contactos do SIM</string>
+    <string name="export_cancelled">A exportação foi cancelada. <xliff:g id="insertCount">%s</xliff:g> itens foram exportados</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> não tem um número de telefone ou endereço de e-mail</string>
+    <string name="import_from_sim_select">Escolher o cartão a importar</string>
+    <string name="no_sdcard_title" product="nosdcard">Armazenamento indisponível</string>
+    <string name="no_sdcard_title" product="default">Sem cartão SD</string>
+    <string name="deleteConfirmation_title">Apagar contacto?</string>
+    <string name="deleteConfirmation">Este contacto será apagado.</string>
+    <string name="copy_done">O contacto foi copiado com sucesso</string>
+    <string name="copy_failure">Falhou a cópia do contacto</string>
+    <string name="card_no_space">A cópia do contacto falhou porque o cartão SIM está cheio</string>
+    <string name="local_storage_account" product="tablet">Conta local do tablet</string>
+    <string name="local_storage_account" product="default">Conta local do telefone</string>
 </resources>

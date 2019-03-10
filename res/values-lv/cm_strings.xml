@@ -14,22 +14,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Eksportēt uz SIM karti</string>
-  <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=30] -->
-  <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="label_groups">Grupa</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-         The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> no <xliff:g id="total_number">%2$s</xliff:g> failiem</string>
-  <string name="export_finished">Eksports pabeigts</string>
-  <string name="import_from_sim_select">Izvēlēties karti, kurā importēt</string>
-  <!-- Dialog title shown when (USB) storage does not exist [CHAR LIMIT=25] -->
-  <!-- Dialog title shown when SD Card does not exist -->
-  <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
-  <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Vietējais planšetes konts</string>
-  <string name="local_storage_account" product="default">Vietējais telefona konts</string>
+    <string name="export_to_sim">Eksportēt uz SIM karti</string>
+    <string name="label_groups">Grupa</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> no <xliff:g id="total_number">%2$s</xliff:g> failiem</string>
+    <string name="export_finished">Eksports pabeigts</string>
+    <string name="import_from_sim_select">Izvēlēties karti, kurā importēt</string>
+    <string name="local_storage_account" product="tablet">Vietējais planšetes konts</string>
+    <string name="local_storage_account" product="default">Vietējais telefona konts</string>
 </resources>
