@@ -15,15 +15,27 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="export_to_sim">ส่งออกไปยังซิมการ์ด</string>
+    <string name="import_from_sdcard" product="default">นำเข้าจากที่เก็บข้อมูล</string>
+    <string name="export_to_sdcard" product="default">ส่งออกไปยังที่เก็บข้อมูล</string>
     <string name="share_failed">มีรายชื่อมากเกินไป การแบ่งปันล้มเหลว</string>
     <string name="label_groups">กลุ่ม</string>
     <string name="exporting">กำลังส่งออก\u2026</string>
     <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> จาก <xliff:g id="total_number">%2$s</xliff:g> ไฟล์</string>
+    <string name="export_to_sim_failed">ส่งออกล้มเหลว <xliff:g id="insertCount">%d</xliff:g> รายการถูกส่งออก</string>
+    <string name="sim_contact_export_failed">การส่งออกการติดต่อล้มเหลว (ชื่อ: <xliff:g id="name">%1$s</xliff:g>, หมายเลข: <xliff:g id="number">%2$s</xliff:g>, อีเมล: <xliff:g id="email">%3$s</xliff:g>)</string>
+    <string name="export_sim_card_full">ซิมการ์ดเต็ม <xliff:g id="insertCount">%d</xliff:g> รายการถูกส่งออก</string>
+    <string name="export_failed">ส่งออกล้มเหลว</string>
+    <string name="sim_card_full">ซิมการ์ดเต็ม</string>
     <string name="export_finished">ส่งออกเสร็จสมบูรณ์</string>
     <string name="tag_too_long">ชื่อผู้ติดต่อยาวเกินไป</string>
     <string name="sim_contacts_not_loaded">ไม่สามารถโหลดรายชื่อผู้ติดต่อจากซิมการ์ดได้</string>
+    <string name="export_cancelled">การส่งออกถูกยกเลิก <xliff:g id="insertCount">%s</xliff:g> รายการถูกส่งออก</string>
     <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ไม่มีหมายเลขโทรศัพท์หรือที่อยู่อีเมล</string>
     <string name="import_from_sim_select">เลือกการ์ดที่จะนำเข้า</string>
+    <string name="no_sdcard_title" product="nosdcard">พื้นที่เก็บข้อมูลไม่พร้อมใช้งาน</string>
+    <string name="no_sdcard_title" product="default">ไม่มีการ์ด SD</string>
+    <string name="deleteConfirmation_title">ลบ​ราย​ชื่อหรือไม่</string>
+    <string name="deleteConfirmation">ราย​ชื่อ​นี้​จะ​ถูกลบ​ออก</string>
     <string name="copy_done">คัดลอกรายชื่อติดต่อเสร็จสมบูรณ์</string>
     <string name="copy_failure">คัดลอกรายชื่อล้มเหลว</string>
     <string name="card_no_space">คัดลอกรายชื่อล้มเหลว ซิมการ์ดเต็ม</string>

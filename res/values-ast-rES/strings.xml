@@ -150,6 +150,8 @@
     <string name="chat">Chat</string>
     <string name="description_minus_button">desaniciar</string>
     <string name="expand_collapse_name_fields_description">Enantar o contrayer campos de nome</string>
+    <string name="expand_collapse_phonetic_name_fields_description">Espande o recueye los campos
+        de los nomes</string>
     <string name="list_filter_all_accounts">Tolos contautos</string>
     <string name="list_filter_all_starred">Destacaos</string>
     <string name="list_filter_customize">Personalizar</string>
@@ -190,6 +192,7 @@
     <string name="fail_reason_failed_to_read_files">Nun pudo importase ún o más ficheros (%s).</string>
     <string name="exporting_vcard_finished_title">Esportación de <xliff:g id="FILENAME">%s</xliff:g> finada</string>
     <string name="exporting_vcard_finished_title_fallback">Finó la esportación de contautos.</string>
+    <string name="exporting_vcard_finished_toast">Finó la esportación de contautos, primi nel avisu pa compartir contautos.</string>
     <string name="touch_to_share_contacts">Calca pa compartir contautos.</string>
     <string name="exporting_vcard_canceled_title">Encaboxóse la esportación de <xliff:g id="FILENAME">%s</xliff:g>.</string>
     <string name="exporting_contact_list_title">Esportando datos de contautu...</string>
@@ -225,10 +228,14 @@
     <string name="display_options_view_names_as">Formatu nome</string>
     <string name="display_options_view_given_name_first">Primero\'l nome</string>
     <string name="display_options_view_family_name_first">Primeru los apellíos</string>
+    <string name="default_editor_account">Cuenta por defeutu pa cuentes nueves</string>
+    <string name="sync_contact_metadata_title">Sincronizar datos meta de contautos [DOGFOOD]</string>
+    <string name="sync_contact_metadata_dialog_title">Sincronizar datos meta de contautos</string>
     <string name="setting_about">Tocante a Contautos</string>
     <string name="activity_title_settings">Axustes</string>
     <string name="share_visible_contacts">Compartir contautos visibles</string>
     <string name="share_visible_contacts_failure">Fallu al compartir contautos visibles.</string>
+    <string name="share_favorite_contacts">Compartir contautos favoritos</string>
     <string name="share_contacts">Compartir tolos contautos</string>
     <string name="share_contacts_failure">Fallu al compartir los contautos.</string>
     <string name="dialog_import_export">Importar/esportar contautos</string>
@@ -271,10 +278,14 @@
         <item quantity="other">            <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> elementos ensin lleer.
         </item>
     </plurals>
+    <string name="about_build_version">Versión de compilación</string>
     <string name="about_open_source_licenses">Llicencies de códigu abiertu</string>
     <string name="about_open_source_licenses_summary">Detalles de llicencia pal software de códigu abiertu</string>
     <string name="about_privacy_policy">Política de privacidá</string>
     <string name="about_terms_of_service">Términos del serviciu</string>
     <string name="activity_title_licenses">Llicencies de códigu abiertu</string>
     <string name="url_open_error_toast">Fallu al abrir la URL.</string>
+    <string name="account_filter_view_checked"><xliff:g id="account_info">%s</xliff:g> xequiao</string>
+    <string name="account_filter_view_not_checked"><xliff:g id="account_info">%s</xliff:g> ensin xequiar</string>
+    <string name="description_search_video_call">Allugar videollamada</string>
 </resources>

@@ -15,5 +15,4 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="export_to_sim">সিম কার্ডে রপ্তানি করুন</string>
-    <string name="local_storage_account" product="tablet">স্থানীয় ট্যাবলেট একাউন্ট</string>
 </resources>

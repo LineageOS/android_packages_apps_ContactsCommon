@@ -14,19 +14,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="export_to_sim">SIM কাৰ্ডলৈ ৰপ্তানি কৰক</string>
-  <string name="share_failed">বহু বেছি যোগাযোগ, ভাগ-বতৰা কৰিবলৈ ব্যৰ্থ হৈছে</string>
-  <string name="label_groups">গোট</string>
-  <string name="exporting">ৰপ্তানি কৰি আছে\u2026</string>
-  <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g> ৰ <xliff:g id="current_number">%1$s</xliff:g> ফাইল</string>
-  <string name="export_finished">ৰপ্তানি সম্পূৰ্ণ হৈছে</string>
-  <string name="tag_too_long">যোগাযোগৰ নাম অতি দীঘল</string>
-  <string name="sim_contacts_not_loaded">SIM যোগাযোগবোৰ লোড কৰিবলৈ অক্ষম</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ৰ ফোন নম্বৰ বা ই-মেইল ঠিকনা নাই</string>
-  <string name="import_from_sim_select">আমদানি কৰিবলৈ কাৰ্ড পচন্দ কৰক</string>
-  <string name="copy_done">যোগাযোগ সফলভাবে কপি কৰা হৈছিল</string>
-  <string name="copy_failure">যোগাযোগ কপি কৰা ব্যৰ্থ হৈছে</string>
-  <string name="card_no_space">যোগাযোগ কপি কৰা ব্যৰ্থ হৈছে, SIM কাৰ্ড পূৰ্ণ আছে</string>
-  <string name="local_storage_account" product="tablet">স্থানীয় টেবলেট একাউণ্ট</string>
-  <string name="local_storage_account" product="default">স্থানীয় ফোন একাউণ্ট</string>
+    <string name="export_to_sim">SIM কাৰ্ডলৈ ৰপ্তানি কৰক</string>
+    <string name="share_failed">বহু বেছি যোগাযোগ, ভাগ-বতৰা কৰিবলৈ ব্যৰ্থ হৈছে</string>
+    <string name="label_groups">গোট</string>
+    <string name="exporting">ৰপ্তানি কৰি আছে\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g> ৰ <xliff:g id="current_number">%1$s</xliff:g> ফাইল</string>
+    <string name="export_finished">ৰপ্তানি সম্পূৰ্ণ হৈছে</string>
+    <string name="tag_too_long">যোগাযোগৰ নাম অতি দীঘল</string>
+    <string name="sim_contacts_not_loaded">SIM যোগাযোগবোৰ লোড কৰিবলৈ অক্ষম</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ৰ ফোন নম্বৰ বা ই-মেইল ঠিকনা নাই</string>
+    <string name="import_from_sim_select">আমদানি কৰিবলৈ কাৰ্ড পচন্দ কৰক</string>
+    <string name="copy_done">যোগাযোগ সফলভাবে কপি কৰা হৈছিল</string>
+    <string name="copy_failure">যোগাযোগ কপি কৰা ব্যৰ্থ হৈছে</string>
+    <string name="card_no_space">যোগাযোগ কপি কৰা ব্যৰ্থ হৈছে, SIM কাৰ্ড পূৰ্ণ আছে</string>
+    <string name="local_storage_account" product="tablet">স্থানীয় টেবলেট একাউণ্ট</string>
+    <string name="local_storage_account" product="default">স্থানীয় ফোন একাউণ্ট</string>
 </resources>

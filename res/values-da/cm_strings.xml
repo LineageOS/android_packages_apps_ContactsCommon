@@ -14,10 +14,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="export_to_sim">Eksportér til SIM-kortet</string>
+    <string name="export_to_sim">Eksportér til SIM-kort</string>
     <string name="import_from_sdcard" product="default">Importer fra USB-lagerplads</string>
     <string name="export_to_sdcard" product="default">Eksporter til USB-lagerplads</string>
-    <string name="share_failed">For mange kontakter, deling mislykket</string>
+    <string name="share_failed">For mange kontaktpersoner. Deling fejlede</string>
     <string name="label_groups">Gruppe</string>
     <string name="exporting">Eksporterer\u2026</string>
     <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> af <xliff:g id="total_number">%2$s</xliff:g> filer</string>
@@ -26,19 +26,19 @@
     <string name="export_sim_card_full">SIM-kortet er fuldt, <xliff:g id="insertCount">%d</xliff:g> elementer blev eksporteret</string>
     <string name="export_failed">Eksport fejlede</string>
     <string name="sim_card_full">SIM-kortet er fuldt</string>
-    <string name="export_finished">Eksport afsluttet</string>
-    <string name="tag_too_long">Kontaktnavn er for langt</string>
-    <string name="sim_contacts_not_loaded">Kan ikke indlæse SIM-kontakter</string>
+    <string name="export_finished">Eksport færdig</string>
+    <string name="tag_too_long">Navn på kontaktperson er for langt</string>
+    <string name="sim_contacts_not_loaded">Ude af stand til at indlæse SIM-kontaktpersoner</string>
     <string name="export_cancelled">Eksporten blev annulleret, <xliff:g id="insertCount">%s</xliff:g> elementer blev eksporteret</string>
-    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> har ikke et telefonnummer eller en e-mail adresse</string>
-    <string name="import_from_sim_select">Vælg det kort, der skal importeres</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> har ikke et telefonnummer, eller en e-post adresse</string>
+    <string name="import_from_sim_select">Vælg kort at importere</string>
     <string name="no_sdcard_title" product="nosdcard">Lagerenhed utilgængelig</string>
     <string name="no_sdcard_title" product="default">Intet SD-kort</string>
     <string name="deleteConfirmation_title">Slet kontakt?</string>
     <string name="deleteConfirmation">Denne kontakt slettes.</string>
-    <string name="copy_done">Kontakt blev kopieret korrekt</string>
-    <string name="copy_failure">Kopiering af kontaktpersonen mislykkedes</string>
-    <string name="card_no_space">Kopiering af kontaktpersonen mislykkedes, SIM-kortet er fyldt</string>
-    <string name="local_storage_account" product="tablet">Lokal tabletkonto</string>
-    <string name="local_storage_account" product="default">Lokal telefonkonto</string>
+    <string name="copy_done">Det lykkedes at kopiere kontaktperson</string>
+    <string name="copy_failure">Det lykkedes ikke at kopiere kontaktpersonen</string>
+    <string name="card_no_space">Det lykkedes ikke at kopiere kontaktperson, SIM-kort er fyldt</string>
+    <string name="local_storage_account" product="tablet">Lokal tablet-konto</string>
+    <string name="local_storage_account" product="default">Lokal telefon-konto</string>
 </resources>
