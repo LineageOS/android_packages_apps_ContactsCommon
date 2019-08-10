@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Exporteren mislukt, <xliff:g id="insertCount">%d</xliff:g> item geëxporteerd</item>
-    <item quantity="other">Exporteren mislukt, <xliff:g id="insertCount">%d</xliff:g> items geëxporteerd</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">Simkaart vol, <xliff:g id="insertCount">%d</xliff:g> item geëxporteerd</item>
-    <item quantity="other">Simkaart vol, <xliff:g id="insertCount">%d</xliff:g> items geëxporteerd</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Exporteren geannuleerd, <xliff:g id="insertCount">%d</xliff:g> item geëxporteerd</item>
-    <item quantity="other">Exporteren geannuleerd, <xliff:g id="insertCount">%d</xliff:g> items geëxporteerd</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> persoon heeft dit gemarkeerd als spam</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> personen hebben dit gemarkeerd als spam</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Exporteren mislukt, <xliff:g id="insertCount">%d</xliff:g> item geëxporteerd</item>
+        <item quantity="other">Exporteren mislukt, <xliff:g id="insertCount">%d</xliff:g> items geëxporteerd</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">Simkaart vol, <xliff:g id="insertCount">%d</xliff:g> item geëxporteerd</item>
+        <item quantity="other">Simkaart vol, <xliff:g id="insertCount">%d</xliff:g> items geëxporteerd</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Exporteren geannuleerd, <xliff:g id="insertCount">%d</xliff:g> item geëxporteerd</item>
+        <item quantity="other">Exporteren geannuleerd, <xliff:g id="insertCount">%d</xliff:g> items geëxporteerd</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> persoon heeft dit gemarkeerd als spam</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> personen hebben dit gemarkeerd als spam</item>
+    </plurals>
 </resources>

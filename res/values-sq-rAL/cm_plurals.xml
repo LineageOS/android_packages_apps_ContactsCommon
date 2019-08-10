@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Ekportimi dështoi, <xliff:g id="insertCount">%d</xliff:g> element u eksportua</item>
-    <item quantity="other">Eksportimi dështoi, <xliff:g id="insertCount">%d</xliff:g> elementë u eksportuan</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">Karta SIM është plot, <xliff:g id="insertCount">%d</xliff:g> element u eksportua</item>
-    <item quantity="other">Karta SIM është plot, <xliff:g id="insertCount">%d</xliff:g> elementë u eksportuan</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Eksportimi u anullua, <xliff:g id="insertCount">%d</xliff:g> element u eksportua</item>
-    <item quantity="other">Eksportimi u anullua, <xliff:g id="insertCount">%d</xliff:g> elementë u eksportuan</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> person e ka shënuar këtë si spam</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> persona e kanë shënuar këtë si spam</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Ekportimi dështoi, <xliff:g id="insertCount">%d</xliff:g> element u eksportua</item>
+        <item quantity="other">Eksportimi dështoi, <xliff:g id="insertCount">%d</xliff:g> elementë u eksportuan</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">Karta SIM është plot, <xliff:g id="insertCount">%d</xliff:g> element u eksportua</item>
+        <item quantity="other">Karta SIM është plot, <xliff:g id="insertCount">%d</xliff:g> elementë u eksportuan</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Eksportimi u anullua, <xliff:g id="insertCount">%d</xliff:g> element u eksportua</item>
+        <item quantity="other">Eksportimi u anullua, <xliff:g id="insertCount">%d</xliff:g> elementë u eksportuan</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> person e ka shënuar këtë si spam</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> persona e kanë shënuar këtë si spam</item>
+    </plurals>
 </resources>

@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Export feelgeschloen, <xliff:g id="insertCount">%d</xliff:g> Element gouf exportéiert</item>
-    <item quantity="other">Export feelgeschloen, <xliff:g id="insertCount">%d</xliff:g> Elementer goufen exportéiert</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM-Kaart voll, <xliff:g id="insertCount">%d</xliff:g> Element exportéiert</item>
-    <item quantity="other">SIM-Kaart voll, <xliff:g id="insertCount">%d</xliff:g> Elementer exportéiert</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Export ofgebrach, <xliff:g id="insertCount">%d</xliff:g> Element gouf exportéiert</item>
-    <item quantity="other">Export ofgebrach, <xliff:g id="insertCount">%d</xliff:g> Elementer goufen exportéiert</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> Persoun huet dat als Spam markéiert</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> Persounen hunn dat als Spam markéiert</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Export feelgeschloen, <xliff:g id="insertCount">%d</xliff:g> Element gouf exportéiert</item>
+        <item quantity="other">Export feelgeschloen, <xliff:g id="insertCount">%d</xliff:g> Elementer goufen exportéiert</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM-Kaart voll, <xliff:g id="insertCount">%d</xliff:g> Element exportéiert</item>
+        <item quantity="other">SIM-Kaart voll, <xliff:g id="insertCount">%d</xliff:g> Elementer exportéiert</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Export ofgebrach, <xliff:g id="insertCount">%d</xliff:g> Element gouf exportéiert</item>
+        <item quantity="other">Export ofgebrach, <xliff:g id="insertCount">%d</xliff:g> Elementer goufen exportéiert</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> Persoun huet dat als Spam markéiert</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> Persounen hunn dat als Spam markéiert</item>
+    </plurals>
 </resources>

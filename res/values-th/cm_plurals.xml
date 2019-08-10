@@ -16,16 +16,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="other">ส่งออกล้มเหลว <xliff:g id="insertCount">%d</xliff:g> รายการถูกส่งออก</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="other">ซิมการ์ดเต็ม <xliff:g id="insertCount">%d</xliff:g> รายการถูกส่งออก</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="other">การส่งออกถูกยกเลิก <xliff:g id="insertCount">%d</xliff:g> รายการถูกส่งออก</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> ผู้ใช้กำหนดว่านี่เป็นสแปม</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="other">ส่งออกล้มเหลว <xliff:g id="insertCount">%d</xliff:g> รายการถูกส่งออก</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="other">ซิมการ์ดเต็ม <xliff:g id="insertCount">%d</xliff:g> รายการถูกส่งออก</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="other">การส่งออกถูกยกเลิก <xliff:g id="insertCount">%d</xliff:g> รายการถูกส่งออก</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> ผู้ใช้กำหนดว่านี่เป็นสแปม</item>
+    </plurals>
 </resources>

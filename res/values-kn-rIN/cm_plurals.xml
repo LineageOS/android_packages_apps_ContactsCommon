@@ -16,16 +16,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">ರಫ್ತು ವಿಫಲವಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶ ರಫ್ತಾಗಿದೆ</item>
-    <item quantity="other">ರಫ್ತು ವಿಫಲವಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶಗಳು ರಫ್ತಾಗಿವೆ</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM ಕಾರ್ಡ್ ಭರ್ತಿಯಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶ ರಫ್ತಾಗಿದೆ</item>
-    <item quantity="other">SIM ಕಾರ್ಡ್ ಭರ್ತಿಯಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶಗಳು ರಫ್ತಾಗಿವೆ</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">ರಫ್ತು ರದ್ದಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶ ರಫ್ತಾಗಿದೆ</item>
-    <item quantity="other">ರಫ್ತು ರದ್ದಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶಗಳು ರಫ್ತಾಗಿವೆ</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">ರಫ್ತು ವಿಫಲವಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶ ರಫ್ತಾಗಿದೆ</item>
+        <item quantity="other">ರಫ್ತು ವಿಫಲವಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶಗಳು ರಫ್ತಾಗಿವೆ</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM ಕಾರ್ಡ್ ಭರ್ತಿಯಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶ ರಫ್ತಾಗಿದೆ</item>
+        <item quantity="other">SIM ಕಾರ್ಡ್ ಭರ್ತಿಯಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶಗಳು ರಫ್ತಾಗಿವೆ</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">ರಫ್ತು ರದ್ದಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶ ರಫ್ತಾಗಿದೆ</item>
+        <item quantity="other">ರಫ್ತು ರದ್ದಾಗಿದೆ, <xliff:g id="insertCount">%d</xliff:g> ಅಂಶಗಳು ರಫ್ತಾಗಿವೆ</item>
+    </plurals>
 </resources>

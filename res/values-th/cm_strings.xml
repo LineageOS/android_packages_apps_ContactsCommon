@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">บัญชีภายในแท็บเล็ต</string>
-  <string name="local_storage_account" product="default">บัญชีภายในโทรศัพท์</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">ส่งออกไปยังซิมการ์ด</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">ส่งออกไปยังซิม <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">ส่งออกไปยังซิม <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">มีรายชื่อมากเกินไป การแบ่งปันล้มเหลว</string>
-  <string name="label_groups">กลุ่ม</string>
-  <string name="exporting">กำลังส่งออก\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> จาก <xliff:g id="total_number">%2$s</xliff:g> ไฟล์</string>
-  <string name="export_finished">ส่งออกเสร็จสมบูรณ์</string>
-  <string name="tag_too_long">ชื่อผู้ติดต่อยาวเกินไป</string>
-  <string name="sim_contacts_not_loaded">ไม่สามารถโหลดรายชื่อผู้ติดต่อจากซิมการ์ดได้</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ไม่มีหมายเลขโทรศัพท์หรือที่อยู่อีเมล</string>
-  <string name="import_from_sim_select">เลือกการ์ดที่จะนำเข้า</string>
-  <string name="copy_done">คัดลอกรายชื่อติดต่อเสร็จสมบูรณ์</string>
-  <string name="copy_failure">คัดลอกรายชื่อล้มเหลว</string>
-  <string name="card_no_space">คัดลอกรายชื่อล้มเหลว ซิมการ์ดเต็ม</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">โทรผ่าน IP โดย <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">ไม่มีหมายเลข IP</string>
-  <string name="no_ip_number_on_sim_card">ไม่มีหมายเลข IP ในซิมการ์ด</string>
-  <string name="set_ip_number">กำหนดหมายเลข IP</string>
-  <string name="ipcall_dialog_title">ตั้งค่าการโทรผ่าน IP</string>
-  <string name="ipcall_dialog_edit_hint">กรุณากรอกเลขนำหน้า IP</string>
-  <string name="menu_block_contact">บล็อค</string>
-  <string name="menu_unblock_contact">ปลดบล็อค</string>
-  <string name="block_dialog_title">บล็อคผู้ติดต่อนี้หรือไม่</string>
-  <string name="unblock_dialog_title">ปลดบล็อคผู้ติดต่อนี้หรือไม่</string>
-  <string name="block_dialog_positive">บล็อค</string>
-  <string name="unblock_dialog_positive">ปลดบล็อค</string>
-  <string name="block_dialog_negative">ยกเลิก</string>
-  <string name="block_dialog_description">คุณจะไม่ได้รับการโทรหรือข้อความจากบุคคลนี้อีกต่อไป</string>
-  <string name="block_dialog_report_spam">แจ้งว่าเป็นสแปมไปยัง <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">แจ้งว่าเป็นไม่เป็นสแปมไปยัง <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">เข้าสู่ระบบ <xliff:g id="plugin_name">%1$s</xliff:g> เพื่อดูรายชื่อผู้ติดต่อ <xliff:g id="plugin_name">%1$s</xliff:g> ที่นี่</string>
-  <string name="plugin_login_button_title">เข้าสู่ระบบ</string>
-  <string name="plugin_empty_list_text">คุณไม่มี <xliff:g id="plugin_name">%s</xliff:g> ผู้ติดต่อ\n</string>
-  <string name="plugin_empty_list_action_text">เพิ่มผู้ใช้งาน</string>
+    <string name="local_storage_account" product="tablet">บัญชีภายในแท็บเล็ต</string>
+    <string name="local_storage_account" product="default">บัญชีภายในโทรศัพท์</string>
+    <string name="export_to_sim">ส่งออกไปยังซิมการ์ด</string>
+    <string name="export_to_sim_summary">ส่งออกไปยังซิม <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">ส่งออกไปยังซิม <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">มีรายชื่อมากเกินไป การแบ่งปันล้มเหลว</string>
+    <string name="label_groups">กลุ่ม</string>
+    <string name="exporting">กำลังส่งออก\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> จาก <xliff:g id="total_number">%2$s</xliff:g> ไฟล์</string>
+    <string name="export_finished">ส่งออกเสร็จสมบูรณ์</string>
+    <string name="tag_too_long">ชื่อผู้ติดต่อยาวเกินไป</string>
+    <string name="sim_contacts_not_loaded">ไม่สามารถโหลดรายชื่อผู้ติดต่อจากซิมการ์ดได้</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ไม่มีหมายเลขโทรศัพท์หรือที่อยู่อีเมล</string>
+    <string name="import_from_sim_select">เลือกการ์ดที่จะนำเข้า</string>
+    <string name="copy_done">คัดลอกรายชื่อติดต่อเสร็จสมบูรณ์</string>
+    <string name="copy_failure">คัดลอกรายชื่อล้มเหลว</string>
+    <string name="card_no_space">คัดลอกรายชื่อล้มเหลว ซิมการ์ดเต็ม</string>
+    <string name="ip_call_by_slot">โทรผ่าน IP โดย <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">ไม่มีหมายเลข IP</string>
+    <string name="no_ip_number_on_sim_card">ไม่มีหมายเลข IP ในซิมการ์ด</string>
+    <string name="set_ip_number">กำหนดหมายเลข IP</string>
+    <string name="ipcall_dialog_title">ตั้งค่าการโทรผ่าน IP</string>
+    <string name="ipcall_dialog_edit_hint">กรุณากรอกเลขนำหน้า IP</string>
+    <string name="menu_block_contact">บล็อค</string>
+    <string name="menu_unblock_contact">ปลดบล็อค</string>
+    <string name="block_dialog_title">บล็อคผู้ติดต่อนี้หรือไม่</string>
+    <string name="unblock_dialog_title">ปลดบล็อคผู้ติดต่อนี้หรือไม่</string>
+    <string name="block_dialog_positive">บล็อค</string>
+    <string name="unblock_dialog_positive">ปลดบล็อค</string>
+    <string name="block_dialog_negative">ยกเลิก</string>
+    <string name="block_dialog_description">คุณจะไม่ได้รับการโทรหรือข้อความจากบุคคลนี้อีกต่อไป</string>
+    <string name="block_dialog_report_spam">แจ้งว่าเป็นสแปมไปยัง <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">แจ้งว่าเป็นไม่เป็นสแปมไปยัง <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">เข้าสู่ระบบ <xliff:g id="plugin_name">%1$s</xliff:g> เพื่อดูรายชื่อผู้ติดต่อ <xliff:g id="plugin_name">%1$s</xliff:g> ที่นี่</string>
+    <string name="plugin_login_button_title">เข้าสู่ระบบ</string>
+    <string name="plugin_empty_list_text">คุณไม่มี <xliff:g id="plugin_name">%s</xliff:g> ผู้ติดต่อ\n</string>
+    <string name="plugin_empty_list_action_text">เพิ่มผู้ใช้งาน</string>
 </resources>

@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">חשבון טאבלט מקומי</string>
-  <string name="local_storage_account" product="default">חשבון טלפון מקומי</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">ייצא לכרטיס SIM</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">ייצוא ל־SIM ‏<xliff:g id="sim_name">^1</xliff:g> ‏- <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">ייצוא ל־SIM ‏<xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">השיתוף נכשל, מספר אנשי הקשר גדול מדי</string>
-  <string name="label_groups">קבוצה</string>
-  <string name="exporting">מייצא\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> מתוך <xliff:g id="total_number">%2$s</xliff:g> קבצים</string>
-  <string name="export_finished">ייצוא הסתיים</string>
-  <string name="tag_too_long">שמו של איש הקשר ארוך מדי</string>
-  <string name="sim_contacts_not_loaded">לא ניתן לטעון אנשי קשר מה-SIM</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> לא כולל מספר טלפון או כתובת דוא\"ל</string>
-  <string name="import_from_sim_select">בחר כרטיס לייבוא</string>
-  <string name="copy_done">איש הקשר הועתק בהצלחה</string>
-  <string name="copy_failure">העתקת איש הקשר נכשלה</string>
-  <string name="card_no_space">העתקת איש הקשר נכשלה, כרטיס ה-SIM מלא</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">שיחת IP דרך <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">אין מספר IP</string>
-  <string name="no_ip_number_on_sim_card">אין מספר IP בכרטיס ה-SIM</string>
-  <string name="set_ip_number">הגדר מספר IP</string>
-  <string name="ipcall_dialog_title">הגדרות שיחת IP</string>
-  <string name="ipcall_dialog_edit_hint">הזן את קידומת ה-IP</string>
-  <string name="menu_block_contact">חסום</string>
-  <string name="menu_unblock_contact">ביטול חסימה</string>
-  <string name="block_dialog_title">לחסום איש קשר זה?</string>
-  <string name="unblock_dialog_title">לבטל חסימת איש קשר זה?</string>
-  <string name="block_dialog_positive">חסום</string>
-  <string name="unblock_dialog_positive">בטל חסימה</string>
-  <string name="block_dialog_negative">ביטול</string>
-  <string name="block_dialog_description">לא יתקבלו יותר שיחות או הודעות מאדם זה.</string>
-  <string name="block_dialog_report_spam">דווח כזבל ל-<xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">דווח שלא כזבל אל <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">התחבר אל <xliff:g id="plugin_name">%1$s</xliff:g> כדי לראות את אנשי הקשר שלך ב- <xliff:g id="plugin_name">%1$s</xliff:g> כאן</string>
-  <string name="plugin_login_button_title">התחבר</string>
-  <string name="plugin_empty_list_text">אין לך אנשי קשר ב-<xliff:g id="plugin_name">%s</xliff:g>,\n</string>
-  <string name="plugin_empty_list_action_text">הוסף אנשים</string>
+    <string name="local_storage_account" product="tablet">חשבון טאבלט מקומי</string>
+    <string name="local_storage_account" product="default">חשבון טלפון מקומי</string>
+    <string name="export_to_sim">ייצא לכרטיס SIM</string>
+    <string name="export_to_sim_summary">ייצוא ל־SIM ‏<xliff:g id="sim_name">^1</xliff:g> ‏- <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">ייצוא ל־SIM ‏<xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">השיתוף נכשל, מספר אנשי הקשר גדול מדי</string>
+    <string name="label_groups">קבוצה</string>
+    <string name="exporting">מייצא\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> מתוך <xliff:g id="total_number">%2$s</xliff:g> קבצים</string>
+    <string name="export_finished">ייצוא הסתיים</string>
+    <string name="tag_too_long">שמו של איש הקשר ארוך מדי</string>
+    <string name="sim_contacts_not_loaded">לא ניתן לטעון אנשי קשר מה-SIM</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> לא כולל מספר טלפון או כתובת דוא\"ל</string>
+    <string name="import_from_sim_select">בחר כרטיס לייבוא</string>
+    <string name="copy_done">איש הקשר הועתק בהצלחה</string>
+    <string name="copy_failure">העתקת איש הקשר נכשלה</string>
+    <string name="card_no_space">העתקת איש הקשר נכשלה, כרטיס ה-SIM מלא</string>
+    <string name="ip_call_by_slot">שיחת IP דרך <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">אין מספר IP</string>
+    <string name="no_ip_number_on_sim_card">אין מספר IP בכרטיס ה-SIM</string>
+    <string name="set_ip_number">הגדר מספר IP</string>
+    <string name="ipcall_dialog_title">הגדרות שיחת IP</string>
+    <string name="ipcall_dialog_edit_hint">הזן את קידומת ה-IP</string>
+    <string name="menu_block_contact">חסום</string>
+    <string name="menu_unblock_contact">ביטול חסימה</string>
+    <string name="block_dialog_title">לחסום איש קשר זה?</string>
+    <string name="unblock_dialog_title">לבטל חסימת איש קשר זה?</string>
+    <string name="block_dialog_positive">חסום</string>
+    <string name="unblock_dialog_positive">בטל חסימה</string>
+    <string name="block_dialog_negative">ביטול</string>
+    <string name="block_dialog_description">לא יתקבלו יותר שיחות או הודעות מאדם זה.</string>
+    <string name="block_dialog_report_spam">דווח כזבל ל-<xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">דווח שלא כזבל אל <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">התחבר אל <xliff:g id="plugin_name">%1$s</xliff:g> כדי לראות את אנשי הקשר שלך ב- <xliff:g id="plugin_name">%1$s</xliff:g> כאן</string>
+    <string name="plugin_login_button_title">התחבר</string>
+    <string name="plugin_empty_list_text">אין לך אנשי קשר ב-<xliff:g id="plugin_name">%s</xliff:g>,\n</string>
+    <string name="plugin_empty_list_action_text">הוסף אנשים</string>
 </resources>

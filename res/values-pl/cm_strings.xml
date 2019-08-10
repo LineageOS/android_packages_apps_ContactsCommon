@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Lokalne konto tabletu</string>
-  <string name="local_storage_account" product="default">Lokalne konto telefonu</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Eksportuj do karty SIM</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">Eksportuj do SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">Eksportuj do SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">Zbyt wiele kontaktów, udostępnianie nie powiodło się</string>
-  <string name="label_groups">Grupa</string>
-  <string name="exporting">Eksportowanie\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> z <xliff:g id="total_number">%2$s</xliff:g> plików</string>
-  <string name="export_finished">Eksport zakończony</string>
-  <string name="tag_too_long">Nazwa kontaktu jest zbyt długa</string>
-  <string name="sim_contacts_not_loaded">Nie można załadować kontaktów z SIM</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nie ma numeru telefonu ani adresu e-mail</string>
-  <string name="import_from_sim_select">Wybierz kartę do zimportowania</string>
-  <string name="copy_done">Kontakt został skopiowany pomyślnie</string>
-  <string name="copy_failure">Kopiowanie kontaktu nie powiodło się</string>
-  <string name="card_no_space">Kopiowanie kontaktu nie powiodło się, karta SIM jest pełna</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">Połączenie IP przez <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">Brak numeru IP</string>
-  <string name="no_ip_number_on_sim_card">Brak numeru IP na karcie SIM</string>
-  <string name="set_ip_number">Ustaw numer IP</string>
-  <string name="ipcall_dialog_title">Ustawienia połączeń IP</string>
-  <string name="ipcall_dialog_edit_hint">Proszę wpisać prefiks IP</string>
-  <string name="menu_block_contact">Zablokuj</string>
-  <string name="menu_unblock_contact">Odblokuj</string>
-  <string name="block_dialog_title">Zablokować ten kontakt?</string>
-  <string name="unblock_dialog_title">Odblokować ten kontakt?</string>
-  <string name="block_dialog_positive">Zablokuj</string>
-  <string name="unblock_dialog_positive">Odblokuj</string>
-  <string name="block_dialog_negative">Anuluj</string>
-  <string name="block_dialog_description">Nie będziesz otrzymywać połączeń i wiadomości od tego numeru.</string>
-  <string name="block_dialog_report_spam">Zgłoś jako spam do <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">Zgłoś jako nie-spam do <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">Zaloguj się do <xliff:g id="plugin_name">%1$s</xliff:g>, aby zobaczyć tutaj kontakty z <xliff:g id="plugin_name">%1$s</xliff:g></string>
-  <string name="plugin_login_button_title">Zaloguj</string>
-  <string name="plugin_empty_list_text">Nie masz kontaktów w <xliff:g id="plugin_name">%s</xliff:g>,\n</string>
-  <string name="plugin_empty_list_action_text">dodaj osobę</string>
+    <string name="local_storage_account" product="tablet">Lokalne konto tabletu</string>
+    <string name="local_storage_account" product="default">Lokalne konto telefonu</string>
+    <string name="export_to_sim">Eksportuj do karty SIM</string>
+    <string name="export_to_sim_summary">Eksportuj do SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">Eksportuj do SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">Zbyt wiele kontaktów, udostępnianie nie powiodło się</string>
+    <string name="label_groups">Grupa</string>
+    <string name="exporting">Eksportowanie\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> z <xliff:g id="total_number">%2$s</xliff:g> plików</string>
+    <string name="export_finished">Eksport zakończony</string>
+    <string name="tag_too_long">Nazwa kontaktu jest zbyt długa</string>
+    <string name="sim_contacts_not_loaded">Nie można załadować kontaktów z SIM</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nie ma numeru telefonu ani adresu e-mail</string>
+    <string name="import_from_sim_select">Wybierz kartę do zimportowania</string>
+    <string name="copy_done">Kontakt został skopiowany pomyślnie</string>
+    <string name="copy_failure">Kopiowanie kontaktu nie powiodło się</string>
+    <string name="card_no_space">Kopiowanie kontaktu nie powiodło się, karta SIM jest pełna</string>
+    <string name="ip_call_by_slot">Połączenie IP przez <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Brak numeru IP</string>
+    <string name="no_ip_number_on_sim_card">Brak numeru IP na karcie SIM</string>
+    <string name="set_ip_number">Ustaw numer IP</string>
+    <string name="ipcall_dialog_title">Ustawienia połączeń IP</string>
+    <string name="ipcall_dialog_edit_hint">Proszę wpisać prefiks IP</string>
+    <string name="menu_block_contact">Zablokuj</string>
+    <string name="menu_unblock_contact">Odblokuj</string>
+    <string name="block_dialog_title">Zablokować ten kontakt?</string>
+    <string name="unblock_dialog_title">Odblokować ten kontakt?</string>
+    <string name="block_dialog_positive">Zablokuj</string>
+    <string name="unblock_dialog_positive">Odblokuj</string>
+    <string name="block_dialog_negative">Anuluj</string>
+    <string name="block_dialog_description">Nie będziesz otrzymywać połączeń i wiadomości od tego numeru.</string>
+    <string name="block_dialog_report_spam">Zgłoś jako spam do <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Zgłoś jako nie-spam do <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">Zaloguj się do <xliff:g id="plugin_name">%1$s</xliff:g>, aby zobaczyć tutaj kontakty z <xliff:g id="plugin_name">%1$s</xliff:g></string>
+    <string name="plugin_login_button_title">Zaloguj</string>
+    <string name="plugin_empty_list_text">Nie masz kontaktów w <xliff:g id="plugin_name">%s</xliff:g>,\n</string>
+    <string name="plugin_empty_list_action_text">dodaj osobę</string>
 </resources>

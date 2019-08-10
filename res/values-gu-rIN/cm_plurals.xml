@@ -16,16 +16,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">નિકાસ નિષ્ફળ, <xliff:g id="insertCount">%d</xliff:g> આઇટમ નિકાસ કરવામાં આવી</item>
-    <item quantity="other">નિકાસ નિષ્ફળ, <xliff:g id="insertCount">%d</xliff:g> આઇટમો નિકાસ કરવામાં આવી</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM કાર્ડ ભરાઇ ગયું છે, <xliff:g id="insertCount">%d</xliff:g> આઇટમ નિકાસ કરવામાં આવી</item>
-    <item quantity="other">SIM કાર્ડ ભરાઇ ગયું છે, <xliff:g id="insertCount">%d</xliff:g> આઇટમો નિકાસ કરવામાં આવી</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">નિકાસ રદ્દ કરાયું હતું, <xliff:g id="insertCount">%d</xliff:g>  આઇટમ નિકાસ કરવામાં આવી</item>
-    <item quantity="other">નિકાસ રદ્દ કરાયું હતું, <xliff:g id="insertCount">%d</xliff:g>  આઇટમો નિકાસ કરવામાં આવી</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">નિકાસ નિષ્ફળ, <xliff:g id="insertCount">%d</xliff:g> આઇટમ નિકાસ કરવામાં આવી</item>
+        <item quantity="other">નિકાસ નિષ્ફળ, <xliff:g id="insertCount">%d</xliff:g> આઇટમો નિકાસ કરવામાં આવી</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM કાર્ડ ભરાઇ ગયું છે, <xliff:g id="insertCount">%d</xliff:g> આઇટમ નિકાસ કરવામાં આવી</item>
+        <item quantity="other">SIM કાર્ડ ભરાઇ ગયું છે, <xliff:g id="insertCount">%d</xliff:g> આઇટમો નિકાસ કરવામાં આવી</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">નિકાસ રદ્દ કરાયું હતું, <xliff:g id="insertCount">%d</xliff:g>  આઇટમ નિકાસ કરવામાં આવી</item>
+        <item quantity="other">નિકાસ રદ્દ કરાયું હતું, <xliff:g id="insertCount">%d</xliff:g>  આઇટમો નિકાસ કરવામાં આવી</item>
+    </plurals>
 </resources>

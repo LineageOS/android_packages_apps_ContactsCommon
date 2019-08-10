@@ -16,16 +16,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">ରପ୍ତା୍ନୀ ବିଫଳ ହୋ‌ଇଛି, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍‍ ର୍ପ୍ତାନୀ ହେଲା</item>
-    <item quantity="other">ରପ୍ତା୍ନୀ ବିଫଳ ହୋ‌ଇଛି, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍ଗୁଡିକ‍ ର୍ପ୍ତାନୀ ହେଲା</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM କାର୍ଡ୍‍ ପୂର୍ଣ୍ଣ ଅଛି, <xliff:g id="insertCount">%d</xliff:g>ଆଇଟମ୍‍ ର୍ପ୍ତାନୀ ହେଲା</item>
-    <item quantity="other">SIM କାର୍ଡ୍‍ ପୂର୍ଣ୍ଣ ଅଛି, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍‍ଗୁଡିକ ର୍ପ୍ତାନୀ ହେଲା</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">ରପ୍ତାନୀ ବାତିଲ୍‍ କରାଗଲା, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍‍ ର୍ପ୍ତାନୀ ହେଲା</item>
-    <item quantity="other">ରପ୍ତାନୀ ବାତିଲ୍‍ କରାଗଲା, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍‍ଗୁଡିକ ର୍ପ୍ତାନୀ ହେଲା</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">ରପ୍ତା୍ନୀ ବିଫଳ ହୋ‌ଇଛି, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍‍ ର୍ପ୍ତାନୀ ହେଲା</item>
+        <item quantity="other">ରପ୍ତା୍ନୀ ବିଫଳ ହୋ‌ଇଛି, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍ଗୁଡିକ‍ ର୍ପ୍ତାନୀ ହେଲା</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM କାର୍ଡ୍‍ ପୂର୍ଣ୍ଣ ଅଛି, <xliff:g id="insertCount">%d</xliff:g>ଆଇଟମ୍‍ ର୍ପ୍ତାନୀ ହେଲା</item>
+        <item quantity="other">SIM କାର୍ଡ୍‍ ପୂର୍ଣ୍ଣ ଅଛି, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍‍ଗୁଡିକ ର୍ପ୍ତାନୀ ହେଲା</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">ରପ୍ତାନୀ ବାତିଲ୍‍ କରାଗଲା, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍‍ ର୍ପ୍ତାନୀ ହେଲା</item>
+        <item quantity="other">ରପ୍ତାନୀ ବାତିଲ୍‍ କରାଗଲା, <xliff:g id="insertCount">%d</xliff:g> ଆଇଟମ୍‍ଗୁଡିକ ର୍ପ୍ତାନୀ ହେଲା</item>
+    </plurals>
 </resources>

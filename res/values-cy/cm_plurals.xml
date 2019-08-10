@@ -15,4 +15,37 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="export_to_sim_failed">
+        <item quantity="zero">Methodd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitemau eu hallforio.</item>
+        <item quantity="one">Methodd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem ei allforio.</item>
+        <item quantity="two">Methodd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="few">Methodd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="many">Methodd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="other">Methodd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="zero">Mae\'r cerdyn SIM yn llawn. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitemau eu hallforio.</item>
+        <item quantity="one">Mae\'r cerdyn SIM yn llawn. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem ei allforio.</item>
+        <item quantity="two">Mae\'r cerdyn SIM yn llawn. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="few">Mae\'r cerdyn SIM yn llawn. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="many">Mae\'r cerdyn SIM yn llawn. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="other">Mae\'r cerdyn SIM yn llawn. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="zero">Diddymwyd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitemau eu hallforio.</item>
+        <item quantity="one">Diddymwyd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem ei allforio.</item>
+        <item quantity="two">Diddymwyd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="few">Diddymwyd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="many">Diddymwyd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+        <item quantity="other">Diddymwyd yr allforio. Cafodd <xliff:g id="insertCount">%d</xliff:g> eitem eu hallforio.</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="zero">Cafodd hwn ei nodi fel sbam gan <xliff:g id="spamCount">%d</xliff:g> pobol.</item>
+        <item quantity="one">Cafodd hwn ei nodi fel sbam gan <xliff:g id="spamCount">%d</xliff:g> person.</item>
+        <item quantity="two">Cafodd hwn ei nodi fel sbam gan <xliff:g id="spamCount">%d</xliff:g> berson.</item>
+        <item quantity="few">Cafodd hwn ei nodi fel sbam gan <xliff:g id="spamCount">%d</xliff:g> pherson.</item>
+        <item quantity="many">Cafodd hwn ei nodi fel sbam gan <xliff:g id="spamCount">%d</xliff:g> pherson.</item>
+        <item quantity="other">Cafodd hwn ei nodi fel sbam gan <xliff:g id="spamCount">%d</xliff:g> person.</item>
+    </plurals>
+</resources>

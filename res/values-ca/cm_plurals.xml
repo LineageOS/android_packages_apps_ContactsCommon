@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Ha fallat l\'exportació, s\'ha exportat <xliff:g id="insertCount">%d </xliff:g> element</item>
-    <item quantity="other">Ha fallat l\'exportació, s\'han exportat <xliff:g id="insertCount">%d </xliff:g> elements</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">La targeta SIM està plena, s\'ha exportat <xliff:g id="insertCount">%d </xliff:g> article</item>
-    <item quantity="other">La targeta SIM està plena, s\'han exportat <xliff:g id="insertCount">%d </xliff:g> articles</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">S\'ha cancel·lat l\'exportació, s\'ha exportat <xliff:g id="insertCount">%d</xliff:g> article</item>
-    <item quantity="other">S\'ha cancel·lat l\'exportació, s\'han exportat <xliff:g id="insertCount">%d</xliff:g> articles</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> persona ha marcat això com a brossa</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> persones han marcat això a brossa</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Ha fallat l\'exportació, s\'ha exportat <xliff:g id="insertCount">%d </xliff:g> element</item>
+        <item quantity="other">Ha fallat l\'exportació, s\'han exportat <xliff:g id="insertCount">%d </xliff:g> elements</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">La targeta SIM està plena, s\'ha exportat <xliff:g id="insertCount">%d </xliff:g> article</item>
+        <item quantity="other">La targeta SIM està plena, s\'han exportat <xliff:g id="insertCount">%d </xliff:g> articles</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">S\'ha cancel·lat l\'exportació, s\'ha exportat <xliff:g id="insertCount">%d</xliff:g> article</item>
+        <item quantity="other">S\'ha cancel·lat l\'exportació, s\'han exportat <xliff:g id="insertCount">%d</xliff:g> articles</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> persona ha marcat això com a brossa</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> persones han marcat això a brossa</item>
+    </plurals>
 </resources>

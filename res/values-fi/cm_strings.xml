@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Paikallinen tablet-tili</string>
-  <string name="local_storage_account" product="default">Paikallinen puhelin-tili</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Vie SIM-kortille</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">Vie SIM-kortille <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">Vie SIM-kortille <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">Liian monta yhteystietoa, jako epäonnistui</string>
-  <string name="label_groups">Ryhmä</string>
-  <string name="exporting">Viedään\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g>/<xliff:g id="total_number">%2$s</xliff:g> tiedostoa</string>
-  <string name="export_finished">Vienti valmis</string>
-  <string name="tag_too_long">Yhteystiedon nimi on liian pitkä</string>
-  <string name="sim_contacts_not_loaded">Ei voi ladata SIM-kortin yhteystietoja</string>
-  <string name="export_no_phone_or_email">Yhteystiedolla <xliff:g id="name">%s</xliff:g> ei ole puhelinnumeroa tai sähköpostiosoitetta</string>
-  <string name="import_from_sim_select">Valitse kortti josta tuodaan</string>
-  <string name="copy_done">Yhteystieto kopioitu onnistuneesti</string>
-  <string name="copy_failure">Yhteystiedon kopioiminen epäonnistui</string>
-  <string name="card_no_space">Yhteystiedon kopioiminen epäonnistui, SIM-kortti on täynnä</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">IP-puhelu <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">Ei IP-numeroa</string>
-  <string name="no_ip_number_on_sim_card">Ei IP-numeroa SIM-kortilla</string>
-  <string name="set_ip_number">Aseta IP-numero</string>
-  <string name="ipcall_dialog_title">IP-puheluasetukset</string>
-  <string name="ipcall_dialog_edit_hint">Anna IP:n etuliite</string>
-  <string name="menu_block_contact">Estä</string>
-  <string name="menu_unblock_contact">Poista esto</string>
-  <string name="block_dialog_title">Estä tämä henkilö?</string>
-  <string name="unblock_dialog_title">Poista tämän henkilön esto?</string>
-  <string name="block_dialog_positive">Estä</string>
-  <string name="unblock_dialog_positive">Poista esto</string>
-  <string name="block_dialog_negative">Peruuta</string>
-  <string name="block_dialog_description">Et saa enään puheluita tai viestejä tältä henkilöltä.</string>
-  <string name="block_dialog_report_spam">Ilmoita spam-puheluista palveluun <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">Ilmoita ei-spam-puhelusta palveluun <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">Kirjaudu palveluun <xliff:g id="plugin_name">%1$s</xliff:g> nähdäksesi <xliff:g id="plugin_name">%1$s</xliff:g>-yhteystietosi täällä</string>
-  <string name="plugin_login_button_title">Kirjaudu sisään</string>
-  <string name="plugin_empty_list_text">Sinulla ei ole <xliff:g id="plugin_name">%s</xliff:g>-yhteystietoja.\n</string>
-  <string name="plugin_empty_list_action_text">lisää henkilöitä</string>
+    <string name="local_storage_account" product="tablet">Paikallinen tablet-tili</string>
+    <string name="local_storage_account" product="default">Paikallinen puhelin-tili</string>
+    <string name="export_to_sim">Vie SIM-kortille</string>
+    <string name="export_to_sim_summary">Vie SIM-kortille <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">Vie SIM-kortille <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">Liian monta yhteystietoa, jako epäonnistui</string>
+    <string name="label_groups">Ryhmä</string>
+    <string name="exporting">Viedään\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g>/<xliff:g id="total_number">%2$s</xliff:g> tiedostoa</string>
+    <string name="export_finished">Vienti valmis</string>
+    <string name="tag_too_long">Yhteystiedon nimi on liian pitkä</string>
+    <string name="sim_contacts_not_loaded">Ei voi ladata SIM-kortin yhteystietoja</string>
+    <string name="export_no_phone_or_email">Yhteystiedolla <xliff:g id="name">%s</xliff:g> ei ole puhelinnumeroa tai sähköpostiosoitetta</string>
+    <string name="import_from_sim_select">Valitse kortti josta tuodaan</string>
+    <string name="copy_done">Yhteystieto kopioitu onnistuneesti</string>
+    <string name="copy_failure">Yhteystiedon kopioiminen epäonnistui</string>
+    <string name="card_no_space">Yhteystiedon kopioiminen epäonnistui, SIM-kortti on täynnä</string>
+    <string name="ip_call_by_slot">IP-puhelu <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Ei IP-numeroa</string>
+    <string name="no_ip_number_on_sim_card">Ei IP-numeroa SIM-kortilla</string>
+    <string name="set_ip_number">Aseta IP-numero</string>
+    <string name="ipcall_dialog_title">IP-puheluasetukset</string>
+    <string name="ipcall_dialog_edit_hint">Anna IP:n etuliite</string>
+    <string name="menu_block_contact">Estä</string>
+    <string name="menu_unblock_contact">Poista esto</string>
+    <string name="block_dialog_title">Estä tämä henkilö?</string>
+    <string name="unblock_dialog_title">Poista tämän henkilön esto?</string>
+    <string name="block_dialog_positive">Estä</string>
+    <string name="unblock_dialog_positive">Poista esto</string>
+    <string name="block_dialog_negative">Peruuta</string>
+    <string name="block_dialog_description">Et saa enään puheluita tai viestejä tältä henkilöltä.</string>
+    <string name="block_dialog_report_spam">Ilmoita spam-puheluista palveluun <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Ilmoita ei-spam-puhelusta palveluun <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">Kirjaudu palveluun <xliff:g id="plugin_name">%1$s</xliff:g> nähdäksesi <xliff:g id="plugin_name">%1$s</xliff:g>-yhteystietosi täällä</string>
+    <string name="plugin_login_button_title">Kirjaudu sisään</string>
+    <string name="plugin_empty_list_text">Sinulla ei ole <xliff:g id="plugin_name">%s</xliff:g>-yhteystietoja.\n</string>
+    <string name="plugin_empty_list_action_text">lisää henkilöitä</string>
 </resources>

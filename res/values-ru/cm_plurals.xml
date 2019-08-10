@@ -16,24 +16,28 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Произошел сбой. Удалось экспортировать <xliff:g id="insertCount">%d </xliff:g> контакт</item>
-    <item quantity="few">Произошел сбой. Удалось экспортировать <xliff:g id="insertCount">%d </xliff:g> контакта</item>
-    <item quantity="other">Произошел сбой. Удалось экспортировать <xliff:g id="insertCount">%d </xliff:g> контактов</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM-карта заполнена. Экспортирован <xliff:g id="insertCount">%d </xliff:g> контакт</item>
-    <item quantity="few">SIM-карта заполнена. Экспортированы <xliff:g id="insertCount">%d </xliff:g> контакта</item>
-    <item quantity="other">SIM-карта заполнена. Экспортированы <xliff:g id="insertCount">%d </xliff:g> контактов</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Экспорт отменен. Экспортирован <xliff:g id="insertCount">%d</xliff:g> контакт</item>
-    <item quantity="few">Экспорт отменен. Экспортированы <xliff:g id="insertCount">%d</xliff:g> контакта</item>
-    <item quantity="other">Экспорт отменен. Экспортированы <xliff:g id="insertCount">%d</xliff:g> контактов</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> человек пометил это как спам</item>
-    <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> человека пометили это как спам</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> человек пометили это как спам</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Произошел сбой. Удалось экспортировать <xliff:g id="insertCount">%d </xliff:g> контакт</item>
+        <item quantity="few">Произошел сбой. Удалось экспортировать <xliff:g id="insertCount">%d </xliff:g> контакта</item>
+        <item quantity="many">Произошел сбой. Удалось экспортировать <xliff:g id="insertCount">%d </xliff:g> контактов</item>
+        <item quantity="other">Произошел сбой. Удалось экспортировать <xliff:g id="insertCount">%d </xliff:g> контактов</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM-карта заполнена. Экспортирован <xliff:g id="insertCount">%d </xliff:g> контакт</item>
+        <item quantity="few">SIM-карта заполнена. Экспортированы <xliff:g id="insertCount">%d </xliff:g> контакта</item>
+        <item quantity="many">SIM-карта заполнена. Экспортированы <xliff:g id="insertCount">%d </xliff:g> контактов</item>
+        <item quantity="other">SIM-карта заполнена. Экспортированы <xliff:g id="insertCount">%d </xliff:g> контактов</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Экспорт отменен. Экспортирован <xliff:g id="insertCount">%d</xliff:g> контакт</item>
+        <item quantity="few">Экспорт отменен. Экспортированы <xliff:g id="insertCount">%d</xliff:g> контакта</item>
+        <item quantity="many">Экспорт отменен. Экспортированы <xliff:g id="insertCount">%d </xliff:g> контактов</item>
+        <item quantity="other">Экспорт отменен. Экспортированы <xliff:g id="insertCount">%d</xliff:g> контактов</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> человек пометил это как спам</item>
+        <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> человека пометили это как спам</item>
+        <item quantity="many"><xliff:g id="spamCount">%d</xliff:g> человек пометили это как спам</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> человек пометили это как спам</item>
+    </plurals>
 </resources>

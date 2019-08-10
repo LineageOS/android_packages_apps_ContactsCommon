@@ -16,24 +16,28 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Eksportowanie nie powiodło się, <xliff:g id="insertCount">%d </xliff:g> element został wyeksportowany</item>
-    <item quantity="few">Eksportowanie nie powiodło się, <xliff:g id="insertCount">%d </xliff:g> elementy zostały wyeksportowane</item>
-    <item quantity="other">Eksportowanie nie powiodło się, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowanych</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">Karta SIM jest pełna, <xliff:g id="insertCount">%d </xliff:g> element został wyeksportowany</item>
-    <item quantity="few">Karta SIM jest pełna, <xliff:g id="insertCount">%d </xliff:g> elementy zostały wyeksportowane</item>
-    <item quantity="other">Karta SIM jest pełna, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowanych</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Eksportowanie zostało anulowane, <xliff:g id="insertCount">%d </xliff:g> element został wyeksportowany</item>
-    <item quantity="few">Eksportowanie zostało anulowane, <xliff:g id="insertCount">%d </xliff:g> elementy zostały wyeksportowane</item>
-    <item quantity="other">Eksportowanie zostało anulowane, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowanych</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d </xliff:g> osoba oznaczyła to jako spam</item>
-    <item quantity="few"><xliff:g id="spamCount">%d </xliff:g> osoby oznaczyły to jako spam</item>
-    <item quantity="other"><xliff:g id="spamCount">%d </xliff:g> osób oznaczyło to jako spam</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Eksportowanie nie powiodło się, <xliff:g id="insertCount">%d </xliff:g> element został wyeksportowany</item>
+        <item quantity="few">Eksportowanie nie powiodło się, <xliff:g id="insertCount">%d </xliff:g> elementy zostały wyeksportowane</item>
+        <item quantity="many">Eksportowanie nie powiodło się, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowanych</item>
+        <item quantity="other">Eksportowanie nie powiodło się, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowanych</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">Karta SIM jest pełna, <xliff:g id="insertCount">%d </xliff:g> element został wyeksportowany</item>
+        <item quantity="few">Karta SIM jest pełna, <xliff:g id="insertCount">%d </xliff:g> elementy zostały wyeksportowane</item>
+        <item quantity="many">Karta SIM jest pełna, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowane</item>
+        <item quantity="other">Karta SIM jest pełna, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowanych</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Eksportowanie zostało anulowane, <xliff:g id="insertCount">%d </xliff:g> element został wyeksportowany</item>
+        <item quantity="few">Eksportowanie zostało anulowane, <xliff:g id="insertCount">%d </xliff:g> elementy zostały wyeksportowane</item>
+        <item quantity="many">Eksportowanie zostało anulowane, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowane</item>
+        <item quantity="other">Eksportowanie zostało anulowane, <xliff:g id="insertCount">%d </xliff:g> elementów zostało wyeksportowanych</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d </xliff:g> osoba oznaczyła to jako spam</item>
+        <item quantity="few"><xliff:g id="spamCount">%d </xliff:g> osoby oznaczyły to jako spam</item>
+        <item quantity="many"><xliff:g id="spamCount">%d </xliff:g> osób oznaczyło to jako spam</item>
+        <item quantity="other"><xliff:g id="spamCount">%d </xliff:g> osób oznaczyło to jako spam</item>
+    </plurals>
 </resources>

@@ -16,12 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <!-- Action that exports all contacts to SIM -->
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <!-- Menu item used to initiate ip call -->
+    <string name="local_storage_account" product="tablet">Lokaal tabletaccount</string>
+    <string name="local_storage_account" product="default">Lokaal telefoanaccount</string>
+    <string name="export_to_sim">Eksportearje nei simkaart</string>
+    <string name="export_to_sim_summary">Eksportearje nei SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">Eksportearje nei SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">Te folle kontakten, dielen mislearre</string>
+    <string name="label_groups">Groep</string>
+    <string name="exporting">Eksportearje\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> fan <xliff:g id="total_number">%2$s</xliff:g> bestannen</string>
+    <string name="export_finished">Eksportearjen foltôge</string>
+    <string name="tag_too_long">Namme fan kontakt is te lang</string>
+    <string name="sim_contacts_not_loaded">Kin simkontakten net lade</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> beskikt net oer in telefoannûmer of e-mailadres</string>
+    <string name="import_from_sim_select">Kies kaart om te ymportearjen</string>
+    <string name="copy_done">Kontakt kopiearje slagge</string>
+    <string name="copy_failure">Kontakt kopiearje mislearre</string>
+    <string name="card_no_space">Kontakt kopiearje mislearre, simkaart fol</string>
+    <string name="ip_call_by_slot">IP-oprop fia <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Gjin IP-nûmer</string>
+    <string name="no_ip_number_on_sim_card">Gjin IP-nûmer op simkaart</string>
+    <string name="set_ip_number">IP-nûmer ynstelle</string>
+    <string name="ipcall_dialog_title">Ynstellingen IP-oprop</string>
+    <string name="ipcall_dialog_edit_hint">Fier IP-foarfoegsel yn</string>
+    <string name="menu_block_contact">Blokkearje</string>
+    <string name="menu_unblock_contact">Deblokkearje</string>
+    <string name="block_dialog_title">Dit kontakt blokkearje?</string>
+    <string name="unblock_dialog_title">Dit kontakt deblokkearje?</string>
+    <string name="block_dialog_positive">Blokkearje</string>
+    <string name="unblock_dialog_positive">Deblokkearje</string>
+    <string name="block_dialog_negative">Annulearje</string>
+    <string name="block_dialog_description">Jo ûntfange gjin oproppen of berjochten mear fan dizze persoan.</string>
+    <string name="block_dialog_report_spam">Rapportearje as net-winske oan <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Rapportearje as wol winske oan <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">Meld jo oan by <xliff:g id="plugin_name">%1$s</xliff:g> om jo <xliff:g id="plugin_name">%1$s</xliff:g>-kontakten hjir te sjen</string>
+    <string name="plugin_login_button_title">Oanmelde</string>
+    <string name="plugin_empty_list_text">Jo hawwe gjin <xliff:g id="plugin_name">%s</xliff:g>-kontakten,\n</string>
+    <string name="plugin_empty_list_action_text">persoanen tafoegje</string>
 </resources>

@@ -16,12 +16,36 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="zero">فشل التصدير، تم تصدير العنصر <xliff:g id="insertCount">%d</xliff:g></item>
-    <item quantity="one">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
-    <item quantity="two">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
-    <item quantity="few">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
-    <item quantity="many">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
-    <item quantity="other">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="zero">فشل التصدير، تم تصدير العنصر <xliff:g id="insertCount">%d</xliff:g></item>
+        <item quantity="one">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+        <item quantity="two">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+        <item quantity="few">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+        <item quantity="many">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+        <item quantity="other">فشل التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="zero">بطاقة SIM ممتلئة، وتم تصدير <xliff:g id="insertCount">%d </xliff:g> عناصر</item>
+        <item quantity="one">بطاقة SIM ممتلئة، وتم تصدير <xliff:g id="insertCount">%d </xliff:g> عنصر</item>
+        <item quantity="two">بطاقة SIM ممتلئة، وتم تصدير <xliff:g id="insertCount">%d </xliff:g> عناصر</item>
+        <item quantity="few">بطاقة SIM ممتلئة، وتم تصدير <xliff:g id="insertCount">%d </xliff:g> عناصر</item>
+        <item quantity="many">بطاقة SIM ممتلئة، وتم تصدير <xliff:g id="insertCount">%d </xliff:g> عناصر</item>
+        <item quantity="other">بطاقة SIM ممتلئة، وتم تصدير <xliff:g id="insertCount">%d </xliff:g> عناصر</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="zero">تم إلغاء التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+        <item quantity="one">تم إلغاء التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عنصر</item>
+        <item quantity="two">تم إلغاء التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+        <item quantity="few">تم إلغاء التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+        <item quantity="many">تم إلغاء التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+        <item quantity="other">تم إلغاء التصدير، تم تصدير <xliff:g id="insertCount">%d</xliff:g> عناصر</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="zero"><xliff:g id="spamCount">%d</xliff:g> اشخاص أشر على هذا كغير مرغوب فيه</item>
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> شخص أشر على هذا كغير مرغوب فيه</item>
+        <item quantity="two"><xliff:g id="spamCount">%d</xliff:g> أشخاص أشر على هذا كغير مرغوب فيه</item>
+        <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> أشخاص أشر على هذا كغير مرغوب فيه</item>
+        <item quantity="many"><xliff:g id="spamCount">%d</xliff:g> أشخاص أشر على هذا كغير مرغوب فيه</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> أشخاص أشر على هذا كغير مرغوب فيه</item>
+    </plurals>
 </resources>

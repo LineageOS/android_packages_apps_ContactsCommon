@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">حساب الجهاز اللوحي المحلي</string>
-  <string name="local_storage_account" product="default">حساب الهاتف المحلي</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">تصدير إلى بطاقة SIM</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">تصدير إلى SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">تصدير إلى SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">يوجد العديد من جهات الاتصال، فشلت المشاركة</string>
-  <string name="label_groups">المجموعة</string>
-  <string name="exporting">جاري التصدير\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> من <xliff:g id="total_number">%2$s</xliff:g> ملفات</string>
-  <string name="export_finished">انتهى التصدير</string>
-  <string name="tag_too_long">اسم جهة الاتصال طويل جداً</string>
-  <string name="sim_contacts_not_loaded">تعذر  تحميل جهات الاتصال شريحة SIM</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> لا يملك رقم هاتف أو عنوان بريد إلكتروني</string>
-  <string name="import_from_sim_select">اختر مكاناً للاستيراد منه</string>
-  <string name="copy_done">تم نسخ جهة الاتصال بنجاح</string>
-  <string name="copy_failure">فشل نسخ جهة الاتصال</string>
-  <string name="card_no_space">فشل نسخ جهة الاتصال، بطاقة SIM ممتلئة</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">مكالمة IP عبر <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">لا يوجد عنوان IP</string>
-  <string name="no_ip_number_on_sim_card">لا يوجد عنوان IP في بطاقة SIM</string>
-  <string name="set_ip_number">تعيين رقم IP</string>
-  <string name="ipcall_dialog_title">إعدادات مكالمات IP</string>
-  <string name="ipcall_dialog_edit_hint">الرجاء إدخال بادئة IP</string>
-  <string name="menu_block_contact">حظر</string>
-  <string name="menu_unblock_contact">إلغاء الحظر</string>
-  <string name="block_dialog_title">حظر جهة الاتصال هذه؟</string>
-  <string name="unblock_dialog_title">حظر جهة الاتصال هذه؟</string>
-  <string name="block_dialog_positive">حظر</string>
-  <string name="unblock_dialog_positive">إلغاء الحظر</string>
-  <string name="block_dialog_negative">إلغاء</string>
-  <string name="block_dialog_description">لن تصبح قادراً على تلقي المكالمات أو الرسائل من هذا الشخص بعد الآن.</string>
-  <string name="block_dialog_report_spam">الإبلاغ عن المكالمات باعتبارها عشوائية إلى <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">الإبلاغ عن المكالمات باعتبارها عشوائية إلى <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">سجل الدخول إلى <xliff:g id="plugin_name">%1$s</xliff:g> لرؤية جهات اتصال <xliff:g id="plugin_name">%1$s</xliff:g> الخاصة بك هنا</string>
-  <string name="plugin_login_button_title">تسجل الدخول</string>
-  <string name="plugin_empty_list_text">ليس لديك <xliff:g id="plugin_name">%s</xliff:g> جهات اتصال،\n</string>
-  <string name="plugin_empty_list_action_text">إضافة أشخاص</string>
+    <string name="local_storage_account" product="tablet">حساب الجهاز اللوحي المحلي</string>
+    <string name="local_storage_account" product="default">حساب الهاتف المحلي</string>
+    <string name="export_to_sim">تصدير إلى بطاقة SIM</string>
+    <string name="export_to_sim_summary">تصدير إلى SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">تصدير إلى SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">يوجد العديد من جهات الاتصال، فشلت المشاركة</string>
+    <string name="label_groups">المجموعة</string>
+    <string name="exporting">جاري التصدير\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> من <xliff:g id="total_number">%2$s</xliff:g> ملفات</string>
+    <string name="export_finished">انتهى التصدير</string>
+    <string name="tag_too_long">اسم جهة الاتصال طويل جداً</string>
+    <string name="sim_contacts_not_loaded">تعذر  تحميل جهات الاتصال شريحة SIM</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> لا يملك رقم هاتف أو عنوان بريد إلكتروني</string>
+    <string name="import_from_sim_select">اختر مكاناً للاستيراد منه</string>
+    <string name="copy_done">تم نسخ جهة الاتصال بنجاح</string>
+    <string name="copy_failure">فشل نسخ جهة الاتصال</string>
+    <string name="card_no_space">فشل نسخ جهة الاتصال، بطاقة SIM ممتلئة</string>
+    <string name="ip_call_by_slot">مكالمة IP عبر <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">لا يوجد عنوان IP</string>
+    <string name="no_ip_number_on_sim_card">لا يوجد عنوان IP في بطاقة SIM</string>
+    <string name="set_ip_number">تعيين رقم IP</string>
+    <string name="ipcall_dialog_title">إعدادات مكالمات IP</string>
+    <string name="ipcall_dialog_edit_hint">الرجاء إدخال بادئة IP</string>
+    <string name="menu_block_contact">حظر</string>
+    <string name="menu_unblock_contact">إلغاء الحظر</string>
+    <string name="block_dialog_title">حظر جهة الاتصال هذه؟</string>
+    <string name="unblock_dialog_title">حظر جهة الاتصال هذه؟</string>
+    <string name="block_dialog_positive">حظر</string>
+    <string name="unblock_dialog_positive">إلغاء الحظر</string>
+    <string name="block_dialog_negative">إلغاء</string>
+    <string name="block_dialog_description">لن تصبح قادراً على تلقي المكالمات أو الرسائل من هذا الشخص بعد الآن.</string>
+    <string name="block_dialog_report_spam">الإبلاغ عن المكالمات باعتبارها عشوائية إلى <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">الإبلاغ عن المكالمات باعتبارها عشوائية إلى <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">سجل الدخول إلى <xliff:g id="plugin_name">%1$s</xliff:g> لرؤية جهات اتصال <xliff:g id="plugin_name">%1$s</xliff:g> الخاصة بك هنا</string>
+    <string name="plugin_login_button_title">تسجل الدخول</string>
+    <string name="plugin_empty_list_text">ليس لديك <xliff:g id="plugin_name">%s</xliff:g> جهات اتصال،\n</string>
+    <string name="plugin_empty_list_action_text">إضافة أشخاص</string>
 </resources>

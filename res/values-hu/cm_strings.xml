@@ -16,50 +16,42 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Helyi táblagép fiók</string>
-  <string name="local_storage_account" product="default">Helyi telefon fiók</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Exportálás SIM kártyára</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">SIM-re exportálás: <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">SIM-re exportálás: <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">Túl sok névjegy, a megosztás sikertelen</string>
-  <string name="label_groups">Csoport</string>
-  <string name="exporting">Exportálás\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> / <xliff:g id="total_number">%2$s</xliff:g> fájl</string>
-  <string name="export_finished">Exportálás kész</string>
-  <string name="tag_too_long">A névjegynél megadott név túl hosszú</string>
-  <string name="sim_contacts_not_loaded">Nem sikerült betölteni a SIM névjegyeket</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nem rendelkezik telefonszámmal, vagy e-mail címmel</string>
-  <string name="import_from_sim_select">Kártya kiválasztása importáláshoz</string>
-  <string name="copy_done">A névjegy másolása sikeres</string>
-  <string name="copy_failure">A névjegy másolása sikertelen</string>
-  <string name="card_no_space">A névjegy másolása sikertelen, a SIM-kártya megtelt</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">IP hívás a következővel: <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">Nincs IP szám</string>
-  <string name="no_ip_number_on_sim_card">Nincs IP szám a SIM kártyán</string>
-  <string name="set_ip_number">IP cím beállítása</string>
-  <string name="ipcall_dialog_title">IP hívás beállításai</string>
-  <string name="ipcall_dialog_edit_hint">Kérem adja meg az IP előtagot</string>
-  <string name="menu_block_contact">Blokkolás</string>
-  <string name="menu_unblock_contact">Blokkolás feloldása</string>
-  <string name="block_dialog_title">Blokkolja a kapcsolatot?</string>
-  <string name="unblock_dialog_title">Kapcsolat blokkolásának megszüntetése?</string>
-  <string name="block_dialog_positive">Blokkolás</string>
-  <string name="unblock_dialog_positive">Blokkolás feloldása</string>
-  <string name="block_dialog_negative">Elvet</string>
-  <string name="block_dialog_description">Ettől a személytől többet nem fog hívást vagy üzenetet kapni.</string>
-  <string name="block_dialog_report_spam">Spamként jelent: <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">Nem spamként jelent: <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">Bejelentkezés a(z) <xliff:g id="plugin_name">%1$s</xliff:g>plugin-nal, hogy megtekinthesse
+    <string name="local_storage_account" product="tablet">Helyi táblagép fiók</string>
+    <string name="local_storage_account" product="default">Helyi telefon fiók</string>
+    <string name="export_to_sim">Exportálás SIM kártyára</string>
+    <string name="export_to_sim_summary">SIM-re exportálás: <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">SIM-re exportálás: <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">Túl sok névjegy, a megosztás sikertelen</string>
+    <string name="label_groups">Csoport</string>
+    <string name="exporting">Exportálás\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> / <xliff:g id="total_number">%2$s</xliff:g> fájl</string>
+    <string name="export_finished">Exportálás kész</string>
+    <string name="tag_too_long">A névjegynél megadott név túl hosszú</string>
+    <string name="sim_contacts_not_loaded">Nem sikerült betölteni a SIM névjegyeket</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> nem rendelkezik telefonszámmal, vagy e-mail címmel</string>
+    <string name="import_from_sim_select">Kártya kiválasztása importáláshoz</string>
+    <string name="copy_done">A névjegy másolása sikeres</string>
+    <string name="copy_failure">A névjegy másolása sikertelen</string>
+    <string name="card_no_space">A névjegy másolása sikertelen, a SIM-kártya megtelt</string>
+    <string name="ip_call_by_slot">IP hívás a következővel: <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Nincs IP szám</string>
+    <string name="no_ip_number_on_sim_card">Nincs IP szám a SIM kártyán</string>
+    <string name="set_ip_number">IP cím beállítása</string>
+    <string name="ipcall_dialog_title">IP hívás beállításai</string>
+    <string name="ipcall_dialog_edit_hint">Kérem adja meg az IP előtagot</string>
+    <string name="menu_block_contact">Blokkolás</string>
+    <string name="menu_unblock_contact">Blokkolás feloldása</string>
+    <string name="block_dialog_title">Blokkolja a kapcsolatot?</string>
+    <string name="unblock_dialog_title">Kapcsolat blokkolásának megszüntetése?</string>
+    <string name="block_dialog_positive">Blokkolás</string>
+    <string name="unblock_dialog_positive">Blokkolás feloldása</string>
+    <string name="block_dialog_negative">Elvet</string>
+    <string name="block_dialog_description">Ettől a személytől többet nem fog hívást vagy üzenetet kapni.</string>
+    <string name="block_dialog_report_spam">Spamként jelent: <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Nem spamként jelent: <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">Bejelentkezés a(z) <xliff:g id="plugin_name">%1$s</xliff:g>plugin-nal, hogy megtekinthesse
 a(z) <xliff:g id="plugin_name">%1$s</xliff:g> névjegyeit</string>
-  <string name="plugin_login_button_title">Bejelentkezés</string>
-  <string name="plugin_empty_list_text">Nincsenek <xliff:g id="plugin_name">%s</xliff:g> névjegyei,\n</string>
-  <string name="plugin_empty_list_action_text">emberek hozzáadása</string>
+    <string name="plugin_login_button_title">Bejelentkezés</string>
+    <string name="plugin_empty_list_text">Nincsenek <xliff:g id="plugin_name">%s</xliff:g> névjegyei,\n</string>
+    <string name="plugin_empty_list_action_text">emberek hozzáadása</string>
 </resources>

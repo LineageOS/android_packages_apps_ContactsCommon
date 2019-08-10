@@ -15,4 +15,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Eksportearjen mislearre, <xliff:g id="insertCount">%d</xliff:g> item eksportearre</item>
+        <item quantity="other">Eksportearjen mislearre, <xliff:g id="insertCount">%d</xliff:g> items eksportearre</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">Simkaart fol, <xliff:g id="insertCount">%d</xliff:g> item eksportearre</item>
+        <item quantity="other">Simkaart fol, <xliff:g id="insertCount">%d</xliff:g> items eksportearre</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Eksportearjen annulearre, <xliff:g id="insertCount">%d</xliff:g> item eksportearre</item>
+        <item quantity="other">Eksportearjen annulearre, <xliff:g id="insertCount">%d</xliff:g> items eksportearre</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> persoan hat dit markearre as net-winske</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> persoanen hawwe dit markearre as net-winske</item>
+    </plurals>
+</resources>

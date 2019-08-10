@@ -16,12 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <!-- Action that exports all contacts to SIM -->
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <!-- Menu item used to initiate ip call -->
+    <string name="local_storage_account" product="tablet">Cyfrif lleol y llechen hon</string>
+    <string name="local_storage_account" product="default">Cyfrif lleol y ffôn hwn</string>
+    <string name="export_to_sim">Allforio i gerdyn SIM</string>
+    <string name="export_to_sim_summary">Allforio i SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">Allforio i SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">Gormod o gysylltiadau. Methodd y rhannu.</string>
+    <string name="label_groups">Grŵp</string>
+    <string name="exporting">Yn allforio\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> o <xliff:g id="total_number">%2$s</xliff:g> ffeil</string>
+    <string name="export_finished">Wedi gorffen allforio</string>
+    <string name="tag_too_long">Enw cyswllt yn rhy hir</string>
+    <string name="sim_contacts_not_loaded">Methu â llwytho cysylltiadau SIM</string>
+    <string name="export_no_phone_or_email">Nid oes gan <xliff:g id="name">%s</xliff:g> rif ffôn na chyfeiriad e-bost</string>
+    <string name="import_from_sim_select">Dewisa gerdyn i\'w allforio</string>
+    <string name="copy_done">Copïwyd y cyswllt yn llwyddiannus</string>
+    <string name="copy_failure">Methodd copïo\'r cyswllt</string>
+    <string name="card_no_space">Methodd copïo\'r cyswllt; cerdyn SIM yn llawn</string>
+    <string name="ip_call_by_slot">Galwad IP trwy <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Dim rhif IP</string>
+    <string name="no_ip_number_on_sim_card">Does dim rhif IP ar y cerdyn SIM.</string>
+    <string name="set_ip_number">Gosoda rif IP</string>
+    <string name="ipcall_dialog_title">Gosodiadau galwadau IP</string>
+    <string name="ipcall_dialog_edit_hint">Rho ragddodiad yr IP</string>
+    <string name="menu_block_contact">Rhwystro</string>
+    <string name="menu_unblock_contact">Dadrwystro</string>
+    <string name="block_dialog_title">Rhwystro\'r cyswllt hwn?</string>
+    <string name="unblock_dialog_title">Dadrwystro\'r cyswllt hwn?</string>
+    <string name="block_dialog_positive">Rhwystro</string>
+    <string name="unblock_dialog_positive">Dadrwystro</string>
+    <string name="block_dialog_negative">Diddymu</string>
+    <string name="block_dialog_description">Ni fyddi\'n derbyn galwadau na negeseuon oddi wrth y person hwn eto.</string>
+    <string name="block_dialog_report_spam">Adrodd fel sbam i <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Adrodd i <xliff:g id="provider">%s</xliff:g> nad yw\'n sbam</string>
+    <string name="plugin_login_msg">Mewngofnoda i <xliff:g id="plugin_name">%1$s</xliff:g> i weld dy gysylltiadau <xliff:g id="plugin_name">%1$s</xliff:g> yma</string>
+    <string name="plugin_login_button_title">Mewngofnodi</string>
+    <string name="plugin_empty_list_text">Nid oes gennyt gysylltiadau <xliff:g id="plugin_name">%s</xliff:g>,\n</string>
+    <string name="plugin_empty_list_action_text">ychwanega bobol</string>
 </resources>

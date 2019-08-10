@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">로컬 태블릿 계정</string>
-  <string name="local_storage_account" product="default">로컬 휴대전화 계정</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">SIM 카드로 내보내기</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g>에 내보내기</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">SIM <xliff:g id="sim_name">%1$s</xliff:g>에 내보내기</string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">연락처가 너무 많아 공유할 수 없습니다</string>
-  <string name="label_groups">그룹</string>
-  <string name="exporting">내보내는 중\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g>개 중 <xliff:g id="current_number">%1$s</xliff:g>번째 파일</string>
-  <string name="export_finished">내보내기 완료</string>
-  <string name="tag_too_long">연락처 이름이 너무 깁니다</string>
-  <string name="sim_contacts_not_loaded">SIM 연락처를 불러올 수 없습니다</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>에 전화번호 또는 이메일 주소가 필요합니다</string>
-  <string name="import_from_sim_select">가져올 SIM 카드 선택</string>
-  <string name="copy_done">연락처가 성공적으로 복사되었습니다</string>
-  <string name="copy_failure">연락처를 복사하지 못했습니다</string>
-  <string name="card_no_space">SIM 카드가 가득 차 있어 연락처를 복사하지 못했습니다</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot"><xliff:g id="subName">%s</xliff:g>(으)로 IP 통화</string>
-  <string name="no_ip_number">IP 번호 없음</string>
-  <string name="no_ip_number_on_sim_card">SIM 카드에 IP 번호 없음</string>
-  <string name="set_ip_number">IP 번호 설정</string>
-  <string name="ipcall_dialog_title">IP 통화 설정</string>
-  <string name="ipcall_dialog_edit_hint">IP 접두사를 입력해 주십시오</string>
-  <string name="menu_block_contact">차단</string>
-  <string name="menu_unblock_contact">차단 해제</string>
-  <string name="block_dialog_title">이 연락처를 차단하겠습니까?</string>
-  <string name="unblock_dialog_title">이 연락처를 차단 해제하겠습니까?</string>
-  <string name="block_dialog_positive">차단</string>
-  <string name="unblock_dialog_positive">차단 해제</string>
-  <string name="block_dialog_negative">취소</string>
-  <string name="block_dialog_description">더 이상 이 사람이 보내는 전화나 메시지를 받지 않게 됩니다.</string>
-  <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g>에 스팸으로 신고</string>
-  <string name="block_dialog_report_nonspam"><xliff:g id="provider">%s</xliff:g>에 스팸이 아니라고 신고</string>
-  <string name="plugin_login_msg"><xliff:g id="plugin_name">%1$s</xliff:g>에 로그인하여 <xliff:g id="plugin_name">%1$s</xliff:g>의 연락처를 확인하세요</string>
-  <string name="plugin_login_button_title">로그인</string>
-  <string name="plugin_empty_list_text"><xliff:g id="plugin_name">%s</xliff:g> 연락처가 없습니다,\n</string>
-  <string name="plugin_empty_list_action_text">사람 추가</string>
+    <string name="local_storage_account" product="tablet">로컬 태블릿 계정</string>
+    <string name="local_storage_account" product="default">로컬 휴대전화 계정</string>
+    <string name="export_to_sim">SIM 카드로 내보내기</string>
+    <string name="export_to_sim_summary">SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g>에 내보내기</string>
+    <string name="export_to_sim_summary_no_number">SIM <xliff:g id="sim_name">%1$s</xliff:g>에 내보내기</string>
+    <string name="share_failed">연락처가 너무 많아 공유할 수 없습니다</string>
+    <string name="label_groups">그룹</string>
+    <string name="exporting">내보내는 중\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g>개 중 <xliff:g id="current_number">%1$s</xliff:g>번째 파일</string>
+    <string name="export_finished">내보내기 완료</string>
+    <string name="tag_too_long">연락처 이름이 너무 깁니다</string>
+    <string name="sim_contacts_not_loaded">SIM 연락처를 불러올 수 없습니다</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>에 전화번호 또는 이메일 주소가 필요합니다</string>
+    <string name="import_from_sim_select">가져올 SIM 카드 선택</string>
+    <string name="copy_done">연락처가 성공적으로 복사되었습니다</string>
+    <string name="copy_failure">연락처를 복사하지 못했습니다</string>
+    <string name="card_no_space">SIM 카드가 가득 차 있어 연락처를 복사하지 못했습니다</string>
+    <string name="ip_call_by_slot"><xliff:g id="subName">%s</xliff:g>(으)로 IP 통화</string>
+    <string name="no_ip_number">IP 번호 없음</string>
+    <string name="no_ip_number_on_sim_card">SIM 카드에 IP 번호 없음</string>
+    <string name="set_ip_number">IP 번호 설정</string>
+    <string name="ipcall_dialog_title">IP 통화 설정</string>
+    <string name="ipcall_dialog_edit_hint">IP 접두사를 입력해 주십시오</string>
+    <string name="menu_block_contact">차단</string>
+    <string name="menu_unblock_contact">차단 해제</string>
+    <string name="block_dialog_title">이 연락처를 차단하겠습니까?</string>
+    <string name="unblock_dialog_title">이 연락처를 차단 해제하겠습니까?</string>
+    <string name="block_dialog_positive">차단</string>
+    <string name="unblock_dialog_positive">차단 해제</string>
+    <string name="block_dialog_negative">취소</string>
+    <string name="block_dialog_description">더 이상 이 사람이 보내는 전화나 메시지를 받지 않게 됩니다.</string>
+    <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g>에 스팸으로 신고</string>
+    <string name="block_dialog_report_nonspam"><xliff:g id="provider">%s</xliff:g>에 스팸이 아니라고 신고</string>
+    <string name="plugin_login_msg"><xliff:g id="plugin_name">%1$s</xliff:g>에 로그인하여 <xliff:g id="plugin_name">%1$s</xliff:g>의 연락처를 확인하세요</string>
+    <string name="plugin_login_button_title">로그인</string>
+    <string name="plugin_empty_list_text"><xliff:g id="plugin_name">%s</xliff:g> 연락처가 없습니다,\n</string>
+    <string name="plugin_empty_list_action_text">사람 추가</string>
 </resources>

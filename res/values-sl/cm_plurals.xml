@@ -16,28 +16,28 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Izvoz je spodletel, izvožen je bil <xliff:g id="insertCount">%d</xliff:g> predmet</item>
-    <item quantity="two">Izvoz je spodletel, izvožena sta bila <xliff:g id="insertCount">%d</xliff:g> predmeta</item>
-    <item quantity="few">Izvoz je spodletel, izvoženi so bili <xliff:g id="insertCount">%d</xliff:g> predmeti</item>
-    <item quantity="other">Izvoz je spodletel, izvoženih je bilo <xliff:g id="insertCount">%d</xliff:g> predmetov</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">Kartica SIM je polna, izvožen je bil <xliff:g id="insertCount">%d</xliff:g> predmet</item>
-    <item quantity="two">Kartica SIM je polna, izvožena sta bila <xliff:g id="insertCount">%d</xliff:g> predmeta</item>
-    <item quantity="few">Kartica SIM je polna, izvoženi so bili <xliff:g id="insertCount">%d</xliff:g> predmeti</item>
-    <item quantity="other">Kartica SIM je polna, izvoženih je bilo <xliff:g id="insertCount">%d</xliff:g> predmetov</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Izvoz je bil preklican, izvožen je bil <xliff:g id="insertCount">%d</xliff:g> predmet</item>
-    <item quantity="two">Izvoz je bil preklican, izvožena sta bila <xliff:g id="insertCount">%d</xliff:g> predmeta</item>
-    <item quantity="few">Izvoz je bil preklican, izvoženi so bili <xliff:g id="insertCount">%d</xliff:g> predmeti</item>
-    <item quantity="other">Izvoz je bil preklican, izvoženih je bilo <xliff:g id="insertCount">%d</xliff:g> predmetov</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> oseba je to označila kot neželeno</item>
-    <item quantity="two"><xliff:g id="spamCount">%d</xliff:g> osebi sta to označili kot neželeno</item>
-    <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> osebe so to označile kot neželeno</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> oseb je to označilo kot neželeno</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Izvoz je spodletel, izvožen je bil <xliff:g id="insertCount">%d</xliff:g> predmet</item>
+        <item quantity="two">Izvoz je spodletel, izvožena sta bila <xliff:g id="insertCount">%d</xliff:g> predmeta</item>
+        <item quantity="few">Izvoz je spodletel, izvoženi so bili <xliff:g id="insertCount">%d</xliff:g> predmeti</item>
+        <item quantity="other">Izvoz je spodletel, izvoženih je bilo <xliff:g id="insertCount">%d</xliff:g> predmetov</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">Kartica SIM je polna, izvožen je bil <xliff:g id="insertCount">%d</xliff:g> predmet</item>
+        <item quantity="two">Kartica SIM je polna, izvožena sta bila <xliff:g id="insertCount">%d</xliff:g> predmeta</item>
+        <item quantity="few">Kartica SIM je polna, izvoženi so bili <xliff:g id="insertCount">%d</xliff:g> predmeti</item>
+        <item quantity="other">Kartica SIM je polna, izvoženih je bilo <xliff:g id="insertCount">%d</xliff:g> predmetov</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Izvoz je bil preklican, izvožen je bil <xliff:g id="insertCount">%d</xliff:g> predmet</item>
+        <item quantity="two">Izvoz je bil preklican, izvožena sta bila <xliff:g id="insertCount">%d</xliff:g> predmeta</item>
+        <item quantity="few">Izvoz je bil preklican, izvoženi so bili <xliff:g id="insertCount">%d</xliff:g> predmeti</item>
+        <item quantity="other">Izvoz je bil preklican, izvoženih je bilo <xliff:g id="insertCount">%d</xliff:g> predmetov</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> oseba je to označila kot neželeno</item>
+        <item quantity="two"><xliff:g id="spamCount">%d</xliff:g> osebi sta to označili kot neželeno</item>
+        <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> osebe so to označile kot neželeno</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> oseb je to označilo kot neželeno</item>
+    </plurals>
 </resources>

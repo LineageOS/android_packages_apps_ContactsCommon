@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Eksporten mislykkedes, <xliff:g id="insertCount">%d</xliff:g> element blev eksporteret</item>
-    <item quantity="other">Eksporten mislykkedes, <xliff:g id="insertCount">%d</xliff:g> elementer blev eksporteret</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM-kortet er fuldt, <xliff:g id="insertCount">%d</xliff:g> element blev eksporteret</item>
-    <item quantity="other">SIM-kortet er fuldt, <xliff:g id="insertCount">%d</xliff:g> elementer blev eksporteret</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Eksporten blev annulleret, <xliff:g id="insertCount">%d</xliff:g> element blev eksporteret</item>
-    <item quantity="other">Eksporten blev annulleret, <xliff:g id="insertCount">%d</xliff:g> elementer blev eksporteret</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> person markeret det som spam</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> personer markeret det som spam</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Eksport fejlede, <xliff:g id="insertCount">%d</xliff:g> element blev eksporteret</item>
+        <item quantity="other">Eksport fejlede, <xliff:g id="insertCount">%d</xliff:g> elementer blev eksporteret</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM-kort er fyldt, <xliff:g id="insertCount">%d</xliff:g> element blev eksporteret</item>
+        <item quantity="other">SIM-kort er fyldt, <xliff:g id="insertCount">%d</xliff:g> elementer blev eksporteret</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Eksport blev afbrudt, <xliff:g id="insertCount">%d</xliff:g> element blev eksporteret</item>
+        <item quantity="other">Eksport blev afbrudt, <xliff:g id="insertCount">%d</xliff:g> elementer blev eksporteret</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> person markerede dette som uønsket</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> personer markerede dette som uønsket</item>
+    </plurals>
 </resources>

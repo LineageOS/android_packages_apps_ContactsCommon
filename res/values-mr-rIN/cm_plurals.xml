@@ -16,16 +16,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">निर्यात अपयशी, <xliff:g id="insertCount">%d</xliff:g> आयटम निर्यात केला</item>
-    <item quantity="other">निर्यात अपयशी, <xliff:g id="insertCount">%d</xliff:g> आयटम्स निर्यात केले</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">सिम कार्ड भरले आहे, <xliff:g id="insertCount">%d</xliff:g> आयटम निर्यात केला</item>
-    <item quantity="other">सिम कार्ड भरले आहे, <xliff:g id="insertCount">%d</xliff:g> आयटम्स निर्यात केले</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">निर्यात रद्द केली,  <xliff:g id="insertCount">%d</xliff:g>  आयटम निर्यात केला</item>
-    <item quantity="other">निर्यात रद्द केली,  <xliff:g id="insertCount">%d</xliff:g> आयटम्स निर्यात केले</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">निर्यात अपयशी, <xliff:g id="insertCount">%d</xliff:g> आयटम निर्यात केला</item>
+        <item quantity="other">निर्यात अपयशी, <xliff:g id="insertCount">%d</xliff:g> आयटम्स निर्यात केले</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">सिम कार्ड भरले आहे, <xliff:g id="insertCount">%d</xliff:g> आयटम निर्यात केला</item>
+        <item quantity="other">सिम कार्ड भरले आहे, <xliff:g id="insertCount">%d</xliff:g> आयटम्स निर्यात केले</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">निर्यात रद्द केली,  <xliff:g id="insertCount">%d</xliff:g>  आयटम निर्यात केला</item>
+        <item quantity="other">निर्यात रद्द केली,  <xliff:g id="insertCount">%d</xliff:g> आयटम्स निर्यात केले</item>
+    </plurals>
 </resources>

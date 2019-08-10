@@ -16,16 +16,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">എക്സ്പോര്‍ട്ട്‌ പരാജയപ്പെട്ടു, <xliff:g id="insertCount">%d</xliff:g> വസ്തു എക്സ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ടു</item>
-    <item quantity="other">എക്സ്പോര്‍ട്ട്‌ പരാജയപ്പെട്ടു, <xliff:g id="insertCount">%d</xliff:g> വസ്തുക്കള്‍ എക്സ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ടു</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">സിം കാർഡ് നിറഞ്ഞു,<xliff:g id="insertCount">%d</xliff:g> പകർത്തിയിട്ടുണ്ട്</item>
-    <item quantity="other">സിം കാർഡ് നിറഞ്ഞു,<xliff:g id="insertCount">%d</xliff:g> പകർത്തിയിട്ടുണ്ട്</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">എക്സ്പോർട്ട് റദ്ദാക്കി,<xliff:g id="insertCount">%d</xliff:g> പകർത്തിയിട്ടുണ്ട്</item>
-    <item quantity="other">എക്സ്പോർട്ട് റദ്ദാക്കി,<xliff:g id="insertCount">%d</xliff:g> പകർത്തിയിട്ടുണ്ട്</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">എക്സ്പോര്‍ട്ട്‌ പരാജയപ്പെട്ടു, <xliff:g id="insertCount">%d</xliff:g> വസ്തു എക്സ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ടു</item>
+        <item quantity="other">എക്സ്പോര്‍ട്ട്‌ പരാജയപ്പെട്ടു, <xliff:g id="insertCount">%d</xliff:g> വസ്തുക്കള്‍ എക്സ്പോര്‍ട്ട്‌ ചെയ്യപ്പെട്ടു</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">സിം കാർഡ് നിറഞ്ഞു,<xliff:g id="insertCount">%d</xliff:g> പകർത്തിയിട്ടുണ്ട്</item>
+        <item quantity="other">സിം കാർഡ് നിറഞ്ഞു,<xliff:g id="insertCount">%d</xliff:g> പകർത്തിയിട്ടുണ്ട്</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">എക്സ്പോർട്ട് റദ്ദാക്കി,<xliff:g id="insertCount">%d</xliff:g> പകർത്തിയിട്ടുണ്ട്</item>
+        <item quantity="other">എക്സ്പോർട്ട് റദ്ദാക്കി,<xliff:g id="insertCount">%d</xliff:g> പകർത്തിയിട്ടുണ്ട്</item>
+    </plurals>
 </resources>

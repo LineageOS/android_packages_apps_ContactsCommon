@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Vienti epäonnistui, <xliff:g id="insertCount">%d</xliff:g> yhteystieto vietiin</item>
-    <item quantity="other">Vienti epäonnistui, <xliff:g id="insertCount">%d</xliff:g> yhteystietoa vietiin</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM-kortti on täynnä, <xliff:g id="insertCount">%d</xliff:g> yhteystieto vietiin</item>
-    <item quantity="other">SIM-kortti on täynnä, <xliff:g id="insertCount">%d</xliff:g> yhteystietoa vietiin</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Vienti peruutettiin, <xliff:g id="insertCount">%d</xliff:g> yhteystieto vietiin</item>
-    <item quantity="other">Vienti peruutettiin, <xliff:g id="insertCount">%d</xliff:g> yhteystietoa vietiin</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> henkilö on merkannut tämän spam-puheluksi</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> henkilöä on merkannut tämän spam-puheluksi</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Vienti epäonnistui, <xliff:g id="insertCount">%d</xliff:g> yhteystieto vietiin</item>
+        <item quantity="other">Vienti epäonnistui, <xliff:g id="insertCount">%d</xliff:g> yhteystietoa vietiin</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM-kortti on täynnä, <xliff:g id="insertCount">%d</xliff:g> yhteystieto vietiin</item>
+        <item quantity="other">SIM-kortti on täynnä, <xliff:g id="insertCount">%d</xliff:g> yhteystietoa vietiin</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Vienti peruutettiin, <xliff:g id="insertCount">%d</xliff:g> yhteystieto vietiin</item>
+        <item quantity="other">Vienti peruutettiin, <xliff:g id="insertCount">%d</xliff:g> yhteystietoa vietiin</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> henkilö on merkannut tämän spam-puheluksi</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> henkilöä on merkannut tämän spam-puheluksi</item>
+    </plurals>
 </resources>

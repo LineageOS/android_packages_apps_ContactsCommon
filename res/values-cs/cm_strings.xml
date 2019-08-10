@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Lokální účet tabletu</string>
-  <string name="local_storage_account" product="default">Lokální účet telefonu</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Exportovat na SIM kartu</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">Export na SIM kartu <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">Export na SIM kartu <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">Příliš mnoho kontaktů, sdílení bylo neúspěšné</string>
-  <string name="label_groups">Skupina</string>
-  <string name="exporting">Exportování\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> z <xliff:g id="total_number">%2$s</xliff:g> souborů</string>
-  <string name="export_finished">Export dokončen</string>
-  <string name="tag_too_long">Jméno kontaktu je příliš dlouhé</string>
-  <string name="sim_contacts_not_loaded">Nelze načíst kontakty SIM</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s </xliff:g> nemá telefonní číslo ani e-mailovou adresu</string>
-  <string name="import_from_sim_select">Vyberte kartu pro import</string>
-  <string name="copy_done">Kontakt byl úspěšně zkopírován</string>
-  <string name="copy_failure">Kopírování kontaktu selhalo</string>
-  <string name="card_no_space">Kopírování kontaktu selhalo, SIM karta je plná</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">IP volání prostřednictvím <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">Žádné IP číslo</string>
-  <string name="no_ip_number_on_sim_card">Žádné IP číslo na SIM kartě</string>
-  <string name="set_ip_number">Nastavit IP číslo</string>
-  <string name="ipcall_dialog_title">Nastavení IP volání</string>
-  <string name="ipcall_dialog_edit_hint">Zadejte prefix pro IP</string>
-  <string name="menu_block_contact">Blokovat</string>
-  <string name="menu_unblock_contact">Odblokovat</string>
-  <string name="block_dialog_title">Blokovat tento kontakt?</string>
-  <string name="unblock_dialog_title">Odblokovat tento kontakt?</string>
-  <string name="block_dialog_positive">Blokovat</string>
-  <string name="unblock_dialog_positive">Odblokovat</string>
-  <string name="block_dialog_negative">Zrušit</string>
-  <string name="block_dialog_description">Od této osoby již nebudete přijímat hovory a zprávy.</string>
-  <string name="block_dialog_report_spam">Nahlásit jako spam operátoru <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">Nahlásit že není spam operátoru <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">Pro zobrazení <xliff:g id="plugin_name">%1$s</xliff:g> kontaktů se prosím přihlaste do <xliff:g id="plugin_name">%1$s</xliff:g></string>
-  <string name="plugin_login_button_title">Přihlásit se</string>
-  <string name="plugin_empty_list_text">Nemáte žádné kontakty v <xliff:g id="plugin_name">%s</xliff:g>,\n</string>
-  <string name="plugin_empty_list_action_text">přidat kontakt</string>
+    <string name="local_storage_account" product="tablet">Lokální účet tabletu</string>
+    <string name="local_storage_account" product="default">Lokální účet telefonu</string>
+    <string name="export_to_sim">Exportovat na SIM kartu</string>
+    <string name="export_to_sim_summary">Export na SIM kartu <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">Export na SIM kartu <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">Příliš mnoho kontaktů, sdílení bylo neúspěšné</string>
+    <string name="label_groups">Skupina</string>
+    <string name="exporting">Exportování\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> z <xliff:g id="total_number">%2$s</xliff:g> souborů</string>
+    <string name="export_finished">Export dokončen</string>
+    <string name="tag_too_long">Jméno kontaktu je příliš dlouhé</string>
+    <string name="sim_contacts_not_loaded">Nelze načíst kontakty SIM</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s </xliff:g> nemá telefonní číslo ani e-mailovou adresu</string>
+    <string name="import_from_sim_select">Vyberte kartu pro import</string>
+    <string name="copy_done">Kontakt byl úspěšně zkopírován</string>
+    <string name="copy_failure">Kopírování kontaktu selhalo</string>
+    <string name="card_no_space">Kopírování kontaktu selhalo, SIM karta je plná</string>
+    <string name="ip_call_by_slot">IP volání prostřednictvím <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Žádné IP číslo</string>
+    <string name="no_ip_number_on_sim_card">Žádné IP číslo na SIM kartě</string>
+    <string name="set_ip_number">Nastavit IP číslo</string>
+    <string name="ipcall_dialog_title">Nastavení IP volání</string>
+    <string name="ipcall_dialog_edit_hint">Zadejte prefix pro IP</string>
+    <string name="menu_block_contact">Blokovat</string>
+    <string name="menu_unblock_contact">Odblokovat</string>
+    <string name="block_dialog_title">Blokovat tento kontakt?</string>
+    <string name="unblock_dialog_title">Odblokovat tento kontakt?</string>
+    <string name="block_dialog_positive">Blokovat</string>
+    <string name="unblock_dialog_positive">Odblokovat</string>
+    <string name="block_dialog_negative">Zrušit</string>
+    <string name="block_dialog_description">Od této osoby již nebudete přijímat hovory a zprávy.</string>
+    <string name="block_dialog_report_spam">Nahlásit jako spam operátoru <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Nahlásit že není spam operátoru <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">Pro zobrazení <xliff:g id="plugin_name">%1$s</xliff:g> kontaktů se prosím přihlaste do <xliff:g id="plugin_name">%1$s</xliff:g></string>
+    <string name="plugin_login_button_title">Přihlásit se</string>
+    <string name="plugin_empty_list_text">Nemáte žádné kontakty v <xliff:g id="plugin_name">%s</xliff:g>,\n</string>
+    <string name="plugin_empty_list_action_text">přidat kontakt</string>
 </resources>

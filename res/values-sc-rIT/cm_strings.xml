@@ -16,12 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <!-- Action that exports all contacts to SIM -->
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <!-- Menu item used to initiate ip call -->
+    <string name="label_groups">Grupu</string>
+    <string name="menu_block_contact">Bloca</string>
+    <string name="menu_unblock_contact">Isbloca</string>
+    <string name="block_dialog_positive">Bloca</string>
+    <string name="unblock_dialog_positive">Isbloca</string>
+    <string name="block_dialog_negative">Annulla</string>
 </resources>

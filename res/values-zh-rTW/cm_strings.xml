@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">本機平板電腦帳戶</string>
-  <string name="local_storage_account" product="default">本機手機帳戶</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">匯出至 SIM 卡</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">匯出到 SIM 卡 <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">匯出到 SIM 卡 <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">聯絡人過多，分享失敗</string>
-  <string name="label_groups">群組</string>
-  <string name="exporting">匯出中\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g> 個檔案中的 <xliff:g id="current_number">%1$s</xliff:g> 個</string>
-  <string name="export_finished">已完成匯出</string>
-  <string name="tag_too_long">聯絡人名稱過長</string>
-  <string name="sim_contacts_not_loaded">無法載入 SIM 卡聯絡人</string>
-  <string name="export_no_phone_or_email">「<xliff:g id="name">%s</xliff:g>」沒有電話號碼或電子郵件地址</string>
-  <string name="import_from_sim_select">選取要匯入的 SIM 卡</string>
-  <string name="copy_done">已成功複製聯絡人</string>
-  <string name="copy_failure">複製聯絡人失敗</string>
-  <string name="card_no_space">複製聯絡人失敗，SIM 卡已滿</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">來自「<xliff:g id="subName">%s</xliff:g>」的網路通話</string>
-  <string name="no_ip_number">無 IP 號碼</string>
-  <string name="no_ip_number_on_sim_card">SIM 卡上沒有 IP 號碼</string>
-  <string name="set_ip_number">設定 IP 號碼</string>
-  <string name="ipcall_dialog_title">IP 通話設定</string>
-  <string name="ipcall_dialog_edit_hint">請輸入 IP 地區號碼</string>
-  <string name="menu_block_contact">封鎖</string>
-  <string name="menu_unblock_contact">解除封鎖</string>
-  <string name="block_dialog_title">封鎖此聯絡人？</string>
-  <string name="unblock_dialog_title">解除封鎖此聯絡人？</string>
-  <string name="block_dialog_positive">封鎖</string>
-  <string name="unblock_dialog_positive">解除封鎖</string>
-  <string name="block_dialog_negative">取消</string>
-  <string name="block_dialog_description">您將不會再收到來自此人的來電或訊息。</string>
-  <string name="block_dialog_report_spam">向 <xliff:g id="provider">%s</xliff:g> 報告為垃圾來電</string>
-  <string name="block_dialog_report_nonspam">向 <xliff:g id="provider">%s</xliff:g> 報告為非垃圾來電</string>
-  <string name="plugin_login_msg">登入至 <xliff:g id="plugin_name">%1$s</xliff:g> 以便在這裡查看您的 <xliff:g id="plugin_name">%1$s</xliff:g> 聯絡人</string>
-  <string name="plugin_login_button_title">登入</string>
-  <string name="plugin_empty_list_text">您沒有 <xliff:g id="plugin_name">%s</xliff:g> 的聯絡人，\n</string>
-  <string name="plugin_empty_list_action_text">新增聯絡人</string>
+    <string name="local_storage_account" product="tablet">本機平板電腦帳戶</string>
+    <string name="local_storage_account" product="default">本機手機帳戶</string>
+    <string name="export_to_sim">匯出至 SIM 卡</string>
+    <string name="export_to_sim_summary">匯出到 SIM 卡 <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">匯出到 SIM 卡 <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">聯絡人過多，分享失敗</string>
+    <string name="label_groups">群組</string>
+    <string name="exporting">匯出中\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g> 個檔案中的 <xliff:g id="current_number">%1$s</xliff:g> 個</string>
+    <string name="export_finished">已完成匯出</string>
+    <string name="tag_too_long">聯絡人名稱過長</string>
+    <string name="sim_contacts_not_loaded">無法載入 SIM 卡聯絡人</string>
+    <string name="export_no_phone_or_email">「<xliff:g id="name">%s</xliff:g>」沒有電話號碼或電子郵件地址</string>
+    <string name="import_from_sim_select">選取要匯入的 SIM 卡</string>
+    <string name="copy_done">已成功複製聯絡人</string>
+    <string name="copy_failure">複製聯絡人失敗</string>
+    <string name="card_no_space">複製聯絡人失敗，SIM 卡已滿</string>
+    <string name="ip_call_by_slot">來自「<xliff:g id="subName">%s</xliff:g>」的網路通話</string>
+    <string name="no_ip_number">無 IP 號碼</string>
+    <string name="no_ip_number_on_sim_card">SIM 卡上沒有 IP 號碼</string>
+    <string name="set_ip_number">設定 IP 號碼</string>
+    <string name="ipcall_dialog_title">IP 通話設定</string>
+    <string name="ipcall_dialog_edit_hint">請輸入 IP 地區號碼</string>
+    <string name="menu_block_contact">封鎖</string>
+    <string name="menu_unblock_contact">解除封鎖</string>
+    <string name="block_dialog_title">封鎖此聯絡人？</string>
+    <string name="unblock_dialog_title">解除封鎖此聯絡人？</string>
+    <string name="block_dialog_positive">封鎖</string>
+    <string name="unblock_dialog_positive">解除封鎖</string>
+    <string name="block_dialog_negative">取消</string>
+    <string name="block_dialog_description">您將不會再收到來自此人的來電或訊息。</string>
+    <string name="block_dialog_report_spam">向 <xliff:g id="provider">%s</xliff:g> 報告為垃圾來電</string>
+    <string name="block_dialog_report_nonspam">向 <xliff:g id="provider">%s</xliff:g> 報告為非垃圾來電</string>
+    <string name="plugin_login_msg">登入至 <xliff:g id="plugin_name">%1$s</xliff:g> 以便在這裡查看您的 <xliff:g id="plugin_name">%1$s</xliff:g> 聯絡人</string>
+    <string name="plugin_login_button_title">登入</string>
+    <string name="plugin_empty_list_text">您沒有 <xliff:g id="plugin_name">%s</xliff:g> 的聯絡人，\n</string>
+    <string name="plugin_empty_list_action_text">新增聯絡人</string>
 </resources>

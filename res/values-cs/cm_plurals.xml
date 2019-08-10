@@ -16,24 +16,28 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Export selhal, <xliff:g id="insertCount">%d</xliff:g> položka byla exportována</item>
-    <item quantity="few">Export selhal, <xliff:g id="insertCount">%d</xliff:g> položky byly exportovány</item>
-    <item quantity="other">Export selhal, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM karta je plná, <xliff:g id="insertCount">%d</xliff:g> položka byla exportována</item>
-    <item quantity="few">SIM karta je plná, <xliff:g id="insertCount">%d</xliff:g> položky byly exportovány</item>
-    <item quantity="other">SIM karta je plná, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Export byl zrušen, <xliff:g id="insertCount">%d</xliff:g> položka byla exportována</item>
-    <item quantity="few">Export byl zrušen, <xliff:g id="insertCount">%d</xliff:g> položky byly exportovány</item>
-    <item quantity="other">Export byl zrušen, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> osoba označila toto jako spam</item>
-    <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> osoby označily toto jako spam</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> osob označilo toto jako spam</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Export selhal, <xliff:g id="insertCount">%d</xliff:g> položka byla exportována</item>
+        <item quantity="few">Export selhal, <xliff:g id="insertCount">%d</xliff:g> položky byly exportovány</item>
+        <item quantity="many">Export selhal, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
+        <item quantity="other">Export selhal, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM karta je plná, <xliff:g id="insertCount">%d</xliff:g> položka byla exportována</item>
+        <item quantity="few">SIM karta je plná, <xliff:g id="insertCount">%d</xliff:g> položky byly exportovány</item>
+        <item quantity="many">SIM karta je plná, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
+        <item quantity="other">SIM karta je plná, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Export byl zrušen, <xliff:g id="insertCount">%d</xliff:g> položka byla exportována</item>
+        <item quantity="few">Export byl zrušen, <xliff:g id="insertCount">%d</xliff:g> položky byly exportovány</item>
+        <item quantity="many">Export byl zrušen, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
+        <item quantity="other">Export byl zrušen, <xliff:g id="insertCount">%d</xliff:g> položek bylo exportováno</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> osoba označila toto jako spam</item>
+        <item quantity="few"><xliff:g id="spamCount">%d</xliff:g> osoby označily toto jako spam</item>
+        <item quantity="many"><xliff:g id="spamCount">%d</xliff:g> osob označilo toto jako spam</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> osob označilo toto jako spam</item>
+    </plurals>
 </resources>

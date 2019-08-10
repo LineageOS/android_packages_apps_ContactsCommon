@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">L\'exportation a échoué, <xliff:g id="insertCount">%d</xliff:g> objet a été exporté</item>
-    <item quantity="other">L\'exportation a échoué, <xliff:g id="insertCount">%d</xliff:g> objets ont été exportés</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">Carte SIM pleine, <xliff:g id="insertCount">%d</xliff:g> objet a été exporté</item>
-    <item quantity="other">Carte SIM pleine, <xliff:g id="insertCount">%d</xliff:g> objets ont été exportés</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Exportation annulée, <xliff:g id="insertCount">%d</xliff:g> objet a été exporté</item>
-    <item quantity="other">Exportation annulée, <xliff:g id="insertCount">%d</xliff:g> objets ont été exportés</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> personne a marqué cela comme indésirable</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> personnes ont marqué cela comme indésirable</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">L\'exportation a échoué, <xliff:g id="insertCount">%d</xliff:g> objet a été exporté</item>
+        <item quantity="other">L\'exportation a échoué, <xliff:g id="insertCount">%d</xliff:g> objets ont été exportés</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">Carte SIM pleine, <xliff:g id="insertCount">%d</xliff:g> objet a été exporté</item>
+        <item quantity="other">Carte SIM pleine, <xliff:g id="insertCount">%d</xliff:g> objets ont été exportés</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Exportation annulée, <xliff:g id="insertCount">%d</xliff:g> objet a été exporté</item>
+        <item quantity="other">Exportation annulée, <xliff:g id="insertCount">%d</xliff:g> objets ont été exportés</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> personne a marqué cela comme indésirable</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> personnes ont marqué cela comme indésirable</item>
+    </plurals>
 </resources>

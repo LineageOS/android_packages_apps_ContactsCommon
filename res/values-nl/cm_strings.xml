@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Lokaal tabletaccount</string>
-  <string name="local_storage_account" product="default">Lokaal telefoonaccount</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Exporteren naar simkaart</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">Exporteren naar SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">Exporteren naar SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">Te veel contacten, delen mislukt</string>
-  <string name="label_groups">Groep</string>
-  <string name="exporting">Exporteren\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> van <xliff:g id="total_number">%2$s</xliff:g> bestanden</string>
-  <string name="export_finished">Exporteren voltooid</string>
-  <string name="tag_too_long">Naam van contact is te lang</string>
-  <string name="sim_contacts_not_loaded">Kan SIM-contacten niet laden</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> beschikt niet over een telefoonnummer of e-mailadres</string>
-  <string name="import_from_sim_select">Kies kaart om te importeren</string>
-  <string name="copy_done">Contact kopiëren gelukt</string>
-  <string name="copy_failure">Contact kopiëren mislukt</string>
-  <string name="card_no_space">Contact kopiëren mislukt, simkaart vol</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">IP-oproep via <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">Geen IP-nummer</string>
-  <string name="no_ip_number_on_sim_card">Geen IP-nummer op simkaart</string>
-  <string name="set_ip_number">IP-nummer instellen</string>
-  <string name="ipcall_dialog_title">Instellingen IP-oproep</string>
-  <string name="ipcall_dialog_edit_hint">Voer IP-voorvoegsel in</string>
-  <string name="menu_block_contact">Blokkeren</string>
-  <string name="menu_unblock_contact">Deblokkeren</string>
-  <string name="block_dialog_title">Dit contact blokkeren?</string>
-  <string name="unblock_dialog_title">Dit contact deblokkeren?</string>
-  <string name="block_dialog_positive">Blokkeren</string>
-  <string name="unblock_dialog_positive">Deblokkeren</string>
-  <string name="block_dialog_negative">Annuleren</string>
-  <string name="block_dialog_description">U ontvangt geen oproepen of berichten meer van deze persoon.</string>
-  <string name="block_dialog_report_spam">Rapporteren als ongewenst aan <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">Rapporteren als niet-ongewenst aan <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">Meld u aan bij <xliff:g id="plugin_name">%1$s</xliff:g> om uw <xliff:g id="plugin_name">%1$s</xliff:g>-contacten hier te zien</string>
-  <string name="plugin_login_button_title">Aanmelden</string>
-  <string name="plugin_empty_list_text">U hebt geen <xliff:g id="plugin_name">%s</xliff:g>-contacten,\n</string>
-  <string name="plugin_empty_list_action_text">personen toevoegen</string>
+    <string name="local_storage_account" product="tablet">Lokaal tabletaccount</string>
+    <string name="local_storage_account" product="default">Lokaal telefoonaccount</string>
+    <string name="export_to_sim">Exporteren naar simkaart</string>
+    <string name="export_to_sim_summary">Exporteren naar SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">Exporteren naar SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">Te veel contacten, delen mislukt</string>
+    <string name="label_groups">Groep</string>
+    <string name="exporting">Exporteren\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> van <xliff:g id="total_number">%2$s</xliff:g> bestanden</string>
+    <string name="export_finished">Exporteren voltooid</string>
+    <string name="tag_too_long">Naam van contact is te lang</string>
+    <string name="sim_contacts_not_loaded">Kan SIM-contacten niet laden</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> beschikt niet over een telefoonnummer of e-mailadres</string>
+    <string name="import_from_sim_select">Kies kaart om te importeren</string>
+    <string name="copy_done">Contact kopiëren gelukt</string>
+    <string name="copy_failure">Contact kopiëren mislukt</string>
+    <string name="card_no_space">Contact kopiëren mislukt, simkaart vol</string>
+    <string name="ip_call_by_slot">IP-oproep via <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Geen IP-nummer</string>
+    <string name="no_ip_number_on_sim_card">Geen IP-nummer op simkaart</string>
+    <string name="set_ip_number">IP-nummer instellen</string>
+    <string name="ipcall_dialog_title">Instellingen IP-oproep</string>
+    <string name="ipcall_dialog_edit_hint">Voer IP-voorvoegsel in</string>
+    <string name="menu_block_contact">Blokkeren</string>
+    <string name="menu_unblock_contact">Deblokkeren</string>
+    <string name="block_dialog_title">Dit contact blokkeren?</string>
+    <string name="unblock_dialog_title">Dit contact deblokkeren?</string>
+    <string name="block_dialog_positive">Blokkeren</string>
+    <string name="unblock_dialog_positive">Deblokkeren</string>
+    <string name="block_dialog_negative">Annuleren</string>
+    <string name="block_dialog_description">U ontvangt geen oproepen of berichten meer van deze persoon.</string>
+    <string name="block_dialog_report_spam">Rapporteren als ongewenst aan <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Rapporteren als niet-ongewenst aan <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">Meld u aan bij <xliff:g id="plugin_name">%1$s</xliff:g> om uw <xliff:g id="plugin_name">%1$s</xliff:g>-contacten hier te zien</string>
+    <string name="plugin_login_button_title">Aanmelden</string>
+    <string name="plugin_empty_list_text">U hebt geen <xliff:g id="plugin_name">%s</xliff:g>-contacten,\n</string>
+    <string name="plugin_empty_list_action_text">personen toevoegen</string>
 </resources>

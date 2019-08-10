@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Lokal tabletkonto</string>
-  <string name="local_storage_account" product="default">Lokal telefonkonto</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Eksportér til SIM-kortet</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">Eksportér til SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">Eksportér til SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">For mange kontakter, deling mislykket</string>
-  <string name="label_groups">Gruppe</string>
-  <string name="exporting">Eksporterer\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> af <xliff:g id="total_number">%2$s</xliff:g> filer</string>
-  <string name="export_finished">Eksport afsluttet</string>
-  <string name="tag_too_long">Kontaktnavn er for langt</string>
-  <string name="sim_contacts_not_loaded">Kan ikke indlæse SIM-kontakter</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> har ikke et telefonnummer eller en e-mail adresse</string>
-  <string name="import_from_sim_select">Vælg det kort, der skal importeres</string>
-  <string name="copy_done">Kontakt blev kopieret korrekt</string>
-  <string name="copy_failure">Kopiering af kontaktpersonen mislykkedes</string>
-  <string name="card_no_space">Kopiering af kontaktpersonen mislykkedes, SIM-kortet er fyldt</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">IP-opkald med <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">Intet IP-nummer</string>
-  <string name="no_ip_number_on_sim_card">Intet IP-nummer på SIM-kortet</string>
-  <string name="set_ip_number">Angiv IP-nummer</string>
-  <string name="ipcall_dialog_title">IP-opkaldsindstillinger</string>
-  <string name="ipcall_dialog_edit_hint">Indtast IP-præfiks</string>
-  <string name="menu_block_contact">Blokér</string>
-  <string name="menu_unblock_contact">FJern blokering</string>
-  <string name="block_dialog_title">Blokér denne kontaktperson?</string>
-  <string name="unblock_dialog_title">Fjern blokering af denne kontaktperson?</string>
-  <string name="block_dialog_positive">Blokér</string>
-  <string name="unblock_dialog_positive">Fjern blokering</string>
-  <string name="block_dialog_negative">Annullér</string>
-  <string name="block_dialog_description">Du vil ikke længere modtage opkald eller beskeder fra denne person.</string>
-  <string name="block_dialog_report_spam">Rapporter som spam til <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">Rapporter som ikke-spam til <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">Log ind på <xliff:g id="plugin_name">%1$s</xliff:g> for at se dine <xliff:g id="plugin_name">%1$s</xliff:g> kontakter her</string>
-  <string name="plugin_login_button_title">Log ind</string>
-  <string name="plugin_empty_list_text">Du har ingen <xliff:g id="plugin_name">%s</xliff:g> kontakter,\n</string>
-  <string name="plugin_empty_list_action_text">tilføj personer</string>
+    <string name="local_storage_account" product="tablet">Lokal tablet-konto</string>
+    <string name="local_storage_account" product="default">Lokal telefon-konto</string>
+    <string name="export_to_sim">Eksportér til SIM-kort</string>
+    <string name="export_to_sim_summary">Eksportér til SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">Eksportér til SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">For mange kontaktpersoner. Deling fejlede</string>
+    <string name="label_groups">Gruppe</string>
+    <string name="exporting">Eksporterer\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> af <xliff:g id="total_number">%2$s</xliff:g> filer</string>
+    <string name="export_finished">Eksport færdig</string>
+    <string name="tag_too_long">Navn på kontaktperson er for langt</string>
+    <string name="sim_contacts_not_loaded">Ude af stand til at indlæse SIM-kontaktpersoner</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> har ikke et telefonnummer, eller en e-post adresse</string>
+    <string name="import_from_sim_select">Vælg kort at importere</string>
+    <string name="copy_done">Det lykkedes at kopiere kontaktperson</string>
+    <string name="copy_failure">Det lykkedes ikke at kopiere kontaktpersonen</string>
+    <string name="card_no_space">Det lykkedes ikke at kopiere kontaktperson, SIM-kort er fyldt</string>
+    <string name="ip_call_by_slot">IP-opkald via <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Intet IP-nummer</string>
+    <string name="no_ip_number_on_sim_card">Intet IP-nummer på SIM-kort</string>
+    <string name="set_ip_number">Angiv IP-nummer</string>
+    <string name="ipcall_dialog_title">IP-opkaldsindstillinger</string>
+    <string name="ipcall_dialog_edit_hint">Indtast venligst IP-præfikset</string>
+    <string name="menu_block_contact">Blokér</string>
+    <string name="menu_unblock_contact">Fjern blokering</string>
+    <string name="block_dialog_title">Blokér denne kontaktperson?</string>
+    <string name="unblock_dialog_title">Fjern blokering af denne kontaktperson?</string>
+    <string name="block_dialog_positive">Blokér</string>
+    <string name="unblock_dialog_positive">Fjern blokering</string>
+    <string name="block_dialog_negative">Afbryd</string>
+    <string name="block_dialog_description">Du vil ikke længere modtage opkald, eller meddelelser fra denne person.</string>
+    <string name="block_dialog_report_spam">Rapportér som uønsket til <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Rapportér som ikke-uønsket til <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">Log ind på <xliff:g id="plugin_name">%1$s</xliff:g>, for at se dine <xliff:g id="plugin_name">%1$s</xliff:g>-kontaktpersoner her</string>
+    <string name="plugin_login_button_title">Log ind</string>
+    <string name="plugin_empty_list_text">Du har ingen <xliff:g id="plugin_name">%s</xliff:g>-kontaktpersoner,\n</string>
+    <string name="plugin_empty_list_action_text">tilføj folk</string>
 </resources>

@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">Локални налог таблета</string>
-  <string name="local_storage_account" product="default">Локални налог телефона</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">Извези на SIM картицу</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">Извези у SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">Извоз у SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">Превише контаката, дељење није успело</string>
-  <string name="label_groups">Група</string>
-  <string name="exporting">Извоз\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> oд <xliff:g id="total_number">%2$s</xliff:g> фајлова</string>
-  <string name="export_finished">Извоз завршен</string>
-  <string name="tag_too_long">Име контакта је предугачко</string>
-  <string name="sim_contacts_not_loaded">Не могу да учитам контакте са SIM картице</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> нема број телефона или адресу е-поште</string>
-  <string name="import_from_sim_select">Изабери картицу за увоз</string>
-  <string name="copy_done">Контакт је успешно копиран</string>
-  <string name="copy_failure">Копирање контакта није успело</string>
-  <string name="card_no_space">Копирање контакта није успело, SIM картица је пуна</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot">IP позив преко <xliff:g id="subName">%s</xliff:g></string>
-  <string name="no_ip_number">Нема IP броја</string>
-  <string name="no_ip_number_on_sim_card">Нема IP броја на SIM картици</string>
-  <string name="set_ip_number">Постави IP број</string>
-  <string name="ipcall_dialog_title">Подешавања IP позива</string>
-  <string name="ipcall_dialog_edit_hint">Унеси IP префикс</string>
-  <string name="menu_block_contact">Блокирано</string>
-  <string name="menu_unblock_contact">Одблокирај</string>
-  <string name="block_dialog_title">Блокирати овај контакт?</string>
-  <string name="unblock_dialog_title">Деблокирати овај контакт?</string>
-  <string name="block_dialog_positive">Блокирано</string>
-  <string name="unblock_dialog_positive">Одблокирај</string>
-  <string name="block_dialog_negative">Поништи</string>
-  <string name="block_dialog_description">Нећеш више примати позиве или поруке од те особе.</string>
-  <string name="block_dialog_report_spam">Пријави спам у <xliff:g id="provider">%s</xliff:g></string>
-  <string name="block_dialog_report_nonspam">Пријави да није спам у <xliff:g id="provider">%s</xliff:g></string>
-  <string name="plugin_login_msg">Пријави се у <xliff:g id="plugin_name">%1$s</xliff:g> да видиш своје <xliff:g id="plugin_name">%1$s</xliff:g> контакте овде</string>
-  <string name="plugin_login_button_title">Пријави се</string>
-  <string name="plugin_empty_list_text">Немаш <xliff:g id="plugin_name">%s</xliff:g> контакте,\n</string>
-  <string name="plugin_empty_list_action_text">додај особе</string>
+    <string name="local_storage_account" product="tablet">Локални налог таблета</string>
+    <string name="local_storage_account" product="default">Локални налог телефона</string>
+    <string name="export_to_sim">Извези на SIM картицу</string>
+    <string name="export_to_sim_summary">Извези у SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">Извоз у SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">Превише контаката, дељење није успело</string>
+    <string name="label_groups">Група</string>
+    <string name="exporting">Извоз\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> oд <xliff:g id="total_number">%2$s</xliff:g> фајлова</string>
+    <string name="export_finished">Извоз завршен</string>
+    <string name="tag_too_long">Име контакта је предугачко</string>
+    <string name="sim_contacts_not_loaded">Не могу да учитам контакте са SIM картице</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> нема број телефона или адресу е-поште</string>
+    <string name="import_from_sim_select">Изабери картицу за увоз</string>
+    <string name="copy_done">Контакт је успешно копиран</string>
+    <string name="copy_failure">Копирање контакта није успело</string>
+    <string name="card_no_space">Копирање контакта није успело, SIM картица је пуна</string>
+    <string name="ip_call_by_slot">IP позив преко <xliff:g id="subName">%s</xliff:g></string>
+    <string name="no_ip_number">Нема IP броја</string>
+    <string name="no_ip_number_on_sim_card">Нема IP броја на SIM картици</string>
+    <string name="set_ip_number">Постави IP број</string>
+    <string name="ipcall_dialog_title">Подешавања IP позива</string>
+    <string name="ipcall_dialog_edit_hint">Унеси IP префикс</string>
+    <string name="menu_block_contact">Блокирано</string>
+    <string name="menu_unblock_contact">Одблокирај</string>
+    <string name="block_dialog_title">Блокирати овај контакт?</string>
+    <string name="unblock_dialog_title">Деблокирати овај контакт?</string>
+    <string name="block_dialog_positive">Блокирано</string>
+    <string name="unblock_dialog_positive">Одблокирај</string>
+    <string name="block_dialog_negative">Поништи</string>
+    <string name="block_dialog_description">Нећеш више примати позиве или поруке од те особе.</string>
+    <string name="block_dialog_report_spam">Пријави спам у <xliff:g id="provider">%s</xliff:g></string>
+    <string name="block_dialog_report_nonspam">Пријави да није спам у <xliff:g id="provider">%s</xliff:g></string>
+    <string name="plugin_login_msg">Пријави се у <xliff:g id="plugin_name">%1$s</xliff:g> да видиш своје <xliff:g id="plugin_name">%1$s</xliff:g> контакте овде</string>
+    <string name="plugin_login_button_title">Пријави се</string>
+    <string name="plugin_empty_list_text">Немаш <xliff:g id="plugin_name">%s</xliff:g> контакте,\n</string>
+    <string name="plugin_empty_list_action_text">додај особе</string>
 </resources>

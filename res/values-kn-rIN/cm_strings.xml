@@ -16,45 +16,37 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">ಸ್ಥಳೀಯ ಟ್ಯಾಬ್ಲೆಟ್ ಖಾತೆ</string>
-  <string name="local_storage_account" product="default">ಸ್ಥಳೀಯ ಫೋನ್ ಖಾತೆ</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">ಸಿಮ್ ಕಾರ್ಡ್‍ಗೆ ರಫ್ತುಮಾಡಿ</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">SIM ರಫ್ತು ಮಾಡಿ <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">SIM ರಫ್ತು ಮಾಡಿ <xliff:g id="sim_name">%1$s</xliff:g></string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">ತುಂಬಾ ಸಂಪರ್ಕಗಳಿವೆ, ಹಂಚಿಕೆ ವಿಫಲವಾಗಿದೆ</string>
-  <string name="label_groups">ಗುಂಪು</string>
-  <string name="exporting">ರಫ್ತುಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g> ರಲ್ಲಿ <xliff:g id="current_number">%1$s</xliff:g> ಕಡತಗಳು</string>
-  <string name="export_finished">ರಫ್ತು ಮುಗಿದಿದೆ</string>
-  <string name="tag_too_long">ಸಂಪರ್ಕ ಹೆಸರು ಬಹಳಾ ಉದ್ದವಾಯಿತು</string>
-  <string name="sim_contacts_not_loaded">ಸಿಮ್ ಸಂಪರ್ಕಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಹೊಂದಿಲ್ಲ</string>
-  <string name="import_from_sim_select">ಆಮದುಮಾಡಲು ಕಾರ್ಡ್ ಆರಿಸಿ</string>
-  <string name="copy_done">ಸಂಪರ್ಕವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಕಲಿಸಲಾಗಿದೆ</string>
-  <string name="copy_failure">ಸಂಪರ್ಕವನ್ನು ನಕಲಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ</string>
-  <string name="card_no_space">ಸಂಪರ್ಕವನ್ನು ನಕಲಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ, ಸಿಮ್ ಕಾರ್ಡ್ ಭರ್ತಿಯಾಗಿದೆ</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot"><xliff:g id="subName">%s</xliff:g> ಮೂಲಕ IP ಕರೆ</string>
-  <string name="no_ip_number">IP ಸಂಖ್ಯೆ ಇಲ್ಲ</string>
-  <string name="no_ip_number_on_sim_card">ಸಿಮ್ ಕಾರ್ಡ್‍ನಲ್ಲಿ ಯಾವುದೇ IP ಸಂಖ್ಯೆ ಇಲ್ಲ</string>
-  <string name="set_ip_number">IP ಸಂಖ್ಯೆ ಹೊಂದಿಸಿ</string>
-  <string name="ipcall_dialog_title">IP ಕರೆ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
-  <string name="ipcall_dialog_edit_hint">ದಯವಿಟ್ಟು IP ಪೂರ್ವಪ್ರತ್ಯಯಗಳನ್ನು ಬರೆಯಿರಿ</string>
-  <string name="menu_block_contact">ನಿರ್ಬಂಧಿಸು</string>
-  <string name="menu_unblock_contact">ಅನ್‌ಬ್ಲಾಕ್‌</string>
-  <string name="block_dialog_title">ಈ ಸಂಪರ್ಕ ಬ್ಲಾಕ್ ಮಾಡುವುದೇ?</string>
-  <string name="unblock_dialog_title">ಈ ಸಂಪರ್ಕ ಅನ್‌ಬ್ಲಾಕ್ ಮಾಡುವುದೇ?</string>
-  <string name="block_dialog_positive">ನಿರ್ಬಂಧಿಸು</string>
-  <string name="unblock_dialog_positive">ಅನ್‌ಬ್ಲಾಕ್‌</string>
-  <string name="block_dialog_negative">ರದ್ದುಮಾಡು</string>
-  <string name="block_dialog_description">ಈ ವ್ಯಕ್ತಿಯಿಂದ ನೀವು ಇನ್ನು ಮುಂದೆ ಕರೆಗಳು ಅಥವಾ ಸಂದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ.</string>
-  <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g> ಗೆ ಸ್ಪಾಮ್ ಎಂಬುದಾಗಿ ವರದಿ ಮಾಡಿ</string>
-  <string name="block_dialog_report_nonspam">ಸ್ಪ್ಯಾಮ್‌ ಅಲ್ಲ ಎಂದು ವರದಿ ಮಾಡಿ ಇದಕ್ಕೆ <xliff:g id="provider">%s</xliff:g></string>
+    <string name="local_storage_account" product="tablet">ಸ್ಥಳೀಯ ಟ್ಯಾಬ್ಲೆಟ್ ಖಾತೆ</string>
+    <string name="local_storage_account" product="default">ಸ್ಥಳೀಯ ಫೋನ್ ಖಾತೆ</string>
+    <string name="export_to_sim">ಸಿಮ್ ಕಾರ್ಡ್‍ಗೆ ರಫ್ತುಮಾಡಿ</string>
+    <string name="export_to_sim_summary">SIM ರಫ್ತು ಮಾಡಿ <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="export_to_sim_summary_no_number">SIM ರಫ್ತು ಮಾಡಿ <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="share_failed">ತುಂಬಾ ಸಂಪರ್ಕಗಳಿವೆ, ಹಂಚಿಕೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="label_groups">ಗುಂಪು</string>
+    <string name="exporting">ರಫ್ತುಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g> ರಲ್ಲಿ <xliff:g id="current_number">%1$s</xliff:g> ಕಡತಗಳು</string>
+    <string name="export_finished">ರಫ್ತು ಮುಗಿದಿದೆ</string>
+    <string name="tag_too_long">ಸಂಪರ್ಕ ಹೆಸರು ಬಹಳಾ ಉದ್ದವಾಯಿತು</string>
+    <string name="sim_contacts_not_loaded">ಸಿಮ್ ಸಂಪರ್ಕಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಹೊಂದಿಲ್ಲ</string>
+    <string name="import_from_sim_select">ಆಮದುಮಾಡಲು ಕಾರ್ಡ್ ಆರಿಸಿ</string>
+    <string name="copy_done">ಸಂಪರ್ಕವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಕಲಿಸಲಾಗಿದೆ</string>
+    <string name="copy_failure">ಸಂಪರ್ಕವನ್ನು ನಕಲಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="card_no_space">ಸಂಪರ್ಕವನ್ನು ನಕಲಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ, ಸಿಮ್ ಕಾರ್ಡ್ ಭರ್ತಿಯಾಗಿದೆ</string>
+    <string name="ip_call_by_slot"><xliff:g id="subName">%s</xliff:g> ಮೂಲಕ IP ಕರೆ</string>
+    <string name="no_ip_number">IP ಸಂಖ್ಯೆ ಇಲ್ಲ</string>
+    <string name="no_ip_number_on_sim_card">ಸಿಮ್ ಕಾರ್ಡ್‍ನಲ್ಲಿ ಯಾವುದೇ IP ಸಂಖ್ಯೆ ಇಲ್ಲ</string>
+    <string name="set_ip_number">IP ಸಂಖ್ಯೆ ಹೊಂದಿಸಿ</string>
+    <string name="ipcall_dialog_title">IP ಕರೆ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+    <string name="ipcall_dialog_edit_hint">ದಯವಿಟ್ಟು IP ಪೂರ್ವಪ್ರತ್ಯಯಗಳನ್ನು ಬರೆಯಿರಿ</string>
+    <string name="menu_block_contact">ನಿರ್ಬಂಧಿಸು</string>
+    <string name="menu_unblock_contact">ಅನ್‌ಬ್ಲಾಕ್‌</string>
+    <string name="block_dialog_title">ಈ ಸಂಪರ್ಕ ಬ್ಲಾಕ್ ಮಾಡುವುದೇ?</string>
+    <string name="unblock_dialog_title">ಈ ಸಂಪರ್ಕ ಅನ್‌ಬ್ಲಾಕ್ ಮಾಡುವುದೇ?</string>
+    <string name="block_dialog_positive">ನಿರ್ಬಂಧಿಸು</string>
+    <string name="unblock_dialog_positive">ಅನ್‌ಬ್ಲಾಕ್‌</string>
+    <string name="block_dialog_negative">ರದ್ದುಮಾಡು</string>
+    <string name="block_dialog_description">ಈ ವ್ಯಕ್ತಿಯಿಂದ ನೀವು ಇನ್ನು ಮುಂದೆ ಕರೆಗಳು ಅಥವಾ ಸಂದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ.</string>
+    <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g> ಗೆ ಸ್ಪಾಮ್ ಎಂಬುದಾಗಿ ವರದಿ ಮಾಡಿ</string>
+    <string name="block_dialog_report_nonspam">ಸ್ಪ್ಯಾಮ್‌ ಅಲ್ಲ ಎಂದು ವರದಿ ಮಾಡಿ ಇದಕ್ಕೆ <xliff:g id="provider">%s</xliff:g></string>
 </resources>

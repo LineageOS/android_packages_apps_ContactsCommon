@@ -16,49 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Virtual local storage account name -->
-  <string name="local_storage_account" product="tablet">端末のローカルアカウント</string>
-  <string name="local_storage_account" product="default">端末のローカルアカウント</string>
-  <!-- Action that exports all contacts to SIM -->
-  <string name="export_to_sim">SIMカードにエクスポート</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts -->
-  <string name="export_to_sim_summary">SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g>にエクスポートする</string>
-  <!-- Action string for selecting a SIM subscription for exporting contacts, without a phone number -->
-  <string name="export_to_sim_summary_no_number">SIM <xliff:g id="sim_name">%1$s</xliff:g>にエクスポートする</string>
-  <!-- Toast indicating that sharing too many contact has failed. [CHAR LIMIT=NONE]  -->
-  <string name="share_failed">連絡先が多すぎるため、共有できませんでした</string>
-  <string name="label_groups">グループ</string>
-  <string name="exporting">エクスポート中...</string>
-  <!-- Message while reading multiple vCard files "(current number) of (total number) files"
-          The order of "current number" and "total number" cannot be changed -->
-  <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g>個のうち<xliff:g id="current_number">%1$s</xliff:g>個のファイル</string>
-  <string name="export_finished">エクスポートが完了しました</string>
-  <string name="tag_too_long">連絡先の名前が長すぎます</string>
-  <string name="sim_contacts_not_loaded">SIMの連絡先を読み込めませんでした</string>
-  <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>には電話番号またはメールアドレスがありません</string>
-  <string name="import_from_sim_select">インポートするカードを選択</string>
-  <string name="copy_done">連絡先のコピーが完了しました</string>
-  <string name="copy_failure">連絡先をコピーできませんでした</string>
-  <string name="card_no_space">連絡先をコピーできませんでした、SIMカードがいっぱいです</string>
-  <!-- Menu item used to initiate ip call -->
-  <string name="ip_call_by_slot"><xliff:g id="subName">%s</xliff:g>経由でIP電話で発信</string>
-  <string name="no_ip_number">IP番号がありません</string>
-  <string name="no_ip_number_on_sim_card">SIMカードにIP番号がありません</string>
-  <string name="set_ip_number">IP番号を設定</string>
-  <string name="ipcall_dialog_title">IP電話の設定</string>
-  <string name="ipcall_dialog_edit_hint">IP電話のプレフィックスを入力してください</string>
-  <string name="menu_block_contact">拒否</string>
-  <string name="menu_unblock_contact">拒否解除</string>
-  <string name="block_dialog_title">この連絡先を拒否しますか？</string>
-  <string name="unblock_dialog_title">この連絡先を拒否解除しますか？</string>
-  <string name="block_dialog_positive">拒否</string>
-  <string name="unblock_dialog_positive">拒否解除</string>
-  <string name="block_dialog_negative">キャンセル</string>
-  <string name="block_dialog_description">この人物からの着信やメッセージを受け取らないようになりました。</string>
-  <string name="block_dialog_report_spam">迷惑電話として<xliff:g id="provider">%s</xliff:g>に報告</string>
-  <string name="block_dialog_report_nonspam">迷惑電話ではないとして<xliff:g id="provider">%s</xliff:g>に報告</string>
-  <string name="plugin_login_msg">ここに<xliff:g id="plugin_name">%1$s</xliff:g>の連絡先を表示するには、<xliff:g id="plugin_name">%1$s</xliff:g>にログインしてください</string>
-  <string name="plugin_login_button_title">ログイン</string>
-  <string name="plugin_empty_list_text"><xliff:g id="plugin_name">%s</xliff:g>の連絡先がありません、\n</string>
-  <string name="plugin_empty_list_action_text">人物を追加してください</string>
+    <string name="local_storage_account" product="tablet">端末のローカルアカウント</string>
+    <string name="local_storage_account" product="default">端末のローカルアカウント</string>
+    <string name="export_to_sim">SIMカードにエクスポート</string>
+    <string name="export_to_sim_summary">SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g>にエクスポートする</string>
+    <string name="export_to_sim_summary_no_number">SIM <xliff:g id="sim_name">%1$s</xliff:g>にエクスポートする</string>
+    <string name="share_failed">連絡先が多すぎるため、共有できませんでした</string>
+    <string name="label_groups">グループ</string>
+    <string name="exporting">エクスポート中...</string>
+    <string name="reading_vcard_files"><xliff:g id="total_number">%2$s</xliff:g>個のうち<xliff:g id="current_number">%1$s</xliff:g>個のファイル</string>
+    <string name="export_finished">エクスポートが完了しました</string>
+    <string name="tag_too_long">連絡先の名前が長すぎます</string>
+    <string name="sim_contacts_not_loaded">SIMの連絡先を読み込めませんでした</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>には電話番号またはメールアドレスがありません</string>
+    <string name="import_from_sim_select">インポートするカードを選択</string>
+    <string name="copy_done">連絡先のコピーが完了しました</string>
+    <string name="copy_failure">連絡先をコピーできませんでした</string>
+    <string name="card_no_space">連絡先をコピーできませんでした、SIMカードがいっぱいです</string>
+    <string name="ip_call_by_slot"><xliff:g id="subName">%s</xliff:g>経由でIP電話で発信</string>
+    <string name="no_ip_number">IP番号がありません</string>
+    <string name="no_ip_number_on_sim_card">SIMカードにIP番号がありません</string>
+    <string name="set_ip_number">IP番号を設定</string>
+    <string name="ipcall_dialog_title">IP電話の設定</string>
+    <string name="ipcall_dialog_edit_hint">IP電話のプレフィックスを入力してください</string>
+    <string name="menu_block_contact">拒否</string>
+    <string name="menu_unblock_contact">拒否解除</string>
+    <string name="block_dialog_title">この連絡先を拒否しますか？</string>
+    <string name="unblock_dialog_title">この連絡先を拒否解除しますか？</string>
+    <string name="block_dialog_positive">拒否</string>
+    <string name="unblock_dialog_positive">拒否解除</string>
+    <string name="block_dialog_negative">キャンセル</string>
+    <string name="block_dialog_description">この人物からの着信やメッセージを受け取らないようになりました。</string>
+    <string name="block_dialog_report_spam">迷惑電話として<xliff:g id="provider">%s</xliff:g>に報告</string>
+    <string name="block_dialog_report_nonspam">迷惑電話ではないとして<xliff:g id="provider">%s</xliff:g>に報告</string>
+    <string name="plugin_login_msg">ここに<xliff:g id="plugin_name">%1$s</xliff:g>の連絡先を表示するには、<xliff:g id="plugin_name">%1$s</xliff:g>にログインしてください</string>
+    <string name="plugin_login_button_title">ログイン</string>
+    <string name="plugin_empty_list_text"><xliff:g id="plugin_name">%s</xliff:g>の連絡先がありません、\n</string>
+    <string name="plugin_empty_list_action_text">人物を追加してください</string>
 </resources>

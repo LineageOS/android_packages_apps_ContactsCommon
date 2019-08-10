@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Falha na exportação, <xliff:g id="insertCount">%d</xliff:g> item foi exportado</item>
-    <item quantity="other">Falha na exportação, <xliff:g id="insertCount">%d</xliff:g> foram exportados</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">O cartão SIM está cheio. <xliff:g id="insertCount">%d</xliff:g> item foi exportado</item>
-    <item quantity="other">O cartão SIM está cheio. <xliff:g id="insertCount">%d</xliff:g> itens foram exportados</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">A exportação foi cancelada, <xliff:g id="insertCount">%d</xliff:g> item foi exportado</item>
-    <item quantity="other">A exportação foi cancelada, <xliff:g id="insertCount">%d </xliff:g> itens foram exportados</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one">A pessoa <xliff:g id="spamCount">%d</xliff:g> foi marcada como spam</item>
-    <item quantity="other">As pessoas <xliff:g id="spamCount">%d</xliff:g> foram marcadas como spam</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Falha na exportação, <xliff:g id="insertCount">%d</xliff:g> item foi exportado</item>
+        <item quantity="other">Falha na exportação, <xliff:g id="insertCount">%d</xliff:g> foram exportados</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">O cartão SIM está cheio. <xliff:g id="insertCount">%d</xliff:g> item foi exportado</item>
+        <item quantity="other">O cartão SIM está cheio. <xliff:g id="insertCount">%d</xliff:g> itens foram exportados</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">A exportação foi cancelada, <xliff:g id="insertCount">%d</xliff:g> item foi exportado</item>
+        <item quantity="other">A exportação foi cancelada, <xliff:g id="insertCount">%d </xliff:g> itens foram exportados</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one">A pessoa <xliff:g id="spamCount">%d</xliff:g> foi marcada como spam</item>
+        <item quantity="other">As pessoas <xliff:g id="spamCount">%d</xliff:g> foram marcadas como spam</item>
+    </plurals>
 </resources>

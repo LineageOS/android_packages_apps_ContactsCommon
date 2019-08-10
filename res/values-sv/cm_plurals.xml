@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="export_to_sim_failed">
-    <item quantity="one">Exporten misslyckades, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
-    <item quantity="other">Exporten misslyckades, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
-  </plurals>
-  <plurals name="export_sim_card_full">
-    <item quantity="one">SIM-kortet är fullt, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
-    <item quantity="other">SIM-kortet är fullt, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
-  </plurals>
-  <plurals name="export_cancelled">
-    <item quantity="one">Exporten avbröts, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
-    <item quantity="other">Exporten avbröts, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
-  </plurals>
-  <plurals name="spam_count_text">
-    <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> person markerade det här som skräppost</item>
-    <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> personer markerade det här som skräppost</item>
-  </plurals>
+    <plurals name="export_to_sim_failed">
+        <item quantity="one">Exporten misslyckades, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
+        <item quantity="other">Exporten misslyckades, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
+    </plurals>
+    <plurals name="export_sim_card_full">
+        <item quantity="one">SIM-kortet är fullt, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
+        <item quantity="other">SIM-kortet är fullt, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
+    </plurals>
+    <plurals name="export_cancelled">
+        <item quantity="one">Exporten avbröts, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
+        <item quantity="other">Exporten avbröts, <xliff:g id="insertCount">%d </xliff:g> objekt exporterades</item>
+    </plurals>
+    <plurals name="spam_count_text">
+        <item quantity="one"><xliff:g id="spamCount">%d</xliff:g> person markerade det här som skräppost</item>
+        <item quantity="other"><xliff:g id="spamCount">%d</xliff:g> personer markerade det här som skräppost</item>
+    </plurals>
 </resources>
