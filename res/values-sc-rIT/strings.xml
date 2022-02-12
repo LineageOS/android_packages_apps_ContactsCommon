@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toast_text_copied">Testu copiadu</string>
+    <string name="copy_text">Còpia in punta de billete</string>
+    <string name="call_custom">Muti a
+        <xliff:g id="custom">%s</xliff:g>
+    </string>
+    <string name="call_home">Muti a domo</string>
+    <string name="call_mobile">Muti a su telefoneddu</string>
+    <string name="call_work">Muti a su traballu</string>
+    <string name="call_fax_work">Muti a su fax de traballu</string>
+    <string name="call_fax_home">Muti a su fax de domo</string>
+    <string name="call_pager">Muti a su chircapersones</string>
+    <string name="call_other">Mutida</string>
+    <string name="call_callback">Muti a una torrada de mutida</string>
+    <string name="call_car">Muti a sa vetura</string>
+    <string name="call_company_main">Muti a su telèfonu aziendale printzipale</string>
+    <string name="call_isdn">Muti a RDSI</string>
+    <string name="call_main">Muti a su telèfonu printzipale</string>
+    <string name="call_other_fax">Muti a su fax</string>
+    <string name="call_radio">Muti a sa ràdiu</string>
+    <string name="call_telex">Muti a su telex</string>
+    <string name="call_tty_tdd">Muti a TTY/TDD</string>
+    <string name="call_work_mobile">Muti a su telefoneddu de traballu</string>
+    <string name="call_work_pager">Muti a su chircapersones de traballu</string>
+    <string name="call_assistant">Muti a
+        <xliff:g id="assistant">%s</xliff:g>
+    </string>
+    <string name="call_mms">Muti a MMS</string>
+    <string name="sms_custom">Imbia SMS a
+        <xliff:g id="custom">%s</xliff:g>
+    </string>
+    <string name="sms_home">Imbia SMS a domo</string>
+    <string name="sms_mobile">Imbia SMS a su telefoneddu</string>
+    <string name="sms_work">Imbia SMS a su traballu</string>
+    <string name="sms_fax_work">Imbia SMS a su fax de traballu</string>
+    <string name="sms_fax_home">Imbia SMS a su fax de domo</string>
+    <string name="sms_pager">Imbia SMS a su chircapersones</string>
+    <string name="sms_other">Testu</string>
+    <string name="sms_callback">Imbia SMS a sa torrada de mutidas</string>
+    <string name="sms_car">Imbia SMS a sa vetura</string>
+    <string name="sms_company_main">Imbia SMS a su telèfonu aziendale printzipale</string>
+    <string name="sms_isdn">Imbia SMS a RDSI</string>
+    <string name="sms_main">Imbia SMS a su telèfonu printzipale</string>
+    <string name="sms_other_fax">Imbia SMS a su fax</string>
+    <string name="sms_radio">Imbia SMS a sa ràdiu</string>
+    <string name="sms_telex">Imbia SMS a su telex</string>
+    <string name="sms_tty_tdd">Imbia SMS a TTY/TDD</string>
+    <string name="sms_work_mobile">Imbia SMS a su telefoneddu de traballu</string>
+    <string name="sms_work_pager">Imbia SMS a su chircapersones de traballu</string>
+    <string name="sms_assistant">Imbia SMS a
+        <xliff:g id="assistant">%s</xliff:g>
+    </string>
+    <string name="sms_mms">Imbia SMS a MMS</string>
+    <string name="description_video_call">Faghe vìdeu-mutida</string>
+    <string name="clearFrequentsConfirmation_title">Limpiare is cuntatos frecuentes?</string>
+    <string name="clearFrequentsConfirmation">As a limpiare sa lista de is cuntatos frecuentes in
+        is aplicatziones de Cuntatos e Telèfonu, e duncas is aplicatziones de posta eletrònica ant a ischire is preferèntzias tuas  de indiritzos 
+        dae zero.
+    </string>
+    <string name="clearFrequentsProgress_title">Limpiende is cuntatos frecuentes\u2026</string>
+    <string name="status_available">A disponimentu</string>
+    <string name="status_away">Ausente</string>
+    <string name="status_busy">Impinnadu</string>
+    <string name="contactsList">Cuntatos</string>
+    <string name="local_invisible_directory">Àteru</string>
+    <string name="directory_search_label">Cartella</string>
+    <string name="local_search_label">Totu is cuntatos</string>
+    <string name="user_profile_contacts_list_header" msgid="9154761216179882405">Deo</string>
+    <string name="search_results_searching">Chirchende\u2026</string>
+    <string name="foundTooManyContacts">Prus de <xliff:g id="count">%d</xliff:g> agatados.</string>
+    <string name="listFoundAllContactsZero">Perunu cuntatu</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">1 agatadu</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> agatados</item>
+    </plurals>
+    <string name="description_quick_contact_for">Cuntatos lestros cun <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="missing_name">(Perunu nùmene)</string>
+    <string name="favoritesFrequentCalled">Mutidu a fitianu</string>
+    <string name="favoritesFrequentContacted">Cuntatadu a fitianu</string>
+    <string name="description_view_contact_detail" msgid="2795575601596468581">Visualiza cuntatu</string>
+    <string name="list_filter_phones">Totu is cuntatos cun nùmeros de telèfonu</string>
+    <string name="view_updates_from_group">Visualiza agiornamentos</string>
+    <string name="account_phone" product="tablet">Isceti tauledda, non sincronizadu</string>
+    <string name="account_phone" product="default">Isceti telèfonu, non sincronizadu</string>
+    <string name="nameLabelsGroup">Nùmene</string>
+    <string name="nicknameLabelsGroup">Paranùmene</string>
+    <string name="full_name">Nùmene</string>
+    <string name="name_given">Nùmene</string>
+    <string name="name_family">Sambenadu</string>
+    <string name="name_prefix">Nùmene prefissu</string>
+    <string name="name_middle">Segundu nùmene</string>
+    <string name="name_suffix">Nùmene sufissu</string>
+    <string name="name_phonetic">Nùmene fonèticu</string>
+    <string name="name_phonetic_given">Nùmene fonèticu</string>
+    <string name="name_phonetic_middle">Segundu nùmene fonèticu</string>
+    <string name="name_phonetic_family">Sambenadu fonèticu</string>
+    <string name="phoneLabelsGroup">Telèfonu</string>
+    <string name="emailLabelsGroup">Posta eletrònica</string>
+    <string name="postalLabelsGroup">Indiritzu</string>
+    <string name="imLabelsGroup">Messagìstica istantànea</string>
+    <string name="organizationLabelsGroup">Organizatzione</string>
+    <string name="relationLabelsGroup">Relatzione</string>
+    <string name="eventLabelsGroup">Datas ispetziales</string>
+    <string name="sms">Testu messàgios</string>
+    <string name="postal_address">Indiritzu</string>
+    <string name="ghostData_company">Sotziedade</string>
+    <string name="ghostData_title">Tìtulu</string>
+    <string name="label_notes">Notas</string>
+    <string name="label_sip_address">SIP</string>
+    <string name="websiteLabelsGroup">Situ ìnternet</string>
+    <string name="groupsLabel">Grupos</string>
+    <string name="email_home">Imbia messàgiu a domo</string>
+    <string name="email_mobile">Imbia messàgiu a su telefoneddu</string>
+    <string name="email_work">Imbia messàgiu a su traballu</string>
+    <string name="email_other">Posta eletrònica</string>
+    <string name="email_custom">Imbia messàgiu de posta a <xliff:g id="custom">%s</xliff:g></string>
+    <string name="email">Posta eletrònica</string>
+    <string name="postal_street">Carrera</string>
+    <string name="postal_pobox">Casella postale</string>
+    <string name="postal_neighborhood">Bighinadu</string>
+    <string name="postal_city">Tzitade</string>
+    <string name="postal_region">Istadu</string>
+    <string name="postal_postcode">Còdighe postale</string>
+    <string name="postal_country">Istadu</string>
+    <string name="map_home">Visualiza indiritzu de domo</string>
+    <string name="map_work">Visualiza indiritzu de traballu</string>
+    <string name="map_other">Visualiza indiritzu</string>
+    <string name="map_custom">Visualiza <xliff:g id="custom">%s</xliff:g> indiritzu</string>
+    <string name="chat_aim">Tzarra impreende AIM</string>
+    <string name="chat_msn">Tzarra impreende Windows Live</string>
+    <string name="chat_yahoo">Tzarra impreende Yahoo</string>
+    <string name="chat_skype">Tzarra impreende Skype</string>
+    <string name="chat_qq">Tzarra impreende QQ</string>
+    <string name="chat_gtalk">Tzarra impreende Google Talk</string>
+    <string name="chat_icq">Tzarra impreende ICQ</string>
+    <string name="chat_jabber">Tzarra impreende Jabber</string>
+    <string name="chat">Tzarrada</string>
+    <string name="description_minus_button">cantzella</string>
+    <string name="expand_collapse_name_fields_description">Cresche o mìnima is campos de nùmene</string>
+    <string name="list_filter_all_accounts">Totu is cuntatos</string>
+    <string name="list_filter_all_starred">Preferidos</string>
+    <string name="list_filter_customize">Personaliza</string>
+    <string name="list_filter_single">Cuntata</string>
+    <string name="display_ungrouped">Totu is àteros cuntatos</string>
+    <string name="display_all_contacts">Totu is cuntatos</string>
+    <string name="menu_sync_remove">Boga su grupu de sincronizatzione</string>
+    <string name="dialog_sync_add">Agiunghe grupu de sincronizatzione</string>
+    <string name="display_more_groups">Àteros grupos\u2026</string>
+    <string name="display_warn_remove_ungrouped">Boghende \"<xliff:g id="group" example="Starred">%s</xliff:g>\" dae sa sincronizatzione nch\'as a bogare fintzas totu is cuntatos chi non sunt agrustiados.</string>
+    <string name="savingDisplayGroups">Sarvende optziones de visualizatzione\u2026</string>
+    <string name="menu_done">Fatu</string>
+    <string name="menu_doNotSave">Annulla</string>
+    <string name="listAllContactsInAccount">Cuntatos in <xliff:g id="name" example="abc@gmail.com">%s</xliff:g></string>
+    <string name="listCustomView">Cuntatos in bista personalizada</string>
+    <string name="listSingleContact">Cuntatu sìngulu</string>
+    <string name="dialog_new_contact_account">Crea grupu suta su contu</string>
+    <string name="import_from_sim">Importa dae sa SIM</string>
+    <string name="import_from_sim_summary">Importa dae sa SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+    <string name="import_from_sim_summary_no_number">Importa dae sa SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="import_from_vcf_file" product="default">Importa dae s\'archìviu .vcf</string>
+    <string name="cancel_import_confirmation_message">Annullare s\'importatzione de <xliff:g id="filename" example="import.vcf">%s</xliff:g>?</string>
+    <string name="cancel_export_confirmation_message">Boles annullare s\'esportatzione de <xliff:g id="filename" example="export.vcf">%s</xliff:g>?</string>
+    <string name="cancel_vcard_import_or_export_failed">No at fatu a annullare s\'importatzione/esportatzione de vCard</string>
+    <string name="fail_reason_unknown">Errore disconnotu.</string>
+    <string name="fail_reason_could_not_open_file">No at fatu a abèrrere \"<xliff:g id="file_name">%s</xliff:g>\":<xliff:g id="exact_reason">%s</xliff:g>.</string>
+    <string name="fail_reason_could_not_initialize_exporter">No at fatu a aviare s\'esportadore: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_no_exportable_contact">Non b\'at cuntatos de esportare.</string>
+    <string name="missing_required_permission">As disativadu unu permissu rechertu.</string>
+    <string name="fail_reason_error_occurred_during_export">B\'at àpidu un\'errore esportende: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_too_long_filename">Su nùmene de s\'archìviu est tropu longu (\"<xliff:g id="filename">%s</xliff:g>\").</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">Bat tropu archìvios vCard in s\'archiviatzione.</string>
+    <string name="fail_reason_too_many_vcard" product="default">Bat tropu archìvios vCard in s\'ischeda SD.</string>
+    <string name="fail_reason_io_error">Errore I/O</string>
+    <string name="fail_reason_low_memory_during_import">Non b\'at bastante memòria. S\'archìviu diat pòdere èssere tropu mannu.</string>
+    <string name="fail_reason_vcard_parse_error">No at fatu a analizare vCard  pro resones no isetadas.</string>
+    <string name="fail_reason_not_supported">Su formadu no est suportadu.</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">No at fatu a regòllere informatziones meta de su/is archìviu/os vCard.</string>
+    <string name="fail_reason_failed_to_read_files">No at fatu a importare unu o prus archìvios (%s).</string>
+    <string name="exporting_vcard_finished_title">Esportatzione de <xliff:g id="filename" example="export.vcf">%s</xliff:g> agabbada.</string>
+    <string name="exporting_vcard_finished_title_fallback">Esportatzione de cuntatos agabbada.</string>
+    <string name="exporting_vcard_canceled_title">Esportatzione de <xliff:g id="filename" example="export.vcf">%s</xliff:g> annullada.</string>
+    <string name="exporting_contact_list_title">Esportende datos de cuntatu</string>
+    <string name="exporting_contact_list_message">Esportende is datos de cuntatos tuos a: <xliff:g id="file_name">%s</xliff:g>. </string>
+    <string name="composer_failed_to_get_database_infomation">Peruna informatzione de sa base de datos otènnida.</string>
+    <string name="composer_has_no_exportable_contact" product="tablet">Non b\'at cuntatos de esportare. Si tenes cuntatos in sa tauledda tua, carchi frunidore de datos podet non permìtere s\'esportatzione de is cuntatos dae sa tauledda.</string>
+    <string name="composer_has_no_exportable_contact" product="default">Non b\'at cuntatos de esportare. Se tenes cuntatos in su telèfonu tuo, carchi frunidore de datos podet non permìtere s\'esportatzione de is cuntatos dae su telèfonu.</string>
+    <string name="composer_not_initialized">Su cumponidore de vCard non s\'est aviadu in manera curreta.</string>
+    <string name="exporting_contact_failed_title">No at fatu a esportare</string>
+    <string name="exporting_contact_failed_message">Non si sunt esportados is datos de cuntatu.\nResone: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="importing_vcard_description">Importende <xliff:g id="name" example="Joe Due">%s</xliff:g></string>
+    <string name="reading_vcard_failed_title">No at fatu a lèghere is datos vCard</string>
+    <string name="reading_vcard_canceled_title">Letura de is datos vCard annullada</string>
+    <string name="importing_vcard_finished_title">Importatzione de vCard <xliff:g id="filename" example="import.vcf">%s</xliff:g> agabbada</string>
+    <string name="importing_vcard_canceled_title">Importatzione de <xliff:g id="filename" example="import.vcf">%s</xliff:g> annullada</string>
+    <string name="vcard_import_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> s\'at a importare tra pagu.</string>
+    <string name="vcard_import_will_start_message_with_default_name">S\'archìviu s\'at a importare tra pagu.</string>
+    <string name="vcard_import_request_rejected_message">Rechesta pro importare vCard refudada. Torra·bi a proare.</string>
+    <string name="vcard_export_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> s\'at a esportare tra pagu.</string>
+    <string name="vcard_export_will_start_message_fallback">S\'archìviu s\'at a esportare tra pagu.</string>
+    <string name="vcard_export_request_rejected_message">Rechesta pro importare vCard refudada. Torra·bi a proare.</string>
+    <string name="vcard_unknown_filename">cuntatu</string>
+    <string name="caching_vcard_message">Ponende is vCard in s\'archiviatzione temporànea locale. S\'importatzione cumintzat tra pagu.</string>
+    <string name="vcard_import_failed">Non at fatu a importare vCard.</string>
+    <string name="import_failure_no_vcard_file" product="nosdcard">Perunu archìviu vCard agatadu in s\'archiviatzione.</string>
+    <string name="import_failure_no_vcard_file" product="default">Perunu archìviu vCard agatadu in s\'ischeda SD.</string>
+    <string name="nfc_vcard_file_name">Cuntatu retzidu cun NFC</string>
+    <string name="confirm_export_title">Esportare cuntatos?</string>
+    <string name="caching_vcard_title">Ponende in memòria temporànea</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">No at fatu a iscansionare s\'archiviatzione. (Resone: \"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
+    <string name="scanning_sdcard_failed_message" product="default">No at fatu a iscansionare s\'ischeda SD. Resone (\"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
+    <string name="progress_notifier_message">Importende <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g id="name" example="Joe Due">%s</xliff:g></string>
+    <string name="export_to_vcf_file" product="default">Esporta a archìviu .vcf</string>
+    <string name="display_options_sort_list_by">Assenta segundu</string>
+    <string name="display_options_sort_by_given_name">Nùmene</string>
+    <string name="display_options_sort_by_family_name">Sambenadu</string>
+    <string name="display_options_view_names_as">Formadu nùmene</string>
+    <string name="display_options_view_given_name_first">In antis su nùmene</string>
+    <string name="display_options_view_family_name_first">In antis su sambenadu</string>
+    <string name="share_visible_contacts">Cumpartzi is cuntatos chi si podent bìdere</string>
+    <string name="share_visible_contacts_failure">Non at fatu a cumpartzire cuntatos visìbiles.</string>
+    <string name="dialog_import_export">Importa/esporta cuntatos</string>
+    <string name="dialog_import">Importa cuntatos</string>
+    <string name="share_error">Custu cuntatu non faghet a ddu cumpartzire.</string>
+    <string name="menu_search">Chirca</string>
+    <string name="menu_contacts_filter">Cuntatos de visualizare</string>
+    <string name="activity_title_contacts_filter">Cuntatos de visualizare</string>
+    <string name="custom_list_filter">Defini bisura personalizada</string>
+    <string name="hint_findContacts">Agata cuntatos</string>
+    <string name="contactsFavoritesLabel">Preferidos</string>
+    <string name="listTotalAllContactsZero">Perunu cuntatu.</string>
+    <string name="listTotalAllContactsZeroCustom">Perunu cuntatu visìbile.</string>
+    <string name="listTotalAllContactsZeroStarred">Perunu preferidu.</string>
+    <string name="listTotalAllContactsZeroGroup">Perunu cuntatu in <xliff:g id="name" example="Friends">%s</xliff:g></string>
+    <string name="menu_clear_frequents">Lìmpia fitianos</string>
+    <string name="menu_select_sim">Seletziona ischeda SIM</string>
+    <string name="menu_accounts">Contos</string>
+    <string name="menu_import_export">Importa/esporta</string>
+    <string name="tab_font_family">sans-serif</string>
+    <string name="contact_status_update_attribution">tràmite <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
+    <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> via <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+    <string name="letter_tile_letter_font_family">sans-serif-medium</string>
+    <string name="action_menu_back_from_search">tzessa de chircare</string>
+    <string name="description_clear_search">Lìmpia chirca</string>
+    <string name="search_font_family">sans-serif</string>
+    <string name="settings_contact_display_options_title">Optziones de visualizatzione de is cuntatos</string>
+    <string name="select_account_dialog_title">Contu</string>
+    <string name="set_default_account">Imprea semper pro is mutidas</string>
+    <string name="select_phone_account_for_calls">Muti cun</string>
+    <string name="call_with_a_note">Muti cun una nota</string>
+    <string name="call_subject_hint">Iscrie una nota de imbiare tràmite mutida ...</string>
+    <string name="send_and_call_button">IMBIA E MUTI</string>
+    <string name="call_subject_limit"><xliff:g id="count" example="4">%1$s</xliff:g> / <xliff:g id="limit" example="64">%2$s</xliff:g></string>
+    <string name="call_subject_type_and_number"><xliff:g id="type" example="Mobile">%1$s</xliff:g> • <xliff:g id="number" example="(650) 555-1212">%2$s</xliff:g></string>
+</resources>
