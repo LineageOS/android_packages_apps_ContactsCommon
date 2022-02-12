@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2011-2013, The Linux Foundation. All rights reserved.
+     Copyright (C) 2017 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="export_to_sim">Exportar á tarxeta SIM</string>
+    <string name="import_from_sdcard" product="default">Importar dende o almacenamento</string>
+    <string name="export_to_sdcard" product="default">Exportar ao almacenamento</string>
+    <string name="share_failed">Demasiados contactos, erro ao compartir</string>
+    <string name="label_groups">Grupo</string>
+    <string name="exporting">Exportando\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> de <xliff:g id="total_number">%2$s</xliff:g> ficheiros</string>
+    <string name="export_to_sim_failed">Fallou a exportación, <xliff:g id="insertCount">%d</xliff:g> elementos exportados</string>
+    <string name="sim_contact_export_failed">Fallou a exportación do contacto (nome: <xliff:g id="name">%1$s</xliff:g>, número: <xliff:g id="number">%2$s</xliff:g>, correo: <xliff:g id="email">%3$s</xliff:g>)</string>
+    <string name="export_sim_card_full">Cartón SIM cheo, <xliff:g id="insertCount">%d</xliff:g> elementos exportados</string>
+    <string name="export_failed">Fallou a exportación</string>
+    <string name="sim_card_full">O cartón SIM está cheo</string>
+    <string name="export_finished">Rematou a exportación</string>
+    <string name="tag_too_long">O nome do contacto é moi longo</string>
+    <string name="sim_contacts_not_loaded">Non foi posíbel cargar os contactos da SIM</string>
+    <string name="export_cancelled">Exportación cancelada, <xliff:g id="insertCount">%s</xliff:g> elementos exportados</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> non teñen un número de teléfono ou un enderezo de correo</string>
+    <string name="import_from_sim_select">Escoller tarxeta para importar</string>
+    <string name="no_sdcard_title" product="nosdcard">O almacenamento non está dispoñíbel</string>
+    <string name="no_sdcard_title" product="default">Sen cartón SD</string>
+    <string name="deleteConfirmation_title">Eliminar o contacto?</string>
+    <string name="deleteConfirmation">Eliminarase este contacto.</string>
+    <string name="copy_done">O contacto copiouse correctamente</string>
+    <string name="copy_failure">Fallou a copia do contacto</string>
+    <string name="card_no_space">Fallou a copia do contacto, a tarxeta SIM está chea</string>
+    <string name="local_storage_account" product="tablet">Conta local do tablet</string>
+    <string name="local_storage_account" product="default">Conta local do teléfono</string>
+</resources>

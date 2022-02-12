@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2011-2013, The Linux Foundation. All rights reserved.
+     Copyright (C) 2017 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="import_from_sdcard" product="default">Увези од меморискиот простор</string>
+    <string name="export_to_sdcard" product="default">Извоз во меморискиот простор</string>
+    <string name="export_to_sim_failed">Извозот не успеа <xliff:g id="insertCount">%d</xliff:g> предмети се извезени</string>
+    <string name="sim_contact_export_failed">Извозот на контактот не успеа (име;<xliff:g id="name">%1$s</xliff:g>, број: <xliff:g id="number">%2$s</xliff:g>, е-пошта: <xliff:g id="email">%3$s</xliff:g>)</string>
+    <string name="export_sim_card_full">SIM-картичката е полна, <xliff:g id="insertCount">%d</xliff:g> предмети беа извезени</string>
+    <string name="export_failed">Извозот не успеа</string>
+    <string name="sim_card_full">SIM-картичката е полна</string>
+    <string name="export_cancelled">Извозот беше откажан, <xliff:g id="insertCount">%s</xliff:g> предмети беа извезени</string>
+    <string name="no_sdcard_title" product="nosdcard">Складирањето е недостапно</string>
+    <string name="no_sdcard_title" product="default">Нема SD картичка</string>
+    <string name="deleteConfirmation_title">Избриши контакт?</string>
+    <string name="deleteConfirmation">Овој контакт ќе биде избришан.</string>
+</resources>

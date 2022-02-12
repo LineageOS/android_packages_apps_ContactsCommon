@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2011-2013, The Linux Foundation. All rights reserved.
+     Copyright (C) 2017 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="export_to_sim">Às-phortaich gu cairt SIM</string>
+    <string name="import_from_sdcard" product="default">Ion-phortaich on stòras</string>
+    <string name="export_to_sdcard" product="default">Às-phortaich gun stòras</string>
+    <string name="share_failed">Cus luchd-aithne, dh’fhàillig an co-roinneadh</string>
+    <string name="label_groups">Buidheann</string>
+    <string name="exporting">’Ga às-phortadh\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> à <xliff:g id="total_number">%2$s</xliff:g> faidhle</string>
+    <string name="export_to_sim_failed">Dh’fhàillig leis an às-phortadh, chaidh <xliff:g id="insertCount">%d</xliff:g> nì às-phortadh</string>
+    <string name="sim_contact_export_failed">Dh’fhàillig le às-phortadh an neach-aithne (ainm: <xliff:g id="name">%1$s</xliff:g>, àireamh: <xliff:g id="number">%2$s</xliff:g>, post-d: <xliff:g id="email">%3$s</xliff:g>)</string>
+    <string name="export_sim_card_full">Tha a’ chàirt SIM làn, chaidh <xliff:g id="insertCount">%d</xliff:g> nì às-phortadh</string>
+    <string name="export_failed">Dh’fhàillig leis an às-phortadh</string>
+    <string name="sim_card_full">Tha a’ chairt SIM làn</string>
+    <string name="export_finished">Deiseil leis an às-phortadh</string>
+    <string name="tag_too_long">Tha ainm an neach-aithne ro fhada</string>
+    <string name="sim_contacts_not_loaded">Chan urrainn dhuinn luchd-aithne an t-SIM a luchdadh</string>
+    <string name="export_cancelled">Chaidh sgur dhen às-phortadh, chaidh <xliff:g id="insertCount">%s</xliff:g> nì às-phortadh</string>
+    <string name="export_no_phone_or_email">Chan eil àireamh fòn no seòladh puist-d aig <xliff:g id="name">%s</xliff:g></string>
+    <string name="import_from_sim_select">Tagh cairt airson ion-phortadh a dhèanamh</string>
+    <string name="no_sdcard_title" product="nosdcard">Chan eil stòras ri làimh</string>
+    <string name="no_sdcard_title" product="default">Chan eil cairt SD ann</string>
+    <string name="deleteConfirmation_title">A bheil thu airson an neach-aithne a sguabadh às?</string>
+    <string name="deleteConfirmation">Thèid an neach-aithne seo a sguabadh às.</string>
+    <string name="copy_done">Chaidh lethbhreac a dhèanamh dhen neach-aithne</string>
+    <string name="copy_failure">Dh’fhàillig lethbhreac an neach-aithne</string>
+    <string name="card_no_space">Dh’fhàillig lethbhreac an neach-aithne, tha a’ chairt SIM làn</string>
+    <string name="local_storage_account" product="tablet">Cunntas tablaid ionadail</string>
+    <string name="local_storage_account" product="default">Cunntas fòn ionadail</string>
+</resources>

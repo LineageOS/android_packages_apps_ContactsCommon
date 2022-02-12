@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2011-2013, The Linux Foundation. All rights reserved.
+     Copyright (C) 2017 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="export_to_sim">SIM കാർഡിലേക്ക് എക്സ്പോര്‍ട്ട്‌ ചെയ്യുക</string>
+    <string name="share_failed">വളരെയധികം ബന്ധങ്ങൾ, നീക്കുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="label_groups">ഗ്രൂപ്പ്</string>
+    <string name="exporting">എക്സ്പോർട്ട് ചെയ്യുന്നു\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%2$s</xliff:g> ല്‍ <xliff:g id="total_number">%1$s</xliff:g> ഫയലുകള്‍</string>
+    <string name="export_finished">എക്സ്പോർട്ട് പൂർത്തിയായി</string>
+    <string name="tag_too_long">കോണ്‍ടാക്റ്റ് നാമം ദൈർഘ്യമേറിയതാണ്</string>
+    <string name="sim_contacts_not_loaded">SIM കോണ്‍ടാക്റ്റുകള്‍ ലോഡ് ചെയ്യാന്‍ കഴിഞ്ഞില്ല</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g> ന് ഒരു ഫോൺ നമ്പറോ അല്ലെങ്കില്‍ ഇമെയിൽ വിലാസമോ ഇല്ല</string>
+    <string name="import_from_sim_select">ഇറക്കുമതി ചെയ്യേണ്ട കാർഡ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="copy_done">കോണ്‍ടാക്റ്റ് വിജയകരമായി പകർത്തി</string>
+    <string name="copy_failure">കോൺടാക്റ്റ് പകർത്തുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="card_no_space">കോൺടാക്റ്റ് പകർത്തുന്നത് പരാജയപ്പെട്ടു, SIM കാർഡ് നിറഞ്ഞു</string>
+    <string name="local_storage_account" product="tablet">ലോക്കല്‍ ടാബ്ലെറ്റ് അക്കൗണ്ട്</string>
+    <string name="local_storage_account" product="default">ലോക്കല്‍ ഫോൺ അക്കൗണ്ട്</string>
+</resources>

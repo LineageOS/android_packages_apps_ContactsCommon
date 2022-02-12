@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2011-2013, The Linux Foundation. All rights reserved.
+     Copyright (C) 2017 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="export_to_sim">Esportatu SIM txartelera</string>
+    <string name="import_from_sdcard" product="default">Inportatu biltegiratzetik</string>
+    <string name="export_to_sdcard" product="default">Esportatu biltegiratzera</string>
+    <string name="share_failed">Kontaktu gehiegi, partekatzeak huts egin du</string>
+    <string name="label_groups">Taldea</string>
+    <string name="exporting">Esportatzen\u2026</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> fitxategi <xliff:g id="total_number">%2$s</xliff:g>tik</string>
+    <string name="export_to_sim_failed">Esportazioak huts egin du, <xliff:g id="insertCount">%d</xliff:g> elementu esportatu dira</string>
+    <string name="sim_contact_export_failed">Kontaktuaren esportazioak huts egin du (izena: <xliff:g id="name">%1$s</xliff:g>, zenbakia: <xliff:g id="number">%2$s</xliff:g>, email: <xliff:g id="e-posta">%3$s</xliff:g>)</string>
+    <string name="export_sim_card_full">SIM txartela beteta dago, <xliff:g id="insertCount">%d</xliff:g> elementu esportatu dira</string>
+    <string name="export_failed">Esportazioak huts egin du</string>
+    <string name="sim_card_full">SIM txartela beteta dago</string>
+    <string name="export_finished">Esportazioa burutu da</string>
+    <string name="tag_too_long">Kontaktuaren izena luzeegia da</string>
+    <string name="sim_contacts_not_loaded">Ez izan dira SIM txarteleko kontaktuak kargatu</string>
+    <string name="export_cancelled">Esportazioa eten da, <xliff:g id="insertCount">%s</xliff:g> elementu esportatu dira</string>
+    <string name="export_no_phone_or_email"><xliff:g id="name">%s</xliff:g>(e)k ez du telefono zenbakirik edo e-posta helbiderik</string>
+    <string name="import_from_sim_select">Hautatu inportatuko den txartela</string>
+    <string name="no_sdcard_title" product="nosdcard">Biltegiratzea ez dago eskuragarri</string>
+    <string name="no_sdcard_title" product="default">SD txartelik ez</string>
+    <string name="deleteConfirmation_title">Ezabatu kontaktua?</string>
+    <string name="deleteConfirmation">Kontaktu hau ezabatu egingo da.</string>
+    <string name="copy_done">Kontaktua ondo kopiatu da</string>
+    <string name="copy_failure">Kontaktuaren kopiak huts egin du</string>
+    <string name="card_no_space">Kontaktuaren kopiak huts egin du, SIM txartela beteta dago</string>
+    <string name="local_storage_account" product="tablet">Tabletaren tokiko kontua</string>
+    <string name="local_storage_account" product="default">Telefonoaren tokiko kontua</string>
+</resources>
